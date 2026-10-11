@@ -1291,10 +1291,15 @@ export default function App() {
                         .map((e) => {
                           const a = pos(e.from),
                             b = pos(e.to);
+                          const angle = Math.atan2(b.y - 210, b.x - 425);
+                          const end = {
+                            x: b.x - Math.cos(angle) * 28,
+                            y: b.y - Math.sin(angle) * 28,
+                          };
                           return (
                             <path
                               key={e.id}
-                              d={`M${a.x} ${a.y} Q425 210 ${b.x} ${b.y}`}
+                              d={`M${a.x} ${a.y} Q425 210 ${end.x} ${end.y}`}
                               stroke="#88bdb4"
                               strokeDasharray={e.contested ? "6 4" : undefined}
                               markerEnd="url(#arrow)"
