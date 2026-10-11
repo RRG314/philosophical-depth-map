@@ -126,60 +126,24 @@ function Diver({ state = "idle" }: { state?: string }) {
     </svg>
   );
 }
-function Ocean({ compact = false }: { compact?: boolean }) {
+function Ocean() {
   return (
-    <div className={`ocean ${compact ? "compact" : ""}`}>
-      <svg
-        viewBox="0 0 600 600"
-        role="img"
-        aria-label="An illustrated diver above layered ocean contours"
-      >
-        <defs>
-          <linearGradient id="sea" x2="0" y2="1">
-            <stop stopColor="#428a8e" />
-            <stop offset="1" stopColor="#072b3d" />
-          </linearGradient>
-        </defs>
-        <rect width="600" height="600" fill="url(#sea)" />
-        <path
-          d="M-50 40Q130 150 330 30T650 60M-50 100Q170 230 340 95T650 140M-30 165Q170 300 380 160T650 195M-10 245Q180 370 410 225T650 285M-30 330Q190 455 430 320T650 375M-30 415Q230 510 430 435T670 440M-30 500Q280 610 660 500"
-          fill="none"
-          stroke="#b1d8ca"
-          strokeOpacity=".28"
-          strokeWidth="2"
-        />
-        <path
-          d="M70 0L170 450 270 0M330 0L430 410 500 0"
-          fill="#fff8ce"
-          opacity=".06"
-        />
-        <g fill="#a9d6cb">
-          <circle cx="124" cy="244" r="4" />
-          <circle cx="470" cy="145" r="3" />
-          <circle cx="347" cy="428" r="4" />
-        </g>
-        <path d="M0 560Q100 490 200 580T440 565T650 535V600H0" fill="#0a2634" />
-        <path
-          d="M490 580v-68m0 26l-15-12m15-1l16-18m-360 77v-40m0 17l-14-10"
-          stroke="#67a29d"
-          strokeWidth="5"
-          fill="none"
-        />
-      </svg>
-      <div className="ocean-diver">
-        <Diver state="swim" />
-      </div>
-      <span className="ocean-caption">A question is a place to begin.</span>
-      <div className="depth-rule">
-        00 — SURFACE
-        <br />
-        <br />
-        01 — CURIOSITY
-        <br />
-        <br />
-        02 — CONNECTION
-      </div>
-    </div>
+    <a
+      className="ocean ocean-preview"
+      href="#expedition/4"
+      aria-label="Explore the coral gardens"
+    >
+      <img
+        src={`${import.meta.env.BASE_URL}assets/ocean/reef-preview.webp`}
+        alt="A diver swimming between coral colonies in the interactive ocean"
+        width="1440"
+        height="774"
+      />
+      <span className="ocean-caption">
+        <span>THE CORAL GARDENS · 18 M</span>
+        <strong>Go for a swim ↗</strong>
+      </span>
+    </a>
   );
 }
 export default function App() {
@@ -580,26 +544,26 @@ export default function App() {
           <>
             <section className="hero">
               <div className="hero-copy">
-                <p className="eyebrow">A FIELD GUIDE TO YOUR OWN THINKING</p>
+                <p className="eyebrow">PHILOSOPHICAL DEPTH MAP</p>
                 <h1>
                   How deep does
                   <br />a question go?
                 </h1>
                 <p className="lead">
-                  Start with a question. Follow your reasoning.
+                  Write what you think, consider an objection,
                   <br />
-                  See where it takes you.
+                  and decide what still holds up.
                 </p>
                 <a className="button" id="start-btn" href="#explore">
-                  Take your first dive <span aria-hidden="true">↗</span>
+                  Choose a question <span aria-hidden="true">↗</span>
                 </a>
                 <p>
-                  <a className="button" href="#expedition">
-                    Enter the 3D ocean →
+                  <a className="text-link" href="#expedition">
+                    Explore the ocean →
                   </a>
                 </p>
                 <p className="small">
-                  No account. No right worldview. A little curiosity.
+                  Your reflections stay in this browser. No account required.
                 </p>
                 {s.active && <a href="#play">Continue your saved session →</a>}
               </div>
@@ -613,8 +577,8 @@ export default function App() {
             <section className="section">
               <div className="section-heading">
                 <div>
-                  <p className="eyebrow">EIGHT WAYS INTO THE WATER</p>
-                  <h2>What has you wondering?</h2>
+                  <p className="eyebrow">QUESTIONS BY SUBJECT</p>
+                  <h2>Eight areas of philosophy</h2>
                 </div>
                 <a href="#explore">All questions →</a>
               </div>
@@ -648,7 +612,7 @@ export default function App() {
               </div>
             </section>
             <section className="invitation">
-              <p className="eyebrow">A MAP, NOT A VERDICT</p>
+              <p className="eyebrow">ABOUT YOUR PROGRESS</p>
               <h2>
                 You can change your mind.
                 <br />
@@ -665,7 +629,7 @@ export default function App() {
         )}
         {page === "explore" && (
           <section className="section">
-            <p className="eyebrow">CHOOSE A CURRENT</p>
+            <p className="eyebrow">QUESTIONS</p>
             <h1>Start exploring</h1>
             <p>
               A short answer is welcome. You can question the question, remain
@@ -843,7 +807,7 @@ export default function App() {
                     }}
                   >
                     <div className="objection">
-                      <p className="eyebrow">A QUESTION TO SIT WITH</p>
+                      <p className="eyebrow">THE QUESTION</p>
                       <p>
                         {active.mode === "assessment"
                           ? q.followup
@@ -1107,7 +1071,7 @@ export default function App() {
               </div>
             ) : (
               <>
-                <p className="eyebrow">BACK AT THE SURFACE</p>
+                <p className="eyebrow">REFLECTION SAVED</p>
                 <h1>What you’re bringing back</h1>
                 <a className="button primary" href="#expedition">
                   Return to your expedition →
@@ -1144,7 +1108,7 @@ export default function App() {
         )}
         {page === "progress" && (
           <section className="section">
-            <p className="eyebrow">YOUR PRIVATE FIELD JOURNAL</p>
+            <p className="eyebrow">YOUR JOURNAL</p>
             <h1>{s.profile}’s progress</h1>
             {s.active && (
               <a className="button" href="#play">
@@ -1190,7 +1154,7 @@ export default function App() {
         )}
         {page === "map" && (
           <section className="section">
-            <p className="eyebrow">IDEAS CONNECT IN MORE THAN ONE DIRECTION</p>
+            <p className="eyebrow">CONCEPT MAP</p>
             <h1>Your philosophy map</h1>
             <p>
               Nodes mark encounters, not mastery. Lines show curated
@@ -1387,7 +1351,7 @@ export default function App() {
         )}
         {page === "library" && (
           <section className="section">
-            <p className="eyebrow">A SMALL COMPANION LIBRARY</p>
+            <p className="eyebrow">CONCEPT LIBRARY</p>
             <h1>Ideas worth spending time with</h1>
             <label>
               Search concepts
@@ -1435,7 +1399,7 @@ export default function App() {
         )}
         {page === "achievements" && (
           <section className="section">
-            <p className="eyebrow">MARKERS OF EXPLORATION</p>
+            <p className="eyebrow">EXPLORATION HISTORY</p>
             <h1>Things you’ve tried</h1>
             <p>
               No streaks, deadlines, or penalties for changing your mind. These

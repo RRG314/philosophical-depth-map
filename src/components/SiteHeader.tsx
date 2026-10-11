@@ -1,3 +1,8 @@
+import { useSyncExternalStore } from "react";
+const subscribe = (notify: () => void) => {
+  window.addEventListener("hashchange", notify);
+  return () => window.removeEventListener("hashchange", notify);
+};
 const pages = [
   ["assessment", "Depth Map assessment"],
   ["achievements", "Achievements"],
@@ -10,6 +15,10 @@ const pages = [
   ["settings", "Settings"],
 ];
 export default function SiteHeader() {
+  const route = useSyncExternalStore(
+    subscribe,
+    () => location.hash.split("/")[0] || "#home",
+  );
   return (
     <header className="topbar">
       <a className="brand" href="#home">
@@ -23,16 +32,42 @@ export default function SiteHeader() {
         </span>
       </a>
       <nav aria-label="Main navigation">
-        <a href="#explore">Explore</a>
-        <a href="#expedition">Ocean</a>
-        <a href="#map">The map</a>
-        <a href="#progress">My journal</a>
-        <a href="#lab">Reasoning Lab</a>
-        <a href="#learn">Learn</a>
+        <a
+          href="#explore"
+          aria-current={route === "#explore" ? "page" : undefined}
+        >
+          Explore
+        </a>
+        <a
+          href="#expedition"
+          aria-current={route === "#expedition" ? "page" : undefined}
+        >
+          Ocean
+        </a>
+        <a href="#map" aria-current={route === "#map" ? "page" : undefined}>
+          The map
+        </a>
+        <a
+          href="#progress"
+          aria-current={route === "#progress" ? "page" : undefined}
+        >
+          My journal
+        </a>
+        <a href="#lab" aria-current={route === "#lab" ? "page" : undefined}>
+          Reasoning Lab
+        </a>
+        <a href="#learn" aria-current={route === "#learn" ? "page" : undefined}>
+          Learn
+        </a>
         <details className="menu">
           <summary>More</summary>
           <div>
-            <a href="#progress">My progress</a>
+            <a
+              href="#progress"
+              aria-current={route === "#progress" ? "page" : undefined}
+            >
+              My progress
+            </a>
             {pages.map(([path, label]) => (
               <a
                 key={path}

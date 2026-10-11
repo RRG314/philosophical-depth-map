@@ -926,3 +926,28 @@ main:focus {
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 /* Secondary controls retain contrast while hovered or keyboard-focused. */
 button.secondary:hover, a.button.secondary:hover, button.secondary:focus-visible { background:#dce9e5; color:#193d43; }
+
+/* The shared reading layout uses restrained navigation and a consistent type scale. */
+.topbar {padding:16px 4%;background:#f8f7f2}
+.topbar nav {gap:22px}
+.topbar nav>a {font-size:12px;text-decoration:none;color:#3e5452}
+.topbar nav>a:hover {color:#173f47;text-decoration:underline}
+.topbar nav>a[aria-current="page"] {color:#173f47;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:8px}
+.brand-mark {font-size:30px}
+.eyebrow {letter-spacing:1.3px;font-weight:500}
+.hero-copy {padding-top:65px;padding-bottom:50px}
+.hero .lead {font-size:17px;line-height:1.8;max-width:420px}
+.hero .text-link {font-size:14px;display:inline-block;padding:8px 0}
+.domain-grid {border-radius:0}
+.domain-card {min-height:205px}
+.invitation {text-align:left;max-width:1300px;margin:auto;padding:50px 5%;border-top:1px solid #d7ded7}
+.invitation h2 {font-size:30px;max-width:680px}
+.invitation p {max-width:640px;font-size:15px}
+@media(max-width:800px){.topbar{padding:14px 5%}.topbar nav{gap:12px}.topbar nav>a{font-size:12px}.hero-copy{padding:42px 8%}.hero h1{font-size:44px}.domain-card{min-height:190px}}
+
+.ocean-preview {display:block;min-height:490px;background:#0c3a47}
+.ocean-preview>img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:52% 50%}
+.ocean-preview .ocean-caption {left:24px;bottom:24px;right:24px;background:#092b36e8;padding:15px 18px;font-style:normal;border-left:2px solid #e0c48b;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.ocean-caption>span {font:10px Arial,sans-serif;letter-spacing:1px;color:#d9e9e3}
+.ocean-caption>strong {font:19px Georgia,serif;color:#fff6dc}
+@media(max-width:650px){.ocean-preview{min-height:340px}.ocean-preview .ocean-caption{left:16px;right:16px;bottom:16px}.ocean-caption>strong{font-size:17px}}

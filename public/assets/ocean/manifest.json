@@ -163,5 +163,20 @@
     "sha256": "fd726de1877364277a5ff1057f5f8a116d5e854037751a18ae26e7bf3ca4039c",
     "triangles": 83986,
     "animationClips": 2
+  },
+  {
+    "id": "soft-corals",
+    "title": "Soft Coral Set",
+    "creator": "Kanna-Nakajima",
+    "creatorUrl": "https://sketchfab.com/Kanna-nakajima",
+    "uid": "256355f15fcb4095af17b75ae572bff0",
+    "source": "https://sketchfab.com/3d-models/soft-coral-set-256355f15fcb4095af17b75ae572bff0",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "accessed": "2026-10-11",
+    "bytes": 1687668,
+    "sha256": "b91c8e9694f9c0328c9dc4add7cc0489d99d6afe50a35775d196de6c624b580c",
+    "triangles": 28110,
+    "animationClips": 0
   }
 ]

@@ -1,7 +1,20 @@
-export const seabed = (_x: number, z: number) =>
-  z > 4
-    ? -0.15 + (z - 4) * 0.035
-    : -(0.15 + Math.max(0, 4 - z) * 0.075 + Math.max(0, -z - 25) * 0.35);
+export const seabed = (x: number, z: number) => {
+  const base =
+    z > 4
+      ? -0.15 + (z - 4) * 0.035
+      : -(0.15 + Math.max(0, 4 - z) * 0.075 + Math.max(0, -z - 25) * 0.35);
+  // Broad reef ridges flank a navigable sand channel. The same surface drives
+  // rendering and collision; the centreline retains the calibrated shore depths.
+  const offshore = Math.min(1, Math.max(0, (-base - 2) / 5));
+  const channel = 1 - Math.exp((-x * x) / 90);
+  return (
+    base +
+    offshore *
+      channel *
+      (1.8 + 1.2 * Math.sin(z * 0.13 + x * 0.08)) *
+      (0.6 + 0.4 * Math.cos(x * 0.22))
+  );
+};
 export function shorePosition(depth: number) {
   return depth <= 2.325 ? 4 - (depth - 0.15) / 0.075 : -(depth + 8.3) / 0.425;
 }

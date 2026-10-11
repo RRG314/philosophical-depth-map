@@ -24,11 +24,11 @@ The dev URL is printed by Vite. No account, API key or research consent is neede
 
 ## What is here
 
-- Interactive [3D expedition](https://rrg314.github.io/philosophical-depth-map/#expedition): nine ocean destinations, including GEBCO Mariana terrain, 11 attributed Sketchfab assets, wildlife animation, keyboard/touch controls, equivalent text inquiries, and shared journal progress. [Asset licenses](public/assets/ocean/ATTRIBUTION.md).
+- Interactive [3D expedition](https://rrg314.github.io/philosophical-depth-map/#expedition): nine ocean destinations, including GEBCO Mariana terrain, 12 attributed Sketchfab assets (including 24 soft-coral forms), wildlife animation, keyboard/touch controls, equivalent text inquiries, and shared journal progress. [Asset licenses](public/assets/ocean/ATTRIBUTION.md).
 - Eight philosophical domains; 160 authored, versioned draft questions; 16 fixed introductory assessment items.
 - Position, reason, objection, response and concept-discovery loop; selectable exploration branches, saved drafts, revisits and original responses.
 - Objective concept checks where appropriate. Six optional evidence-backed self-reflection dimensions, with NA excluded and transparent domain/skill summaries.
-- Typed directed graph, concept library, accessible relationship list, original SVG ocean/diver, skippable results animation, exploration XP and ten achievements.
+- Typed directed graph, concept library, accessible relationship list, rendered ocean preview and SVG result animation, skippable results animation, exploration XP and ten achievements.
 - Local journal, import validation, export, deletion, reduced motion, keyboard forms and mobile layouts.
 - Optional separately deployable AI guide/evaluator Worker with validated outputs, consent, provider abstraction and shared usage limits.
 - Executable PostgreSQL migration and isolation tests. Research collection remains disabled.

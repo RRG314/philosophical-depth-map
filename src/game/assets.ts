@@ -76,5 +76,12 @@ export const oceanAssets = [
     creatorUrl: "https://sketchfab.com/AneesAnimates",
     uid: "3076676b30294c119ec2065c3bf3dc47",
   },
+  {
+    id: "soft-corals",
+    title: "Soft Coral Set",
+    creator: "Kanna-Nakajima",
+    creatorUrl: "https://sketchfab.com/Kanna-nakajima",
+    uid: "256355f15fcb4095af17b75ae572bff0",
+  },
 ] as const;
 export const assetLicense = "https://creativecommons.org/licenses/by/4.0/";

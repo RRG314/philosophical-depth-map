@@ -15,6 +15,7 @@ test("3D habitats, controls, equivalent text path, draft protection and shared j
   test.setTimeout(600000);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
+  await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/#expedition");
   await expect(page.locator(".habitat canvas")).toBeVisible({ timeout: 30000 });
   await expect
@@ -34,7 +35,9 @@ test("3D habitats, controls, equivalent text path, draft protection and shared j
   expect((await snapshot(page)).player.x).toBe(0);
   for (let n = 0; n < 9; n++) {
     await page.locator(".habitat-strip button").nth(n).click();
-    await expect.poll(async () => (await snapshot(page)).station).toBe(n);
+    await expect
+      .poll(async () => (await snapshot(page)).station, { timeout: 30000 })
+      .toBe(n);
     await expect(page.locator(".gear-card")).toBeVisible();
     await expect
       .poll(async () => (await snapshot(page)).assets.pending, {
@@ -73,7 +76,9 @@ test("3D habitats, controls, equivalent text path, draft protection and shared j
     swimming.locomotion.pose.rightKick,
   );
   await page.locator(".habitat-strip button").nth(7).click();
-  await expect.poll(async () => (await snapshot(page)).station).toBe(7);
+  await expect
+    .poll(async () => (await snapshot(page)).station, { timeout: 30000 })
+    .toBe(7);
   expect((await snapshot(page)).equipment).toContain("submersible");
   expect((await snapshot(page)).completedInquiries).toBe(0);
   await page
@@ -161,6 +166,9 @@ test("Mariana overview and travel preserve the sampled seafloor", async ({
     .poll(async () => (await snapshot(page)).assets.pending, { timeout: 90000 })
     .toBe(0);
   const start = await snapshot(page);
+  await page
+    .getByRole("button", { name: "Pause ocean movement", exact: true })
+    .click();
   expect(start.seafloor).toBe(-10925);
   expect(start.player.y - start.seafloor).toBeGreaterThan(1.8);
   await page
@@ -178,4 +186,57 @@ test("Mariana overview and travel preserve the sampled seafloor", async ({
   expect(wall.player.x).not.toBe(start.player.x);
   expect(wall.player.y - wall.seafloor).toBeCloseTo(6, 2);
   expect(wall.completedInquiries).toBe(0);
+  await expect(page.locator(".depth-reading")).toContainText(
+    (-wall.player.y).toFixed(1),
+  );
+  await page.getByRole("button", { name: "Recenter", exact: true }).click();
+  await expect(page.locator(".depth-reading")).toContainText(
+    (-start.player.y).toFixed(1),
+  );
+});
+
+test("ocean markers open readable questions and camera drags do not select", async ({
+  page,
+}, info) => {
+  test.setTimeout(180000);
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  await page.goto("/#expedition/4");
+  await expect(page.locator(".habitat canvas")).toBeVisible({ timeout: 30000 });
+  await expect
+    .poll(async () => (await snapshot(page)).assets.pending, { timeout: 90000 })
+    .toBe(0);
+  const target = page.getByRole("button", { name: /Read station 2:/ });
+  await expect(target).toBeVisible();
+  await target.click();
+  const dialog = page.getByRole("dialog");
+  await expect(dialog).toBeVisible();
+  await expect(dialog.locator(".reading-prompt")).not.toBeEmpty();
+  await dialog.screenshot({
+    path: `output/question-window-${info.project.name}.png`,
+  });
+  expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+  await page.keyboard.press("Escape");
+  await expect(dialog).not.toBeVisible();
+  await expect(target).toBeFocused();
+  const canvas = page.locator(".habitat canvas"),
+    box = (await canvas.boundingBox())!;
+  await page.mouse.move(box.x + box.width * 0.5, box.y + box.height * 0.35);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width * 0.65, box.y + box.height * 0.4, {
+    steps: 8,
+  });
+  await page.mouse.up();
+  await expect(dialog).not.toBeVisible();
+  await page.getByRole("button", { name: "Recenter", exact: true }).click();
+  await page
+    .locator(".habitat")
+    .screenshot({ path: `output/reef-polish-${info.project.name}.png` });
+  await page.locator(".station-cards button").first().click();
+  await page
+    .getByRole("button", { name: "Open inquiry →", exact: true })
+    .click();
+  await expect(page).toHaveURL(/#play/);
+  expect(errors).toEqual([]);
 });

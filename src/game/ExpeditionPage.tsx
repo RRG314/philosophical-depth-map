@@ -1,7 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { type Question, type State } from "../lib/model";
 import { expeditionProgress, stations, missions } from "./progression";
-import { createExpeditionScene, type SceneAPI } from "./scene";
+import {
+  createExpeditionScene,
+  type SceneAPI,
+  type StationTarget,
+} from "./scene";
 import { oceanAssets, assetLicense } from "./assets";
 import type { AssetState } from "./models";
 import { marianaTerrain, bathymetrySource } from "./bathymetry";
@@ -15,6 +19,8 @@ export default function Expedition({
   questions: Question[];
   onStart: (q: Question) => void;
 }) {
+  const stationButtons = useRef<(HTMLButtonElement | null)[]>([]);
+  const reading = useRef<HTMLDialogElement>(null);
   const [overview, setOverview] = useState(false);
   const [selected, setSelected] = useState<number | null>(null);
   const progress = expeditionProgress(state);
@@ -50,21 +56,33 @@ export default function Expedition({
   }, []);
   useEffect(() => {
     if (!canvas.current || textOnly || fallback) return;
-    try {
-      api.current = createExpeditionScene(
-        canvas.current,
-        station,
-        !paused,
-        () => setFallback(true),
-        setAssets,
-        setTelemetry,
-        setSelected,
-      );
-    } catch (error) {
-      console.error("Ocean could not start", error);
-      setFallback(true);
-      return;
-    }
+    const element = canvas.current;
+    const initialize = requestAnimationFrame(() => {
+      try {
+        api.current = createExpeditionScene(
+          element,
+          station,
+          !paused,
+          () => setFallback(true),
+          setAssets,
+          setTelemetry,
+          setSelected,
+          (targets: StationTarget[]) => {
+            for (const target of targets) {
+              const button = stationButtons.current[target.index];
+              if (!button) continue;
+              button.hidden = !target.visible;
+              button.style.left = `${target.x * 100}%`;
+              button.style.top = `${target.y * 100}%`;
+            }
+          },
+        );
+      } catch (error) {
+        console.error("Ocean could not start", error);
+        setFallback(true);
+        return;
+      }
+    });
     const w = window as unknown as {
       render_game_to_text: () => string;
       advanceTime: (ms: number) => void;
@@ -73,10 +91,14 @@ export default function Expedition({
       JSON.stringify({
         route: "expedition",
         completedInquiries: progress.count,
-        ...(api.current?.snapshot() as object),
+        ...((api.current?.snapshot() as object) ?? {
+          assets: { pending: 1 },
+          station,
+        }),
       });
     w.advanceTime = (ms) => api.current?.step(ms);
     return () => {
+      cancelAnimationFrame(initialize);
       api.current?.dispose();
       api.current = null;
     };
@@ -105,21 +127,24 @@ export default function Expedition({
     setSelected(null);
     setOverview(false);
   }
+  useEffect(() => {
+    if (selected !== null) reading.current?.showModal();
+    else reading.current?.close();
+  }, [selected]);
   const current = stations[station];
   const stops = missions(state, questions, station);
   return (
     <section className="expedition-page">
       <div className="expedition-heading">
         <div>
-          <p className="eyebrow">YOUR OCEAN</p>
-          <h1>A little further from shore</h1>
+          <p className="eyebrow">FIELD NOTES / OCEAN</p>
+          <h1>Ocean exploration</h1>
           <p>
-            The questions you explore open a deeper ocean. Take some time to
-            look around.
+            Follow the reef, swim out into open water, or stop with a question.
           </p>
         </div>
         <a className="button primary" href="#explore">
-          Return to the questions
+          Back to philosophy
         </a>
       </div>
       <div className="ocean-progress">
@@ -166,6 +191,73 @@ export default function Expedition({
               <a href="#progress">Open my journal</a>
             </div>
           )}
+          {!textOnly && !fallback && (
+            <div
+              className="station-targets"
+              aria-label="Questions in the ocean"
+            >
+              {stops.map((stop, n) => (
+                <button
+                  hidden
+                  key={stop.question.id}
+                  ref={(el) => {
+                    stationButtons.current[n] = el;
+                  }}
+                  className="station-target"
+                  aria-label={`Read station ${n + 1}: ${stop.question.title}`}
+                  onClick={() => setSelected(n)}
+                >
+                  <span>{String(n + 1).padStart(2, "0")}</span>
+                  <span className="target-title">{stop.question.title}</span>
+                </button>
+              ))}
+            </div>
+          )}
+          <dialog
+            ref={reading}
+            className="ocean-reading"
+            aria-labelledby="ocean-question-title"
+            onCancel={() => setSelected(null)}
+            onClose={() => setSelected(null)}
+          >
+            {selected !== null && stops[selected] && (
+              <>
+                <div className="reading-topline">
+                  <span>Question {String(selected + 1).padStart(2, "0")}</span>
+                  <button
+                    aria-label="Close question"
+                    onClick={() => setSelected(null)}
+                  >
+                    ×
+                  </button>
+                </div>
+                <h2 id="ocean-question-title">
+                  {stops[selected].question.title}
+                </h2>
+                <p className="reading-prompt">
+                  {stops[selected].question.prompt}
+                </p>
+                <p>{stops[selected].instruction}</p>
+                {state.active ? (
+                  <p>
+                    You have an unfinished reflection.{" "}
+                    <a href="#play">Resume draft</a> before starting another
+                    question.
+                  </p>
+                ) : (
+                  <button
+                    className="primary"
+                    onClick={() => onStart(stops[selected].question)}
+                  >
+                    Open inquiry →
+                  </button>
+                )}
+                <button className="quiet" onClick={() => setSelected(null)}>
+                  Keep exploring
+                </button>
+              </>
+            )}
+          </dialog>
           <div className="gear-card">
             <span className="equipment-dot" />
             {station < 4
@@ -293,12 +385,9 @@ export default function Expedition({
         aria-label="Optional question stations"
       >
         <div>
-          <p className="eyebrow">A PLACE TO PAUSE</p>
-          <h2>Take a question with you</h2>
-          <p>
-            Stop at a reading station, or choose one here. You can also keep
-            swimming.
-          </p>
+          <p className="eyebrow">FIELD NOTES</p>
+          <h2>Questions on this dive</h2>
+          <p>Select a numbered marker in the water, or open a question here.</p>
         </div>
         <div className="station-cards">
           {stops.map((m, n) => (
@@ -318,27 +407,6 @@ export default function Expedition({
             </button>
           ))}
         </div>
-        {selected !== null && stops[selected] && (
-          <article className="station-reading">
-            <h3>{stops[selected].question.title}</h3>
-            <p>{stops[selected].instruction}</p>
-            {state.active ? (
-              <p>
-                You have an unfinished reflection.{" "}
-                <a href="#play">Resume draft</a> before starting another
-                question.
-              </p>
-            ) : (
-              <button
-                className="primary"
-                onClick={() => onStart(stops[selected].question)}
-              >
-                Open inquiry →
-              </button>
-            )}
-            <button onClick={() => setSelected(null)}>Keep exploring</button>
-          </article>
-        )}
       </section>
       <p className="ocean-footnote">
         Your ocean follows the questions you explore. Swimming here doesn’t

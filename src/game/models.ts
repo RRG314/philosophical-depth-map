@@ -202,8 +202,8 @@ export function populateModels(
           root: wrapper,
           mixer,
           species: id,
-          phase: i * 2.399 + index,
-          radius: radius + (i % 3) * 0.7,
+          phase: Math.floor(i / 7) * 2.399 + (i % 7) * 0.085 + index,
+          radius: radius + Math.floor(i / 7) * 3.5 + (i % 3) * 0.35,
           height: height + (i % 3) * 0.16,
           speed,
         });
@@ -216,10 +216,16 @@ export function populateModels(
         index < 3
           ? [[-7, -8, 7]]
           : [
-              [-7, -5, 18],
-              [8, -13, 20],
-              [-15, -26, 24],
-              [17, -38, 24],
+              [-13, 2, 15],
+              [14, -2, 16],
+              [-14, -17, 19],
+              [17, -20, 21],
+              [-25, -8, 18],
+              [29, -12, 22],
+              [-21, -37, 23],
+              [24, -42, 23],
+              [-40, -28, 26],
+              [41, -35, 26],
             ];
       const template = clone(root) as T.Group;
       placements.forEach(([x, z, size], i) => {
@@ -251,7 +257,12 @@ export function populateModels(
           geometry.computeBoundingSphere();
           const mats = (
             Array.isArray(o.material) ? o.material : [o.material]
-          ).map((m) => m.clone());
+          ).map((m) => {
+            const material = m.clone();
+            if (material instanceof T.MeshStandardMaterial)
+              material.color.multiply(new T.Color(1, 0.82, 0.7));
+            return material;
+          });
           o.material = mats.length === 1 ? mats[0] : mats;
           mats.forEach((m) => {
             m.onBeforeCompile = (
@@ -279,13 +290,60 @@ export function populateModels(
         });
       });
     });
+  if (index >= 2 && index <= 5)
+    load("soft-corals", (root) => {
+      root.updateMatrixWorld(true);
+      let variant = 0;
+      root.traverse((source) => {
+        if (!(source instanceof T.Mesh)) return;
+        const geometry = source.geometry
+          .clone()
+          .applyMatrix4(source.matrixWorld);
+        geometry.computeBoundingBox();
+        const box = geometry.boundingBox!,
+          size = box.getSize(new T.Vector3()),
+          center = box.getCenter(new T.Vector3());
+        geometry.translate(-center.x, -box.min.y, -center.z);
+        geometry.scale(
+          1 / Math.max(size.x, size.y, size.z),
+          1 / Math.max(size.x, size.y, size.z),
+          1 / Math.max(size.x, size.y, size.z),
+        );
+        const count = index === 2 ? 3 : 12;
+        const colony = new T.InstancedMesh(geometry, source.material, count);
+        colony.receiveShadow = true;
+        const transform = new T.Object3D();
+        for (let n = 0; n < count; n++) {
+          const seed = variant * 43.71 + n * 127.13;
+          const noise = (offset: number) => {
+            const v = Math.sin(seed + offset) * 43758.5453;
+            return v - Math.floor(v);
+          };
+          const x = (n % 2 ? -1 : 1) * (7.5 + noise(1) * 28);
+          const z = 8 - noise(2) * 65;
+          transform.position.set(
+            x,
+            ground(x + scene.position.x, z + scene.position.z) -
+              scene.position.y -
+              0.04,
+            z,
+          );
+          transform.rotation.set(0, noise(3) * Math.PI * 2, 0);
+          transform.scale.setScalar((index === 2 ? 0.3 : 0.6) + noise(4) * 1.2);
+          transform.updateMatrix();
+          colony.setMatrixAt(n, transform.matrix);
+        }
+        scene.add(colony);
+        variant++;
+      });
+    });
   if (index === 6) fauna("sperm-whale", 1, 9, 5.5, 10, 0.02);
   if (index === 7) fauna("octopus", 3, 0.9, 1.3, 6, 0.04);
   if (index === 6 || index === 7) fauna("anglerfish", 2, 1.15, 2.8, 6, 0.07);
   if (index >= 1 && index <= 5)
     fauna(
       "fish",
-      index < 2 ? 5 : 12,
+      index < 2 ? 8 : 42,
       index < 3 ? 0.16 : 0.42,
       index < 3 ? [0, 0.25, 0.6][index] : 1.5,
       5.2,
@@ -332,6 +390,16 @@ export function populateModels(
           Math.sin(t) * a.radius,
           a.height + (motion ? Math.sin(t * 3) * 0.13 : 0),
           Math.cos(t) * a.radius - 3,
+        );
+        // Keep animals above the same seabed used by swimming collision.
+        const worldX = a.root.position.x + scene.position.x;
+        const worldZ = a.root.position.z + scene.position.z;
+        a.root.position.y = Math.min(
+          -scene.position.y - 0.18,
+          Math.max(
+            a.root.position.y,
+            ground(worldX, worldZ) - scene.position.y + 0.45,
+          ),
         );
         a.root.rotation.y = -t + Math.PI / 2;
         if (motion) {

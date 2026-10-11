@@ -65,7 +65,7 @@ test("Lab dialogue, persistence, replay and independent learning page", async ({
   );
   await page.goto("/#learn");
   await expect(
-    page.getByRole("heading", { name: "Read beyond the question." }),
+    page.getByRole("heading", { name: "Learning library" }),
   ).toBeVisible();
   await page.getByLabel(/Search/).fill("Dewey");
   await expect(page.getByRole("link", { name: /John Dewey/ })).toBeVisible();

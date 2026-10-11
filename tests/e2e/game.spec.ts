@@ -9,7 +9,7 @@ test("complete local exploration, persistence, assessment, export/import and del
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
     "How deep",
   );
-  await page.getByRole("link", { name: /Take your first dive/ }).click();
+  await page.getByRole("link", { name: /Choose a question/ }).click();
   await page
     .getByRole("button", { name: /Explore question/ })
     .first()

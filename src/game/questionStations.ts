@@ -10,7 +10,11 @@ export function questionStations(
   const stations: T.Group[] = [];
   for (let n = 0; n < 3; n++) {
     const root = new T.Group();
-    root.position.set(origin.x + (n - 1) * 5, 0, origin.z - 7 - n * 2);
+    root.position.set(
+      origin.x + (n - 1) * 5.5,
+      0,
+      origin.z - 6 - (n === 1 ? 3 : 0),
+    );
     root.position.y = ground(root.position.x, root.position.z);
     const metal = new T.MeshStandardMaterial({
       color: "#697b7c",
@@ -44,6 +48,7 @@ export function questionStations(
       height / 2,
       0,
     );
+    root.userData.height = height;
     const face = new T.Group();
     face.position.y = height;
     face.rotation.x = -0.25;
@@ -62,12 +67,12 @@ export function questionStations(
     ctx.fillStyle = "#e5ede0";
     ctx.font = "32px Georgia";
     ctx.textAlign = "center";
-    ctx.fillText("A QUESTION TO KEEP", 256, 96);
+    ctx.fillText("FIELD NOTES", 256, 96);
     ctx.font = "94px Georgia";
     ctx.fillText(String(n + 1).padStart(2, "0"), 256, 211);
     ctx.font = "22px sans-serif";
     ctx.fillStyle = "#a7cec5";
-    ctx.fillText("Stop here, or keep exploring", 256, 265);
+    ctx.fillText("Select to read", 256, 265);
     const tex = new T.CanvasTexture(cv);
     tex.colorSpace = T.SRGBColorSpace;
     const screen = new T.Mesh(

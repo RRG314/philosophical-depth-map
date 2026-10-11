@@ -5,8 +5,15 @@ import { Water } from "three/addons/objects/Water.js";
 import { seabed, swimmerAt, swimStep } from "./locomotion";
 import { populateModels, disposeObject, type AssetState } from "./models";
 import { marianaTerrain } from "./bathymetry";
+import { reefHabitat } from "./reefHabitat";
 import { questionStations } from "./questionStations";
 import { stations } from "./progression";
+export type StationTarget = {
+  index: number;
+  x: number;
+  y: number;
+  visible: boolean;
+};
 export type SceneAPI = {
   overview: (enabled: boolean) => void;
   travel: (waypoint: number) => void;
@@ -26,6 +33,7 @@ export function createExpeditionScene(
   onAssets: (state: AssetState) => void,
   onTelemetry: (state: { depth: number; swimming: boolean }) => void,
   onQuestion: (n: number) => void,
+  onTargets: (targets: StationTarget[]) => void = () => {},
 ): SceneAPI {
   let motion = initialMotion;
   let overview = false;
@@ -59,7 +67,7 @@ export function createExpeditionScene(
   renderer.shadowMap.type = T.PCFShadowMap;
   renderer.outputColorSpace = T.SRGBColorSpace;
   renderer.toneMapping = T.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 0.55;
+  renderer.toneMappingExposure = 0.7;
   const scene = new T.Scene();
   const pmrem = new T.PMREMGenerator(renderer);
   const room = new RoomEnvironment();
@@ -229,6 +237,7 @@ export function createExpeditionScene(
     },
     ground,
   );
+  reefHabitat(scene, ground, swimmer, index);
   let markers = questionStations(scene, ground, swimmer, shallow);
   if (sub) {
     const deckLight = new T.PointLight(0xc2deed, 18, 8, 1);
@@ -287,7 +296,7 @@ export function createExpeditionScene(
   const keys = new Set<string>();
   const input = { x: 0, z: 0, y: 0 };
   let yaw = 0.25,
-    pitch = 0.15;
+    pitch = index >= 3 && index <= 5 ? 0.42 : 0.15;
   let drag: { x: number; y: number } | null = null;
   function resize() {
     const r = canvas.getBoundingClientRect();
@@ -295,6 +304,25 @@ export function createExpeditionScene(
     camera.aspect = r.width / r.height;
     camera.updateProjectionMatrix();
     draw();
+  }
+  function stationTargets(): StationTarget[] {
+    camera.updateMatrixWorld();
+    return markers.map((marker, index) => {
+      const point = marker.position.clone();
+      point.y += Number(marker.userData.height) + 0.8;
+      const projected = point.clone().project(camera);
+      return {
+        index,
+        x: (projected.x + 1) / 2,
+        y: (1 - projected.y) / 2,
+        visible:
+          !overview &&
+          projected.z > -1 &&
+          projected.z < 1 &&
+          Math.abs(projected.x) < 0.92 &&
+          Math.abs(projected.y) < 0.85,
+      };
+    });
   }
   function draw() {
     if (overview && terrain) {
@@ -310,6 +338,9 @@ export function createExpeditionScene(
       water.visible = false;
       underwaterSurface.visible = false;
       renderer.render(scene, camera);
+      onTargets(
+        markers.map((_, index) => ({ index, x: 0, y: 0, visible: false })),
+      );
       return;
     }
     floorMesh.material = sand;
@@ -348,6 +379,7 @@ export function createExpeditionScene(
       under ? (index >= 6 ? 0.012 : 0.022) : 0.0035,
     );
     renderer.render(scene, camera);
+    onTargets(stationTargets());
   }
   function step(ms: number, render = true) {
     if (disposed) return;
@@ -392,11 +424,18 @@ export function createExpeditionScene(
     particles.rotation.y = motion ? elapsed * 0.003 : 0;
     if (render) draw();
   }
+  let inView = true;
+  const visibility = new IntersectionObserver(([entry]) => {
+    inView = entry.isIntersecting;
+  });
+  visibility.observe(canvas);
   function tick(t: number) {
     if (disposed) return;
     if (
       t > manualUntil &&
       !document.hidden &&
+      inView &&
+      !canvas.parentElement?.querySelector("dialog[open]") &&
       t - previous >= 33 &&
       (motion ||
         dirty ||
@@ -445,10 +484,14 @@ export function createExpeditionScene(
     input.z = 0;
     input.y = 0;
   }
+  let pointerStart: { x: number; y: number } | null = null;
   function click(e: PointerEvent) {
     canvas.focus();
     drag = { x: e.clientX, y: e.clientY };
     canvas.setPointerCapture(e.pointerId);
+    pointerStart = { x: e.clientX, y: e.clientY };
+  }
+  function pick(e: PointerEvent) {
     const rect = canvas.getBoundingClientRect();
     const ray = new T.Raycaster();
     ray.setFromCamera(
@@ -459,22 +502,33 @@ export function createExpeditionScene(
       camera,
     );
     const hit = ray.intersectObjects(markers, true)[0];
-    if (hit) {
-      let o: T.Object3D | null = hit.object;
-      while (o && o.userData.questionStation === undefined) o = o.parent;
-      if (o) onQuestion(o.userData.questionStation);
-    }
+    if (!hit) return null;
+    let o: T.Object3D | null = hit.object;
+    while (o && o.userData.questionStation === undefined) o = o.parent;
+    return o ? Number(o.userData.questionStation) : null;
   }
 
   function look(e: PointerEvent) {
-    if (!drag) return;
+    if (!drag) {
+      canvas.style.cursor = pick(e) === null ? "grab" : "pointer";
+      return;
+    }
     yaw -= (e.clientX - drag.x) * 0.005;
     pitch = T.MathUtils.clamp(pitch + (e.clientY - drag.y) * 0.004, -0.6, 0.8);
     drag = { x: e.clientX, y: e.clientY };
     dirty = true;
   }
-  function stopLook() {
+  function stopLook(e: PointerEvent) {
+    if (
+      e.type === "pointerup" &&
+      pointerStart &&
+      Math.hypot(e.clientX - pointerStart.x, e.clientY - pointerStart.y) < 6
+    ) {
+      const station = pick(e);
+      if (station !== null) onQuestion(station);
+    }
     drag = null;
+    pointerStart = null;
   }
   canvas.addEventListener("pointermove", look);
   canvas.addEventListener("pointerup", stopLook);
@@ -513,6 +567,7 @@ export function createExpeditionScene(
       });
       markers = questionStations(scene, ground, swimmer, false);
       particles.position.set(p.x, p.y, p.z);
+      lastTelemetry = -1;
       step(0);
     },
     setMotion(enabled) {
@@ -541,11 +596,13 @@ export function createExpeditionScene(
       draw();
     },
     reset() {
+      yaw = 0.25;
+      pitch = index >= 3 && index <= 5 ? 0.42 : 0.15;
       Object.assign(swimmer, spawn());
       avatar.position.set(swimmer.x, swimmer.y, swimmer.z);
-      avatar.rotation.y = -2.5;
       clear();
-      draw();
+      lastTelemetry = -1;
+      step(0);
     },
     snapshot() {
       return {
@@ -558,6 +615,7 @@ export function createExpeditionScene(
           : "Authored coastal habitat",
         seafloor: ground(swimmer.x, swimmer.z),
         questionStations: markers.length,
+        stationTargets: stationTargets(),
         cameraZoom: camera.zoom,
         equipment: station.gear,
         assets: models.state,
@@ -587,6 +645,7 @@ export function createExpeditionScene(
       disposed = true;
       cancelAnimationFrame(frame);
       observer.disconnect();
+      visibility.disconnect();
       canvas.removeEventListener("keydown", down);
       window.removeEventListener("keyup", up);
       canvas.removeEventListener("blur", clear);

@@ -25,16 +25,16 @@ export default function LearnPage() {
       </a>
       <SiteHeader />
       <main id="learn-main" tabIndex={-1} className="section">
-        <p className="eyebrow">THE LEARNING LIBRARY</p>
-        <h1>Read beyond the question.</h1>
+        <p className="eyebrow">READING & REFERENCES</p>
+        <h1>Learning library</h1>
         <p className="lead">
-          Philosophers, traditions, primary texts and careful introductions.
-          Choose a route through the ideas, then return to a question with
-          something new to consider.
+          Primary texts, introductions, and reference articles on philosophers
+          and philosophical problems. Search the directory or start with one of
+          the routes below.
         </p>
         <div className="learn-paths">
           <article className="card">
-            <h2>Start with a method</h2>
+            <h2>Philosophical methods</h2>
             <p>
               Read an introduction to Socrates, Descartes or Dewey, then examine
               a primary passage before trying its Lab reconstruction.
@@ -42,7 +42,7 @@ export default function LearnPage() {
             <a href="#lab/methods">Explore the four methods →</a>
           </article>
           <article className="card">
-            <h2>Follow a philosophical problem</h2>
+            <h2>Questions & problems</h2>
             <p>
               Move from knowledge, ethics or mind to a source, and compare the
               strongest reasons on more than one side.
@@ -50,15 +50,16 @@ export default function LearnPage() {
             <a href="#explore">Find a question →</a>
           </article>
           <article className="card">
-            <h2>Learn to assess an argument</h2>
+            <h2>Reading an argument</h2>
             <p>
               Practice identifying a conclusion, its supporting premises and a
-              relevant objection. Neither jargon nor length is the goal.
+              relevant objection. Compare what an argument claims with what its
+              reasons support.
             </p>
             <a href="#lab/demo">Inspect an argument →</a>
           </article>
         </div>
-        <h2>Browse the reading directory</h2>
+        <h2>Reading directory</h2>
         <p>
           These links are starting points, not an exhaustive or culturally
           representative canon. Reference articles can be demanding; primary
@@ -111,9 +112,9 @@ export default function LearnPage() {
           </p>
         )}
         <p className="small">
-          The source audit is in the repository. A verified link does not mean
-          every interpretation in the linked work is endorsed or that the whole
-          work has been critically reviewed.
+          The directory includes different traditions and interpretations. Read
+          sources alongside one another, and check which edition or translation
+          you are using.
         </p>
         <a href="#library">Browse the Depth Map concept library →</a>
       </main>

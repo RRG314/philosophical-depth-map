@@ -21,3 +21,8 @@ Textures re-encoded as WebP at quality 90, capped at 2048 pixels (reef tiles 102
 The source coral collection `Coral Reef Small` was evaluated but excluded: its rig and draw-call cost were unsuitable for this browser scene. Its file is not distributed. The selected Coral Reef Outcrop supplies the live coral terrain.
 
 `manifest.json` records source IDs, hashes, byte counts, triangle counts and animation counts. `scripts/optimize-ocean.mjs` reproduces processing from source GLBs downloaded under their licenses; it does not retrieve credentials or scrape downloads. Models load from this application’s host, not the visitor’s Sketchfab account.
+
+## Soft Coral Set
+[Soft Coral Set](https://sketchfab.com/3d-models/soft-coral-set-256355f15fcb4095af17b75ae572bff0) by [Kanna-Nakajima](https://sketchfab.com/Kanna-nakajima), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Downloaded through Sketchfab on 2026-10-11. Texture compression, separated component geometry, normalized scale, instanced habitat arrangement. Original geometry retained.
+
+`reef-preview.webp` is a capture of this application’s authored reef scene and the attributed assets above. The screenshot is used for the home-page preview.

@@ -20,7 +20,7 @@
 }
 .lab-hero {
   padding: 70px 6%;
-  background: linear-gradient(120deg, #edf1e8, #f7f5ef 65%);
+  background: #f2f3ec;
   border-bottom: 1px solid #d7ded7;
 }
 .lab-hero h1 {
@@ -62,7 +62,7 @@
   padding: 30px;
   background: #fffefa;
   border: 1px solid #b7ccc2;
-  border-radius: 12px;
+  border-radius: 3px;
 }
 .lab-stimulus {
   padding: 24px;
@@ -81,7 +81,7 @@
 .lab-node-grid article {
   border: 1px solid #a9c4ba;
   padding: 18px;
-  border-radius: 9px;
+  border-radius: 3px;
   background: #f0f4ec;
 }
 .lab-graph {
@@ -157,7 +157,7 @@
 .learn-catalog article {
   padding: 23px;
   border: 1px solid #ccd9d0;
-  border-radius: 8px;
+  border-radius: 3px;
   background: #fffdf7;
 }
 .learn-catalog a {
@@ -223,3 +223,19 @@
   padding: 0;
   min-width: 0;
 }
+
+/* Reading pages share the site's editorial hierarchy. */
+#learn-main>h1 {font-size:clamp(2.4rem,4vw,3.3rem)}
+#learn-main>.lead {max-width:780px;font-size:16px}
+.learn-paths {gap:32px;margin:30px 0 50px}
+.learn-paths .card {border:0;border-top:2px solid #9fb4aa;border-radius:0;background:transparent;padding:22px 0 0;display:flex;flex-direction:column}
+.learn-paths h2 {font-size:23px;margin-bottom:14px}
+.learn-paths p {font-size:14px}
+.learn-paths a {margin-top:auto;font-size:13px}
+.learn-catalog {grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}
+.learn-catalog article {border:0;border-top:1px solid #c4cec3;border-radius:0;background:transparent;padding:25px 0}
+.learn-catalog article p {font-size:14px;max-width:540px}
+.learn-catalog .eyebrow {font-size:10px;margin-bottom:10px}
+.learn-catalog article .resource-meta {font-size:11px;color:#526761}
+.learn-catalog a {font-size:13px}
+@media(max-width:650px){.learn-catalog,.learn-paths{grid-template-columns:1fr}.learn-paths{gap:22px}.learn-paths .card{padding-top:16px}.learn-paths p{margin-bottom:8px}}
