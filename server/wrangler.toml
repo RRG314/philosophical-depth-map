@@ -4,9 +4,10 @@ compatibility_date = "2026-10-01"
 [vars]
 ALLOWED_ORIGINS = "http://127.0.0.1:5173,https://rrg314.github.io"
 DAILY_CALL_CAP = "100"
-PER_IP_CAP = "10"
+PER_IP_CAP = "40"
 DAILY_TOKEN_CAP = "400000"
-# Set AI_MODEL to a supported, tested model snapshot before enabling.
+# Set AI_MODEL and LAB_MODEL to supported, tested snapshots before enabling.
+# Forty daily requests permit a 12-turn Lab rehearsal plus demonstrations; global limits still apply.
 [[durable_objects.bindings]]
 name = "LIMITS"
 class_name = "Limits"
