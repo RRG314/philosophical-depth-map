@@ -231,3 +231,46 @@ describe("Reasoning Lab contracts", () => {
     ).rejects.toThrow("Intervention");
   });
 });
+
+it("matches both engines across 512 seeded mixed actions and prior commitments", () => {
+  let seed = 314159;
+  const random = () => {
+    seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+    return seed;
+  };
+  const options = ["accept", "reject", "suspend"] as const;
+  const requests = Array.from({ length: 512 }, () => {
+    const problem = bank[random() % bank.length];
+    const action = blankAction(),
+      previous = blankAction();
+    for (const p of problem.propositions) {
+      if (random() % 4) action.commitments[p.id] = options[random() % 3];
+      if (random() % 4) previous.commitments[p.id] = options[random() % 3];
+    }
+    action.admittedObjections = problem.objections
+      .filter(() => random() % 2)
+      .map((o) => o.id);
+    for (const h of problem.hypotheses)
+      action.outcomes[h.id] = (
+        ["unmeasured", "confirmed", "disconfirmed"] as const
+      )[random() % 3];
+    return {
+      problem,
+      method: methods[random() % 4],
+      stage: random() % 4,
+      action,
+      previous,
+    };
+  });
+  const python = JSON.parse(
+    execFileSync("python3", ["lab/python/engine.py"], {
+      input: JSON.stringify(requests),
+      maxBuffer: 20 * 1024 * 1024,
+    }).toString(),
+  );
+  expect(python).toEqual(
+    requests.map((r) =>
+      runEngine(r.problem, r.method, r.action, r.stage, r.previous),
+    ),
+  );
+});

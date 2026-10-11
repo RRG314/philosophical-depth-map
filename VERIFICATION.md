@@ -26,3 +26,14 @@ Production hosting verification is recorded below; a local build alone is not de
 GitHub Actions run [38109807934](https://github.com/RRG314/philosophical-depth-map/actions/runs/38109807934) completed successfully, including CI tests, PostgreSQL migration/policies, Worker packaging, subpath production build and Pages deployment. The actual URL returned HTTP 200: https://rrg314.github.io/philosophical-depth-map/ . A fresh mobile Chromium context loaded the production page, navigated to a question and preserved a written draft after reload; no page errors occurred. Observed in this single unthrottled smoke run: approximately 175.6 KB JS + 3.8 KB CSS transferred, first contentful paint 748 ms, viewport/scroll width both 412 px. These are environment-specific observations, not a performance guarantee or field study.
 
 Final hardening adds all-achievement/version tests, a valid provisional-evaluator fixture, rectangular-matrix checks, connected graph selection, persisted rubric drafts, readable source formatting, and stronger cross-owner/evidence database tests. Current local totals: 22 Vitest tests, seven Python tests, six Playwright tests (two browser profiles); final CI reruns these before deployment.
+
+## Ocean and audit update — 11 October 2026
+
+This section supersedes earlier rendering/progress descriptions; earlier verification remains a historical record.
+
+- `npm run check`: lint, frontend/Worker type checks, production build, **52 tests across eight files passed**. New checks cover equal exploration credit, assessment exclusion, provider usage settlement, argument-engine parity, shipped GLB hashes/licenses, metre-scale bathymetry and wall collision.
+- `npm audit`: **zero reported vulnerabilities**, including development dependencies, on this date. This is not a security certification.
+- Earlier in this update: seven statistical-analysis Python tests passed; seven Lab Python tests passed with the optional PostgreSQL collector test skipped locally; Wrangler dry-run succeeded. Live provider calls and production Worker deployment were not performed.
+- Visual inspection found and corrected missing skeletal motion, floating reef bounds, excessive surface distortion and unlit submersible materials. Actual screenshots were inspected at shoreline, reef, deepest Mariana sample and a trench-wall waypoint. The regional grid resolves broad slopes; fine-scale cliffs are not available from these data. Art direction and real-device performance still need user testing; passing tests is not proof of visual quality.
+- A journal-reset race was reproduced through browser reload and corrected. Deletion is now acknowledged after the durable write completes.
+- Desktop/mobile browser-suite and deployment results are recorded in the release entry below after execution. No participant study or scientific validation is claimed. Research collection remains disabled.

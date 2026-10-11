@@ -81,6 +81,15 @@ export function openAIProvider(
       .map((c) => c.text || "")
       .join("");
     if (!text || text.length > 40000) throw Error("Invalid provider output");
+    if (
+      !data.usage ||
+      !Number.isSafeInteger(data.usage.input_tokens) ||
+      !Number.isSafeInteger(data.usage.output_tokens) ||
+      data.usage.input_tokens < 0 ||
+      data.usage.output_tokens < 0 ||
+      data.usage.input_tokens + data.usage.output_tokens < 1
+    )
+      throw Error("Provider usage unavailable");
     return {
       text,
       model: data.model,

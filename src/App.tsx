@@ -1,5 +1,5 @@
 import SiteHeader from "./components/SiteHeader";
-import { useEffect, useRef, useState } from "react";
+import { lazy, useEffect, useRef, useState } from "react";
 import type { FormEvent, CSSProperties } from "react";
 import questionsData from "./data/questions.json";
 import conceptData from "./data/concepts.json";
@@ -32,6 +32,7 @@ import {
   type Domain,
 } from "./lib/model";
 import { load, save } from "./lib/storage";
+const Expedition = lazy(() => import("./game/ExpeditionPage"));
 const qs = questionsData as Question[],
   concepts = conceptData as Concept[],
   edges = edgeData as Edge[];
@@ -74,6 +75,7 @@ const assessment = qs
   .sort((a, b) => a.id.localeCompare(b.id));
 const routes = [
   ["explore", "Start exploring"],
+  ["expedition", "3D expedition"],
   ["assessment", "Assessment"],
   ["map", "Philosophy map"],
   ["progress", "My progress"],
@@ -232,6 +234,7 @@ export default function App() {
       render_game_to_text: () => string;
       advanceTime: (ms: number) => void;
     };
+    if (route.split("/")[0] === "expedition") return;
     w.render_game_to_text = () =>
       JSON.stringify({
         route,
@@ -336,15 +339,18 @@ export default function App() {
     update((s) => ({
       ...s,
       answers: [...s.answers, a],
-      discovered: [
-        ...new Set(
-          [
-            ...s.discovered,
-            ...q.concepts,
-            q.branches[active.branch]?.concept,
-          ].filter(Boolean),
-        ),
-      ],
+      discovered:
+        active.mode === "assessment"
+          ? s.discovered
+          : [
+              ...new Set(
+                [
+                  ...s.discovered,
+                  ...q.concepts,
+                  q.branches[active.branch]?.concept,
+                ].filter(Boolean),
+              ),
+            ],
       active: next
         ? begin(next, "assessment", active.index + 1, active.sessionId)
         : null,
@@ -587,6 +593,11 @@ export default function App() {
                 <a className="button" id="start-btn" href="#explore">
                   Take your first dive <span aria-hidden="true">↗</span>
                 </a>
+                <p>
+                  <a className="button" href="#expedition">
+                    Enter the 3D ocean →
+                  </a>
+                </p>
                 <p className="small">
                   No account. No right worldview. A little curiosity.
                 </p>
@@ -987,9 +998,15 @@ export default function App() {
                     ))}
                     <details>
                       <summary>Worked examples for this question</summary>
+                      <p>
+                        These examples illustrate particular moves, not a
+                        validated overall score. A well-supported opposing
+                        answer can be equally strong; assess each rubric
+                        dimension separately.
+                      </p>
                       {q.sampleAnchors.map((a, i) => (
                         <p key={i}>
-                          <b>Illustrative level {a.score}:</b> {a.answer}
+                          <b>Editorial example {i + 1}:</b> {a.answer}
                           <br />
                           {a.rationale}
                         </p>
@@ -1052,6 +1069,9 @@ export default function App() {
               </div>
             </section>
           ))}
+        {page === "expedition" && (
+          <Expedition state={s} questions={qs} onStart={start} />
+        )}
         {page === "results" && (
           <section className="section">
             {diving ? (
@@ -1089,6 +1109,9 @@ export default function App() {
               <>
                 <p className="eyebrow">BACK AT THE SURFACE</p>
                 <h1>What you’re bringing back</h1>
+                <a className="button primary" href="#expedition">
+                  Return to your expedition →
+                </a>
                 {profile(
                   s.answers.filter(
                     (a) => a.sessionId === s.answers.at(-1)?.sessionId,
@@ -1461,8 +1484,10 @@ export default function App() {
             <p>
               Knowledge checks test selected concepts and argument
               comprehension. Reasoning ratings describe evidence in particular
-              answers. Exploration XP counts encounters, concepts and revisions.
-              None can substitute for the others.
+              answers. Exploration XP gives 10 points per distinct, nonblank
+              exploration. Assessments, self-ratings and revising rather than
+              retaining a position earn no bonus. None can substitute for the
+              others.
             </p>
             <h2>Transparent summaries</h2>
             <p>
@@ -1714,16 +1739,25 @@ export default function App() {
             </p>
             <button
               className="danger"
-              onClick={() => {
+              onClick={async () => {
                 if (
                   confirm(
                     "Delete all local game data? This cannot be undone unless you have an export.",
                   )
                 ) {
-                  setState(emptyState());
-                  setNotice(
-                    "Local journal reset. Previously downloaded exports are not deleted.",
-                  );
+                  try {
+                    await writeQueue.current;
+                    const reset = emptyState();
+                    await save(reset);
+                    setState(reset);
+                    setNotice(
+                      "Local journal reset. Previously downloaded exports are not deleted.",
+                    );
+                  } catch {
+                    setNotice(
+                      "The journal could not be cleared. Please try again.",
+                    );
+                  }
                 }
               }}
             >
@@ -1760,7 +1794,7 @@ export default function App() {
           ))}
         </nav>
       </footer>
-      {s.settings.diver !== "dismissed" && (
+      {page !== "expedition" && s.settings.diver !== "dismissed" && (
         <aside
           className={`companion ${s.settings.diver}`}
           aria-label="Diver companion"
@@ -1783,7 +1817,7 @@ export default function App() {
               </p>
               <meter
                 min="0"
-                max="6"
+                max={regions.length - 1}
                 value={regions.indexOf(region(s))}
                 aria-label="Exploration milestone"
               />

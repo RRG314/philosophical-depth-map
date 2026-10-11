@@ -341,24 +341,35 @@ export function knowledge(answers: Answer[], questions: Question[]) {
   };
 }
 export const regions = [
-  "Surface",
-  "Sunlit Waters",
-  "Reef",
-  "Twilight",
-  "Midnight",
-  "Abyss",
-  "Trenches",
+  "The shoreline",
+  "The shallows",
+  "The tidal pool",
+  "The lagoon",
+  "The coral gardens",
+  "The blue wall",
+  "The twilight passage",
+  "The abyssal plain",
+  "The Mariana Trench",
 ];
-export function xp(s: State) {
-  return (
-    new Set(s.answers.map((a) => a.questionId)).size * 10 +
-    new Set(s.answers.filter((a) => a.revised).map((a) => a.questionId)).size *
-      3 +
-    s.discovered.length * 2
+export const regionThresholds = [0, 1, 3, 5, 8, 12, 18, 24, 36];
+export function explorationAnswers(s: State) {
+  return s.answers.filter(
+    (a) =>
+      a.mode === "explore" &&
+      Boolean(
+        a.position.trim() ||
+        a.explanation.trim() ||
+        a.reply.trim() ||
+        a.choice !== null,
+      ),
   );
 }
+export function xp(s: State) {
+  // Engagement only: neither agreement, revision, self-ratings nor assessment results earn a bonus.
+  return new Set(explorationAnswers(s).map((a) => a.questionId)).size * 10;
+}
 export function region(s: State) {
-  return regions[Math.min(6, Math.floor(Math.sqrt(xp(s) / 10)))];
+  return regions[regionThresholds.filter((n) => xp(s) / 10 >= n).length - 1];
 }
 export const badges = [
   ["First Question", "Complete one exploration round."],
@@ -373,7 +384,7 @@ export const badges = [
   ["Cartographer", "Discover twelve concepts."],
 ];
 export function achievements(s: State, qs: Question[]) {
-  const a = s.answers;
+  const a = explorationAnswers(s);
   return [
     a.length > 0,
     a.some((x) => x.reply.trim()),
@@ -403,7 +414,8 @@ export function recommendations(s: State, qs: Question[], q?: Question) {
   const unobserved = new Set(
     skills.filter((skill) => summary(s.answers, skill).n === 0),
   );
-  return [...qs]
+  return qs
+    .filter((item) => !item.assessment)
     .sort((a, b) => {
       const rank = (x: Question) =>
         Number(!s.answers.some((a) => a.questionId === x.id)) * 4 +

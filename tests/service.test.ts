@@ -81,24 +81,22 @@ describe("optional AI boundary", () => {
 it("accepts complete provisional evidence while keeping untrusted text in its data field", async () => {
   const bank = await import("../src/data/questions.json");
   const item = bank.default.find((q) => q.id === request.questionId)!;
-  const p = vi
-    .fn<Provider>()
-    .mockImplementation(async () => ({
-      text: JSON.stringify({
-        ratings: item.skills.map((d) => ({
-          dimension: d,
-          score: 2,
-          evidence: "Fairness",
-          rationale: "Synthetic test of transport, not a judgment.",
-          missingEvidence: "",
-          uncertainty: "high",
-          abstain: false,
-        })),
-      }),
-      model: "synthetic-evaluator",
-      inputTokens: 30,
-      outputTokens: 100,
-    }));
+  const p = vi.fn<Provider>().mockImplementation(async () => ({
+    text: JSON.stringify({
+      ratings: item.skills.map((d) => ({
+        dimension: d,
+        score: 2,
+        evidence: "Fairness",
+        rationale: "Synthetic test of transport, not a judgment.",
+        missingEvidence: "",
+        uncertainty: "high",
+        abstain: false,
+      })),
+    }),
+    model: "synthetic-evaluator",
+    inputTokens: 30,
+    outputTokens: 100,
+  }));
   const result = await generate("evaluate", request, p);
   expect(result).toMatchObject({
     rubricVersion: "reasoning-1.0",
@@ -108,4 +106,30 @@ it("accepts complete provisional evidence while keeping untrusted text in its da
     request.answer,
   );
   expect(p.mock.calls[0][0]).toContain("untrusted data");
+});
+
+it("fails closed when a provider omits or corrupts token accounting", async () => {
+  for (const usage of [
+    undefined,
+    { input_tokens: -1, output_tokens: 2 },
+    { input_tokens: 1.5, output_tokens: 2 },
+  ]) {
+    const transport = vi
+      .fn()
+      .mockResolvedValue(
+        Response.json({
+          status: "completed",
+          model: "fixture",
+          output: [{ content: [{ type: "output_text", text: "{}" }] }],
+          usage,
+        }),
+      );
+    await expect(
+      openAIProvider("test-only", "fixture", transport)(
+        "instruction",
+        "input",
+        {},
+      ),
+    ).rejects.toThrow("usage");
+  }
 });

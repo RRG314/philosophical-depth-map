@@ -24,6 +24,7 @@ The dev URL is printed by Vite. No account, API key or research consent is neede
 
 ## What is here
 
+- Interactive [3D expedition](https://rrg314.github.io/philosophical-depth-map/#expedition): nine ocean destinations, including GEBCO Mariana terrain, 11 attributed Sketchfab assets, wildlife animation, keyboard/touch controls, equivalent text inquiries, and shared journal progress. [Asset licenses](public/assets/ocean/ATTRIBUTION.md).
 - Eight philosophical domains; 160 authored, versioned draft questions; 16 fixed introductory assessment items.
 - Position, reason, objection, response and concept-discovery loop; selectable exploration branches, saved drafts, revisits and original responses.
 - Objective concept checks where appropriate. Six optional evidence-backed self-reflection dimensions, with NA excluded and transparent domain/skill summaries.
@@ -51,3 +52,9 @@ AI credentials and Cloudflare deployment are not bundled. Mock-provider tests ar
 A separate application at `/#lab` compares four versioned dialogue conditions, with deterministic browser/Python engines and an optional common-model backend. It includes 60 structured intervention problems, 18 disjoint assessment items, local experiment rehearsal, replayable history, blind human scoring and separate fidelity review. `/#learn` provides 46 verified reading links. Original Depth Map data and routes remain separate.
 
 Start with [Lab documentation](lab/README.md), [methodology](lab/research/METHODOLOGY.md), [literature review](lab/research/LITERATURE_REVIEW.md), [annotated bibliography](lab/research/ANNOTATED_BIBLIOGRAPHY.md) and [integration specification](lab/INTEGRATION.md). Research collection remains disabled. AI execution requires server credentials; no efficacy or psychometric validation is claimed.
+
+## October 11 audit and expedition
+
+[Audit findings and study boundaries](research/audits/2026-10-11-audit.md) document reproduced scoring, assessment-contamination and AI-accounting defects, fixes, and unresolved content-validity gaps. Engagement now counts distinct, nonblank explorations equally whether a conclusion changes or is retained. Saved questions and spaced revisits appear at optional reading stations. Ocean travel is a reward for text exploration, not a required intervention. This does not establish learning efficacy.
+
+The 3D route lazily loads Three.js and the assets needed for its current habitat (roughly 5–20 MB, then browser-cached). The text route works without WebGL. The Mariana destination preserves metre-scale elevations and distances in a regional GEBCO grid; other destinations are authored habitats. None is a diving or marine-ecology simulator. Author credits and licenses appear in the game and ship with the GLBs.

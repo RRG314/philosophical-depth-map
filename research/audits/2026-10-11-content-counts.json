@@ -1,0 +1,49 @@
+{
+  "kind": "software/content structural audit; no participant data",
+  "depth_map": {
+    "questions": 160,
+    "domains": {
+      "ethics": 20,
+      "epistemology": 20,
+      "logic": 20,
+      "metaphysics": 20,
+      "mind": 20,
+      "politics": 20,
+      "aesthetics": 20,
+      "science": 20
+    },
+    "assessment_items": 16,
+    "duplicate_prompts": 0,
+    "answer_key_positions": {
+      "0": 3,
+      "1": 3,
+      "2": 2
+    },
+    "examples_per_item": {
+      "2": 152,
+      "3": 8
+    },
+    "concepts": 160,
+    "edges": 1325
+  },
+  "reasoning_lab": {
+    "items": 78,
+    "pools": {
+      "intervention": 60,
+      "pre": 6,
+      "post": 6,
+      "delayed": 6
+    },
+    "propositions_per_item": {
+      "4": 78
+    },
+    "argument_kinds": {
+      "defeasible": 73,
+      "strict": 5
+    },
+    "admitted_objections_declared_refuting": 0,
+    "grounding_patterns": {
+      "p1": 78
+    }
+  }
+}

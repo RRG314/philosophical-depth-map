@@ -24,6 +24,7 @@ export default function SiteHeader() {
       </a>
       <nav aria-label="Main navigation">
         <a href="#explore">Explore</a>
+        <a href="#expedition">Ocean</a>
         <a href="#map">The map</a>
         <a href="#progress">My journal</a>
         <a href="#lab">Reasoning Lab</a>

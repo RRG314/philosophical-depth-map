@@ -2,6 +2,8 @@ import { defineConfig, devices } from "@playwright/test";
 export default defineConfig({
   testDir: "tests/e2e",
   timeout: 90000,
+  // Ocean rendering is GPU-bound; serialize browser profiles on CI software WebGL.
+  workers: 1,
   use: { baseURL: "http://127.0.0.1:5173", trace: "retain-on-failure" },
   webServer: {
     command: "npm run dev -- --port 5173",

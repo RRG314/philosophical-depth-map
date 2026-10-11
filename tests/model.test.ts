@@ -211,3 +211,20 @@ describe("progress and version invariants", () => {
       new Set(["question", "concept", "position", "argument", "objection"]),
     ));
 });
+
+describe("adversarial engagement accounting", () => {
+  it("gives equal exploration credit to retention and revision", () => {
+    const s = emptyState();
+    s.answers = [make()];
+    const retained = xp(s);
+    s.answers[0].revised = true;
+    expect(xp(s)).toBe(retained);
+  });
+  it("does not reward blank or assessment-only records", () => {
+    const s = emptyState();
+    s.answers = [{ ...make(), mode: "assessment" }];
+    expect(xp(s)).toBe(0);
+    s.answers = [{ ...make(), position: "", explanation: "", reply: "" }];
+    expect(xp(s)).toBe(0);
+  });
+});

@@ -1,4 +1,9 @@
-import { generateLab, labRequestSchema } from "./lab-service";
+import questions from "../src/data/questions.json";
+import {
+  generateLab,
+  labRequestSchema,
+  validateLabRequest,
+} from "./lab-service";
 import { generate, openAIProvider, requestSchema } from "./service";
 export interface Env {
   OPENAI_API_KEY?: string;
@@ -26,7 +31,11 @@ export class Limits {
     private env: Env,
   ) {}
   async fetch(req: Request) {
-    const { ip } = (await req.json()) as { ip: string };
+    const body = (await req.json()) as {
+      ip?: string;
+      reservationId?: string;
+      tokens?: number;
+    };
     const caps = [
       this.env.DAILY_CALL_CAP,
       this.env.PER_IP_CAP,
@@ -35,29 +44,53 @@ export class Limits {
     if (caps.some((n) => !Number.isSafeInteger(n) || n <= 0))
       return json({ allowed: false });
     const day = new Date().toISOString().slice(0, 10);
-    const allowed = await this.state.storage.transaction(async (tx) => {
+    const result = await this.state.storage.transaction(async (tx) => {
       const old = await tx.get<{
         day: string;
         calls: number;
         reserved: number;
         ips: Record<string, number>;
+        pending?: Record<string, number>;
       }>("budget");
       const value =
-        old?.day === day ? old : { day, calls: 0, reserved: 0, ips: {} };
+        old?.day === day
+          ? old
+          : { day, calls: 0, reserved: 0, ips: {}, pending: {} };
+      value.pending ??= {};
+      if (new URL(req.url).pathname === "/settle") {
+        const id = body.reservationId;
+        if (
+          !id ||
+          !Object.hasOwn(value.pending, id) ||
+          !Number.isSafeInteger(body.tokens) ||
+          body.tokens! < 1
+        )
+          return { allowed: false };
+        // Only trusted provider usage can release a reservation; unknown usage stays charged.
+        value.reserved += body.tokens! - value.pending[id];
+        delete value.pending[id];
+        await tx.put("budget", value);
+        return { allowed: true };
+      }
+      const ip = body.ip;
       if (
-        value.calls >= Number(this.env.DAILY_CALL_CAP) ||
-        (value.ips[ip] || 0) >= Number(this.env.PER_IP_CAP) ||
-        value.reserved + 40000 > Number(this.env.DAILY_TOKEN_CAP)
+        !ip ||
+        !/^[a-zA-Z0-9_-]{1,128}$/.test(ip) ||
+        value.calls >= caps[0] ||
+        (Object.hasOwn(value.ips, ip) ? value.ips[ip] : 0) >= caps[1] ||
+        value.reserved + 40000 > caps[2]
       )
-        return false;
+        return { allowed: false };
+      const reservationId = crypto.randomUUID();
       value.calls++;
       value.reserved += 40000;
-      value.ips[ip] = (value.ips[ip] || 0) + 1;
+      value.ips[ip] = (Object.hasOwn(value.ips, ip) ? value.ips[ip] : 0) + 1;
+      value.pending[reservationId] = 40000;
       await tx.put("budget", value);
-      return true;
+      return { allowed: true, reservationId };
     });
     await this.state.storage.setAlarm(Date.now() + 86400000);
-    return json({ allowed });
+    return json(result);
   }
   async alarm() {
     await this.state.storage.deleteAll();
@@ -136,8 +169,19 @@ export default {
         );
       const qid =
         "questionId" in raw.data ? raw.data.questionId : raw.data.problemId;
-      if (path !== "/lab" && !/^[a-z]+-\d{2}$/.test(qid))
+      if (path !== "/lab" && !questions.some((q) => q.id === qid))
         return json({ error: "Invalid item" }, 400, headers);
+      if (path === "/lab") {
+        try {
+          validateLabRequest(raw.data);
+        } catch {
+          return json(
+            { error: "Invalid intervention or history" },
+            400,
+            headers,
+          );
+        }
+      }
       const day = new Date().toISOString().slice(0, 10);
       const ip = req.headers.get("CF-Connecting-IP") || "local";
       const digest = await crypto.subtle.digest(
@@ -151,9 +195,13 @@ export default {
         "https://internal/reserve",
         { method: "POST", body: JSON.stringify({ ip: hash }) },
       );
-      if (!((await limit.json()) as { allowed: boolean }).allowed)
+      const allowance = (await limit.json()) as {
+        allowed: boolean;
+        reservationId?: string;
+      };
+      if (!allowance.allowed)
         return json({ error: "Daily service allowance reached" }, 429, headers);
-      return json(
+      const result =
         path === "/lab"
           ? await generateLab(
               raw.data,
@@ -165,11 +213,29 @@ export default {
               path === "/guide" ? "guide" : "evaluate",
               raw.data,
               openAIProvider(env.OPENAI_API_KEY, model),
-            ),
-        200,
-        headers,
-      );
-    } catch {
+            );
+      const usage = "tokenUsage" in result ? result.tokenUsage : result.usage;
+      const tokens = usage.inputTokens + usage.outputTokens;
+      if (
+        allowance.reservationId &&
+        Number.isSafeInteger(tokens) &&
+        tokens > 0
+      ) {
+        await env.LIMITS.get(env.LIMITS.idFromName("global")).fetch(
+          "https://internal/settle",
+          {
+            method: "POST",
+            body: JSON.stringify({
+              reservationId: allowance.reservationId,
+              tokens,
+            }),
+          },
+        );
+      }
+      return json(result, 200, headers);
+    } catch (error) {
+      if (error instanceof SyntaxError)
+        return json({ error: "Malformed JSON" }, 400, headers);
       return json(
         {
           error: "Request could not be completed; local progress is unaffected",

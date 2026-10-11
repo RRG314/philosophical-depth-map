@@ -48,6 +48,7 @@ test("complete local exploration, persistence, assessment, export/import and del
   expect(path).toBeTruthy();
   page.once("dialog", (d) => d.accept());
   await page.getByRole("button", { name: "Delete all local data" }).click();
+  await expect(page.getByRole("status")).toContainText("Local journal reset");
   await page.reload();
   await page.goto("/#progress");
   await expect(page.getByText("0 responses", { exact: true })).toBeVisible();
