@@ -1,0 +1,5 @@
+Original prompt: Build Philosophical Depth Map from the full PROJECT_BRIEF.md. Separate knowledge, reasoning evidence and exploration. Deliver a local-first ocean game, 160 curated questions, research groundwork, optional secure backend, tested deployment artifacts. DDEH is paused.
+
+2026-10-10: Created an independent repository. GitHub Pages is the requested host; Sites hosting is not used because the explicit stack/hosting requirement takes precedence. DOM forms and SVG replace a canvas-only UI for screen-reader access. Game debug hooks retained. No human research collection authorized.
+
+2026-10-10: Game, content, research documents, Worker, database and Python analysis implemented. Vitest 18 passes; full desktop/mobile journey passed; axe fixes completed and 13 public routes pass. Provided game-client screenshot/state inspected. Local Worker shows AI unconfigured and research disabled. Persistent checklist and verification record added. Remaining release: publish GitHub repository, observe CI/Pages, smoke actual URL and update records. No live AI, no study data, no calibration.

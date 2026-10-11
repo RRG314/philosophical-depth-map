@@ -1,0 +1,32 @@
+{
+  "synthetic": true,
+  "seed": 20261010,
+  "groups": {
+    "justification|fixture-human|pre": {
+      "n": 2,
+      "missing": 1,
+      "sum": 4.0,
+      "applicable_maximum": 8.0,
+      "mean": 2.0,
+      "proportion_of_maximum": 0.5
+    },
+    "justification|fixture-human|post": {
+      "n": 3,
+      "missing": 0,
+      "sum": 5.0,
+      "applicable_maximum": 12.0,
+      "mean": 1.6666666666666667,
+      "proportion_of_maximum": 0.4166666666666667
+    }
+  },
+  "items": {
+    "ethics-02": {
+      "n": 5,
+      "missing": 1,
+      "sum": 9.0,
+      "applicable_maximum": 20.0,
+      "mean": 1.8,
+      "proportion_of_maximum": 0.45
+    }
+  }
+}

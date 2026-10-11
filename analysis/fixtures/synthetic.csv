@@ -1,0 +1,7 @@
+participant,item,version,dimension,rater,occasion,score,maximum,synthetic
+fixture-a,ethics-02,1.0,justification,fixture-human,pre,1,4,true
+fixture-b,ethics-02,1.0,justification,fixture-human,pre,3,4,true
+fixture-c,ethics-02,1.0,justification,fixture-human,pre,NA,4,true
+fixture-a,ethics-02,1.0,justification,fixture-human,post,2,4,true
+fixture-b,ethics-02,1.0,justification,fixture-human,post,3,4,true
+fixture-c,ethics-02,1.0,justification,fixture-human,post,0,4,true
