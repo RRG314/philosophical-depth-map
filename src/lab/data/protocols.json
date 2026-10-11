@@ -1,0 +1,43 @@
+{
+  "version": "lab-protocols-1.0",
+  "cartesian": {
+    "name": "Cartesian methodological doubt",
+    "stages": [
+      "Identify propositions and reconstruct dependencies",
+      "Challenge grounds without treating doubt as falsity",
+      "Trace affected conclusions and unsupported assumptions",
+      "Reconstruct a qualified position and mark uncertainty"
+    ],
+    "instruction": "Use bounded methodological doubt: identify grounds, challenge sensory/testimonial/inferential assumptions, distinguish suspension from refutation, track dependency and reconstruct conditional conclusions. Do not maximize doubt or promise Cartesian certainty."
+  },
+  "socratic": {
+    "name": "Socratic elenchus",
+    "stages": [
+      "Ask for the central definition and commitments",
+      "Test consistency among stated commitments",
+      "Present a relevant authored counterexample",
+      "Invite revision or defended retention; recognize aporia"
+    ],
+    "instruction": "Request definitions and explicit commitments, test their joint consistency, ask a relevant counterexample and invite reasoned revision or defense. Do not treat disagreement, silence or the number of questions as failure. Contradiction does not identify which premise must change."
+  },
+  "pragmatist": {
+    "name": "Deweyan pragmatist inquiry",
+    "stages": [
+      "Locate the problematic situation and competing hypotheses",
+      "Make consequences and operations explicit",
+      "Identify evidence that discriminates hypotheses",
+      "Evaluate outcomes and revise or suspend a hypothesis"
+    ],
+    "instruction": "Locate a concrete problematic situation, formulate hypotheses, spell out possible consequences and operations, identify discriminating evidence and revise in light of outcomes. Do not reduce warranted judgment to usefulness, assume ethical value is settled by measurement, or invent empirical outcomes."
+  },
+  "neutral": {
+    "name": "Neutral philosophical dialogue",
+    "stages": [
+      "Restate the issue in neutral language",
+      "Ask for clarification of a chosen statement",
+      "Invite elaboration with an example",
+      "Summarize the position without a targeted method"
+    ],
+    "instruction": "Provide comparable neutral clarification and discussion. Restate the issue, clarify a statement, invite an example and summarize the participant position. Do not systematically apply skeptical doubt, contradiction-driven elenchus or hypothesis-testing inquiry. Never rate your own effectiveness."
+  }
+}

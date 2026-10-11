@@ -1,3 +1,6 @@
 OPENAI_API_KEY=replace-locally
 IP_HASH_SALT=replace-with-a-random-secret
 AI_MODEL=choose-supported-tested-snapshot
+
+# One pinned model shared by all four Lab conditions; supports structured outputs and temperature 1.
+LAB_MODEL=choose-supported-tested-snapshot

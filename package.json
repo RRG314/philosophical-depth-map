@@ -1,6 +1,6 @@
 {
   "name": "philosophical-depth-map",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,7 +14,8 @@
     "check": "npm run lint && npm run typecheck && npm run build && npm test",
     "server:dev": "wrangler dev --config server/wrangler.toml",
     "server:deploy": "wrangler deploy --config server/wrangler.toml",
-    "test:analysis": "python3 -m unittest discover -s analysis -p 'test_*.py'"
+    "test:analysis": "python3 -m unittest discover -s analysis -p 'test_*.py'",
+    "test:lab-python": "python3 -m unittest discover -s lab/python -p 'test_*.py'"
   },
   "dependencies": {
     "idb": "^8.0.4",

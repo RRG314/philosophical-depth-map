@@ -44,3 +44,10 @@ AI is optional: [service setup](server/README.md). PostgreSQL: [migration and di
 The item bank has structural/editorial review, not independent expert validation. Difficulty labels are hypotheses. The fixed assessment is standardized in delivery only; it is not psychometrically standardized or calibrated. Current summaries are self-ratings, not latent proficiency. Examples are illustrative, not required philosophical opinions. Content and bibliography need broader cultural and specialist review. No human subjects, norms, efficacy findings, novelty claim or ethics approval are represented.
 
 AI credentials and Cloudflare deployment are not bundled. Mock-provider tests are engineering tests, not live model evaluation. Research accounts, cloud sync, a rater dashboard, production consent/withdrawal services, full dialogue and validated adaptive testing are future work. Advanced R analysis is gated and not yet numerically tested. All synthetic records are clearly identified. See the checklist for exact release status.
+
+
+## Philosophical Reasoning Lab (0.2)
+
+A separate application at `/#lab` compares four versioned dialogue conditions, with deterministic browser/Python engines and an optional common-model backend. It includes 60 structured intervention problems, 18 disjoint assessment items, local experiment rehearsal, replayable history, blind human scoring and separate fidelity review. `/#learn` provides 46 verified reading links. Original Depth Map data and routes remain separate.
+
+Start with [Lab documentation](lab/README.md), [methodology](lab/research/METHODOLOGY.md), [literature review](lab/research/LITERATURE_REVIEW.md), [annotated bibliography](lab/research/ANNOTATED_BIBLIOGRAPHY.md) and [integration specification](lab/INTEGRATION.md). Research collection remains disabled. AI execution requires server credentials; no efficacy or psychometric validation is claimed.

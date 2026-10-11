@@ -1,0 +1,2 @@
+# Only the optional coordinator collector requires a third-party package.
+psycopg[binary]==3.3.6

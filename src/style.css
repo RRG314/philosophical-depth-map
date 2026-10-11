@@ -918,3 +918,11 @@ main:focus {
     padding: 12px;
   }
 }
+
+/* Shared navigation accommodates the separate research and reading applications. */
+.topbar nav{gap:20px}.topbar .brand{flex-shrink:0;margin-right:20px}
+@media(max-width:800px){.topbar{flex-wrap:wrap;gap:15px}.topbar nav{width:100%;justify-content:space-between;gap:8px;flex-wrap:wrap}.topbar nav>a{font-size:.8rem}}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* Secondary controls retain contrast while hovered or keyboard-focused. */
+button.secondary:hover, a.button.secondary:hover, button.secondary:focus-visible { background:#dce9e5; color:#193d43; }

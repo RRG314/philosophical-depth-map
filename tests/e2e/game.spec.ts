@@ -133,6 +133,10 @@ test("all pages, keyboard focus, mobile overflow and automated accessibility", a
     ).toBe(true);
   }
   await page.goto("/");
+  await expect(
+    page.getByRole("link", { name: "Skip to content" }),
+  ).toBeAttached();
+  await expect(page.locator("main h1")).toBeVisible();
   await page.keyboard.press("Tab");
   await expect(
     page.getByRole("link", { name: "Skip to content" }),
@@ -147,13 +151,11 @@ test("invalid import leaves journal intact and reduced motion works", async ({
   await page.goto("/#settings");
   await expect(page.getByLabel("Allow gentle motion")).not.toBeChecked();
   await page.getByLabel("Local journal name").fill("My test journal");
-  await page
-    .getByLabel("Import a progress file")
-    .setInputFiles({
-      name: "bad.json",
-      mimeType: "application/json",
-      buffer: Buffer.from('{"version":99}'),
-    });
+  await page.getByLabel("Import a progress file").setInputFiles({
+    name: "bad.json",
+    mimeType: "application/json",
+    buffer: Buffer.from('{"version":99}'),
+  });
   await expect(page.getByRole("status")).toContainText("Import rejected");
   await expect(page.getByLabel("Local journal name")).toHaveValue(
     "My test journal",

@@ -1,7 +1,9 @@
+import { generateLab, labRequestSchema } from "./lab-service";
 import { generate, openAIProvider, requestSchema } from "./service";
 export interface Env {
   OPENAI_API_KEY?: string;
   AI_MODEL?: string;
+  LAB_MODEL?: string;
   ALLOWED_ORIGINS: string;
   LIMITS: DurableObjectNamespace;
   DAILY_CALL_CAP: string;
@@ -67,6 +69,9 @@ export default {
     if (path === "/health")
       return json({
         status: "ok",
+        labConfigured: Boolean(
+          env.OPENAI_API_KEY && env.LAB_MODEL && env.IP_HASH_SALT,
+        ),
         aiConfigured: Boolean(
           env.OPENAI_API_KEY && env.AI_MODEL && env.IP_HASH_SALT,
         ),
@@ -90,11 +95,12 @@ export default {
         503,
         headers,
       );
-    if (!["/guide", "/evaluate"].includes(path))
+    if (!["/guide", "/evaluate", "/lab"].includes(path))
       return json({ error: "Not found" }, 404, headers);
     if (req.method !== "POST")
       return json({ error: "POST required" }, 405, headers);
-    if (!env.OPENAI_API_KEY || !env.AI_MODEL || !env.IP_HASH_SALT)
+    const model = path === "/lab" ? env.LAB_MODEL : env.AI_MODEL;
+    if (!env.OPENAI_API_KEY || !model || !env.IP_HASH_SALT)
       return json({ error: "Optional AI is not configured" }, 503, headers);
     if (!req.headers.get("Content-Type")?.startsWith("application/json"))
       return json({ error: "JSON required" }, 415, headers);
@@ -119,17 +125,18 @@ export default {
         bytes.set(part, offset);
         offset += part.length;
       }
-      const raw = requestSchema.safeParse(
-        JSON.parse(new TextDecoder().decode(bytes)),
-      );
+      const raw = (
+        path === "/lab" ? labRequestSchema : requestSchema
+      ).safeParse(JSON.parse(new TextDecoder().decode(bytes)));
       if (!raw.success)
         return json(
           { error: "Invalid request or missing consent" },
           400,
           headers,
         );
-      const qid = raw.data.questionId;
-      if (!/^[a-z]+-\d{2}$/.test(qid))
+      const qid =
+        "questionId" in raw.data ? raw.data.questionId : raw.data.problemId;
+      if (path !== "/lab" && !/^[a-z]+-\d{2}$/.test(qid))
         return json({ error: "Invalid item" }, 400, headers);
       const day = new Date().toISOString().slice(0, 10);
       const ip = req.headers.get("CF-Connecting-IP") || "local";
@@ -147,11 +154,18 @@ export default {
       if (!((await limit.json()) as { allowed: boolean }).allowed)
         return json({ error: "Daily service allowance reached" }, 429, headers);
       return json(
-        await generate(
-          path === "/guide" ? "guide" : "evaluate",
-          raw.data,
-          openAIProvider(env.OPENAI_API_KEY, env.AI_MODEL),
-        ),
+        path === "/lab"
+          ? await generateLab(
+              raw.data,
+              openAIProvider(env.OPENAI_API_KEY, model, fetch, {
+                temperature: 1,
+              }),
+            )
+          : await generate(
+              path === "/guide" ? "guide" : "evaluate",
+              raw.data,
+              openAIProvider(env.OPENAI_API_KEY, model),
+            ),
         200,
         headers,
       );

@@ -1,3 +1,4 @@
+import SiteHeader from "./components/SiteHeader";
 import { useEffect, useRef, useState } from "react";
 import type { FormEvent, CSSProperties } from "react";
 import questionsData from "./data/questions.json";
@@ -555,55 +556,7 @@ export default function App() {
       >
         Skip to content
       </a>
-      <header className="topbar">
-        <a className="brand" href="#home">
-          <span className="brand-mark" aria-hidden="true">
-            ◒
-          </span>
-          <span>
-            PHILOSOPHICAL
-            <br />
-            <b>DEPTH MAP</b>
-          </span>
-        </a>
-        <nav aria-label="Main navigation">
-          <a
-            href="#explore"
-            aria-current={page === "explore" ? "page" : undefined}
-          >
-            Explore
-          </a>
-          <a href="#map" aria-current={page === "map" ? "page" : undefined}>
-            The map
-          </a>
-          <a
-            href="#progress"
-            aria-current={page === "progress" ? "page" : undefined}
-          >
-            My journal
-          </a>
-          <details className="menu">
-            <summary>More</summary>
-            <div>
-              {routes
-                .filter((r) => !["explore", "map"].includes(r[0]))
-                .map((r) => (
-                  <a
-                    key={r[0]}
-                    href={"#" + r[0]}
-                    onClick={(e) =>
-                      e.currentTarget
-                        .closest("details")
-                        ?.removeAttribute("open")
-                    }
-                  >
-                    {r[1]}
-                  </a>
-                ))}
-            </div>
-          </details>
-        </nav>
-      </header>
+      <SiteHeader />
       <main id="main-content" tabIndex={-1} ref={main}>
         {notice && (
           <div className="notice" role="status">

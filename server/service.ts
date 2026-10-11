@@ -35,9 +35,13 @@ export function openAIProvider(
   key: string,
   model: string,
   transport: typeof fetch = fetch,
+  parameters: { temperature?: number } = {},
 ): Provider {
   return async (instructions, input, schema) => {
-    if (new TextEncoder().encode(instructions + input + JSON.stringify(schema)).length > 36000)
+    if (
+      new TextEncoder().encode(instructions + input + JSON.stringify(schema))
+        .length > 36000
+    )
       throw Error("Provider input bound exceeded");
     const response = await transport("https://api.openai.com/v1/responses", {
       method: "POST",
@@ -51,6 +55,7 @@ export function openAIProvider(
         instructions,
         input,
         max_output_tokens: 1800,
+        ...parameters,
         text: {
           format: {
             type: "json_schema",
