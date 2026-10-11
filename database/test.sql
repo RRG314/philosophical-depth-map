@@ -12,4 +12,14 @@ DO $$ BEGIN IF (SELECT count(*) FROM pdm.participants)<>1 THEN RAISE EXCEPTION '
 DO $$ BEGIN INSERT INTO pdm.participants VALUES ('00000000-0000-4000-8000-000000000003',now(),NULL); RAISE EXCEPTION 'Write unexpectedly allowed'; EXCEPTION WHEN insufficient_privilege THEN NULL; END $$;
 RESET ROLE;
 DO $$ BEGIN INSERT INTO pdm.sessions VALUES ('00000000-0000-4000-8000-000000000010','00000000-0000-4000-8000-000000000099','explore',now(),NULL);RAISE EXCEPTION 'Foreign key failed'; EXCEPTION WHEN foreign_key_violation THEN NULL; END $$;
+INSERT INTO pdm.questions VALUES ('fixture','1','ethics','{}','uncalibrated');
+INSERT INTO pdm.rubrics VALUES ('reasoning','1','{}');
+INSERT INTO pdm.sessions(id,participant_id,mode) VALUES ('00000000-0000-4000-8000-000000000010','00000000-0000-4000-8000-000000000001','explore');
+DO $$ BEGIN INSERT INTO pdm.responses(id,participant_id,session_id,question_id,question_version,original_text) VALUES ('00000000-0000-4000-8000-000000000020','00000000-0000-4000-8000-000000000002','00000000-0000-4000-8000-000000000010','fixture','1','Synthetic'); RAISE EXCEPTION 'Cross-owner session accepted'; EXCEPTION WHEN foreign_key_violation THEN NULL; END $$;
+INSERT INTO pdm.responses(id,participant_id,session_id,question_id,question_version,original_text) VALUES ('00000000-0000-4000-8000-000000000020','00000000-0000-4000-8000-000000000001','00000000-0000-4000-8000-000000000010','fixture','1','Synthetic');
+SET LOCAL ROLE pdm_test_reader;
+SET LOCAL pdm.participant_id='00000000-0000-4000-8000-000000000002';
+DO $$ BEGIN IF (SELECT count(*) FROM pdm.responses)<>0 THEN RAISE EXCEPTION 'Other response leaked'; END IF; END $$;
+RESET ROLE;
+DO $$ BEGIN INSERT INTO pdm.ratings(id,participant_id,response_id,dimension,score,applicable_max,rationale,rater_type,rater_id,rubric_id,rubric_version) VALUES ('00000000-0000-4000-8000-000000000030','00000000-0000-4000-8000-000000000001','00000000-0000-4000-8000-000000000020','justification',4,4,'Missing quote must fail','self','fixture','reasoning','1');RAISE EXCEPTION 'Missing evidence accepted';EXCEPTION WHEN check_violation THEN NULL;END $$;
 ROLLBACK;

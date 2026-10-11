@@ -11,14 +11,14 @@
 - [x] Local IndexedDB, import/export/delete, consent reset on import.
 - [x] Optional AI adapter + Worker; schema/evidence/consent/rate checks; dry-run packaging.
 - [x] PostgreSQL migration and disposable participant-isolation/write-denial tests.
-- [x] Python cleaning/descriptive/reliability tools and six unit tests; synthetic fixture labeling.
+- [x] Python cleaning/descriptive/reliability tools and seven unit tests; synthetic fixture labeling.
 - [x] Desktop/mobile full gameplay, assessment and storage tests; 13-page axe checks.
 - [x] Security/privacy/architecture/contribution/license/release/roadmap documents.
 
-## Release verification in progress
-- [ ] Publish repository and complete GitHub Actions deployment.
-- [ ] Verify actual production URL, hash navigation and assets.
-- [ ] Record final release commit, current test results and limitations.
+## Release verification
+- [x] Publish repository and complete GitHub Actions deployment.
+- [x] Verify actual production URL, hash navigation and assets.
+- [x] Record current test results, deployment run and limitations in VERIFICATION.md; latest hardening commit is visible in Git history.
 
 ## Deliberately unavailable / external gates
 - [ ] Live AI: requires provider credentials, selected model, Cloudflare account and processor terms; no live model reliability claim.

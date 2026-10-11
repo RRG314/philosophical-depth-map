@@ -2,6 +2,8 @@
 
 Start with a question. Follow your reasoning. See where it takes you.
 
+[Play the public prototype](https://rrg314.github.io/philosophical-depth-map/) · [Source and release history](https://github.com/RRG314/philosophical-depth-map)
+
 An ocean-themed, local-first philosophical exploration game. This is a separate project from DDEH. It separates concept knowledge, observed reasoning evidence and exploration rewards. It does not measure intelligence, moral worth or a validated universal philosophical depth.
 
 ## Run

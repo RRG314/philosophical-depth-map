@@ -16,3 +16,9 @@ Implemented accessible DOM/SVG game, local journal, strict import, anchored evid
 ## Phase E — release preparation
 
 Added CI/Pages workflow, security/privacy/architecture/license/contribution docs and versioned roadmap. Remaining: public repo publication, actual workflow verification and production smoke checks, final checklist. Commits use agent authorship; no user Git author identity was configured in this new repository.
+
+## Phase F — public release and hardening
+
+Published public repository RRG314/philosophical-depth-map. GitHub Actions run 38109807934 passed and deployed Pages. Production HTTP 200 and mobile hash-route/draft reload smoke passed without page errors. Initial commits: 6790225 (game/research), 4705145 (service/schema/analysis/pipeline). Final hardening includes readable formatting, actual connected concept selection, typed graph node detail, saved rubric draft notes, per-domain summaries, all-achievement/version/evaluator tests and matrix validation; 22 Vitest, seven Python and six browser cases. Research remains disabled; optional provider credentials and institutional approval are external gates. R model fitting and live AI fairness remain unvalidated.
+
+Continuation: consult CHECKLIST.md/VERIFICATION.md and latest Actions status. Future product phases are ROADMAP.md, not unfinished hidden functions in the public UI. Before enabling AI, complete server/README.md deployment and processor disclosure. Before research, institutional review plus real authenticated consent/withdrawal infrastructure is required. Do not infer scientific validity from software completion.

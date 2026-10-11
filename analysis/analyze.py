@@ -27,7 +27,12 @@ def weighted_kappa(a,b):
     expected=sum((x-y)**2 for x,_ in pairs for _,y in pairs)/(n*n)
     return 1-observed/expected if expected else None
 
+def validate_matrix(matrix):
+    if matrix and (len({len(r) for r in matrix})!=1 or any(v is not None and (not isinstance(v,(float,int)) or not math.isfinite(v) or v not in range(5)) for r in matrix for v in r)):
+        raise ValueError('Rectangular matrix of 0–4/None scores required')
+
 def alpha(matrix):
+    validate_matrix(matrix)
     complete=[row for row in matrix if all(x is not None for x in row)]
     if len(complete)<2 or len(complete[0])<2:return None
     k=len(complete[0]);total=statistics.variance([sum(row) for row in complete])
@@ -35,6 +40,7 @@ def alpha(matrix):
 
 def icc2(matrix):
     """Two-way random, single-measure absolute agreement ICC(2,1); complete rows."""
+    validate_matrix(matrix)
     x=[r for r in matrix if all(v is not None for v in r)]
     if len(x)<2 or len(x[0])<2:return None
     n,k=len(x),len(x[0]);rows=[statistics.mean(r) for r in x];cols=[statistics.mean(c) for c in zip(*x)];grand=statistics.mean(rows)
@@ -63,7 +69,8 @@ def plot_trajectory(rows,path):
     circles=''.join(f'<circle cx="{x}" cy="{y}" r="4" fill="#176b70"/>' for x,y in points)
     import html
     labels=''.join(f'<text x="{50+i*500/max(1,len(occasions)-1)}" y="290" text-anchor="middle">{html.escape(o)}</text>' for i,o in enumerate(occasions))
-    path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" role="img"><title>Descriptive means by occasion; synthetic if input is synthetic</title><rect width="600" height="330" fill="white"/><path d="M50 40V260H560" stroke="black" fill="none"/>{circles}{labels}<text x="20" y="25">Ordinal self/rater means — no causal or latent claim</text></svg>')
+    label='SYNTHETIC ENGINEERING FIXTURE' if all(r.get('synthetic')=='true' for r in rows) else 'Descriptive observed means'
+    path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" role="img"><title>Descriptive means by occasion; synthetic if input is synthetic</title><rect width="600" height="330" fill="white"/><path d="M50 40V260H560" stroke="black" fill="none"/>{circles}{labels}<text x="20" y="25">{label} — no causal or latent claim</text></svg>')
 
 def run(source,out):
     rows=clean(list(csv.DictReader(source.open())));out.mkdir(parents=True,exist_ok=True)
