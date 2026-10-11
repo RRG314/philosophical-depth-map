@@ -247,7 +247,12 @@ export default function Expedition({
                 ) : (
                   <button
                     className="primary"
-                    onClick={() => onStart(stops[selected].question)}
+                    onClick={() => {
+                      const question = stops[selected].question;
+                      reading.current?.close();
+                      setSelected(null);
+                      onStart(question);
+                    }}
                   >
                     Open inquiry →
                   </button>

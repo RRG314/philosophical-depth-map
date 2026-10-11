@@ -119,6 +119,7 @@ test("3D habitats, controls, equivalent text path, draft protection and shared j
   });
   await page.locator(".station-cards button").first().click();
   await page.getByRole("button", { name: "Open inquiry →" }).click();
+  await expect(page).toHaveURL(/#play/);
   await page.goto("/#expedition");
   await page.locator(".station-cards button").first().click();
   await expect(
@@ -238,5 +239,14 @@ test("ocean markers open readable questions and camera drags do not select", asy
     .getByRole("button", { name: "Open inquiry →", exact: true })
     .click();
   await expect(page).toHaveURL(/#play/);
+  await page.goto("/#expedition/4");
+  await expect(page.getByRole("dialog")).not.toBeVisible();
+  await page.locator(".station-cards button").first().click();
+  await expect(
+    page.getByRole("link", { name: "Resume draft", exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", { name: "Keep exploring", exact: true })
+    .click();
   expect(errors).toEqual([]);
 });
