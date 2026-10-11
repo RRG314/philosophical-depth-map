@@ -1,0 +1,4438 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2026-10-10T20:23:33Z",
+      "timestamp": 1791663813727,
+      "version": "4.3.4"
+    },
+    "reference-count": 172,
+    "publisher": "Wiley",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              14
+            ]
+          ],
+          "date-time": "2013-03-14T00:00:00Z",
+          "timestamp": 1363219200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 13,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Educational Measurement"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:p>To validate an interpretation or use of test scores is to evaluate the plausibility of the claims based on the scores. An argument\u2010based approach to validation suggests that the claims based on the test scores be outlined as an argument that specifies the inferences and supporting assumptions needed to get from test responses to score\u2010based interpretations and uses. Validation then can be thought of as an evaluation of the coherence and completeness of this interpretation/use argument and of the plausibility of its inferences and assumptions. In outlining the argument\u2010based approach to validation, this paper makes eight general points. First, it is the proposed score interpretations and uses that are validated and not the test or the test scores. Second, the validity of a proposed interpretation or use depends on how well the evidence supports the claims being made. Third, more\u2010ambitious claims require more support than less\u2010ambitious claims. Fourth, more\u2010ambitious claims (e.g., construct interpretations) tend to be more useful than less\u2010ambitious claims, but they are also harder to validate. Fifth, interpretations and uses can change over time in response to new needs and new understandings leading to changes in the evidence needed for validation. Sixth, the evaluation of score uses requires an evaluation of the consequences of the proposed uses; negative consequences can render a score use unacceptable. Seventh, the rejection of a score use does not necessarily invalidate a prior, underlying score interpretation. Eighth, the validation of the score interpretation on which a score use is based does not validate the score use.</jats:p>",
+    "DOI": "10.1111/jedm.12000",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2013-03-14T22:48:33Z",
+      "timestamp": 1363301313000
+    },
+    "page": "1-73",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1670,
+    "title": [
+      "Validating the Interpretations and Uses of Test Scores"
+    ],
+    "prefix": "10.1111",
+    "volume": "50",
+    "author": [
+      {
+        "given": "Michael T.",
+        "family": "Kane",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Educational Testing Service"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/applin/14.2.115"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "volume-title": "Standards for educational and psychological tests and manuals",
+        "author": "American Psychological Association, American Educational Research Association, & National Council on Measurement in Education",
+        "year": "1966"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "volume-title": "Standards for educational and psychological tests and manuals",
+        "author": "American Psychological Association, American Educational Research Association, & National Council on Measurement in Education",
+        "year": "1974"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "volume-title": "Standards for educational and psychological testing",
+        "author": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education",
+        "year": "1985"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "volume-title": "Standards for educational and psychological testing",
+        "author": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education",
+        "year": "1999"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ps.37.020186.000245"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "first-page": "9",
+        "volume-title": "Test validity",
+        "author": "Angoff W. H.",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.2002.tb00095.x"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/s15434311laq0201_1"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "volume-title": "Language assessment in practice: Developing language assessments and justifying their use in the real world",
+        "author": "Bachman L.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "first-page": "71",
+        "volume-title": "Reasoning in evaluation: Inferential links and leaps",
+        "author": "Blair J.",
+        "year": "1995"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "volume-title": "Paper presented at the meeting of the National Council on Measurement in Education",
+        "author": "Bonner S.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "volume-title": "The discoverers",
+        "author": "Boorstin D.",
+        "year": "1983"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "first-page": "135",
+        "volume-title": "The concept of validity",
+        "author": "Borsboom D.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.111.4.1061"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3984.2001.tb01129.x"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4757-3456-0"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "volume-title": "The logic of modern physics",
+        "author": "Bridgeman P.",
+        "year": "1927"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0061548"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1744-6570.1949.tb01397.x"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "first-page": "221",
+        "volume-title": "Educational measurement",
+        "author": "Camilli G.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0046016"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1744-6570.1983.tb02234.x"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "volume-title": "Through the looking glass. (Original work published 1871.)",
+        "author": "Carroll L.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "first-page": "310",
+        "volume-title": "Personnel selection in organizations",
+        "author": "Cascio W.",
+        "year": "1993"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "first-page": "271",
+        "volume-title": "Adverse impact: Implications for organizational staffing and high stakes selection",
+        "author": "Cascio W.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0267190599190135"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "volume-title": "Building a validity argument for the test of English as a foreign language",
+        "author": "Chapelle C. A.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.2009.00165.x"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/a0026975"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/01466210022031778"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "first-page": "701",
+        "volume-title": "Educational measurement",
+        "author": "Clauser B.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "first-page": "201",
+        "volume-title": "Educational measurement",
+        "author": "Cole N. S.",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "volume-title": "Quasi\u2010experimentation: Design and analysis issues for field settings",
+        "author": "Cook T.",
+        "year": "1979"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "first-page": "443",
+        "volume-title": "Educational measurement",
+        "author": "Cronbach L. J.",
+        "year": "1971"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "first-page": "99",
+        "article-title": "Validity on parole: How can we go straight",
+        "volume": "5",
+        "author": "Cronbach L. J.",
+        "year": "1980",
+        "journal-title": "New Directions for Testing and Measurement: Measuring Achievement Over a Decade"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "volume-title": "Designing evaluations of educational and social programs",
+        "author": "Cronbach L. J.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "first-page": "3",
+        "volume-title": "Test validity",
+        "author": "Cronbach L. J.",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "first-page": "147",
+        "volume-title": "Intelligence: Measurement, theory, and public policy",
+        "author": "Cronbach L. J.",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "volume-title": "Psychological tests and personnel decisions",
+        "author": "Cronbach L. J.",
+        "year": "1965"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.176.4036.785"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0040957"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "volume-title": "Aptitudes and instructional methods: A handbook for research on interactions",
+        "author": "Cronbach L. J.",
+        "year": "1977"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/00346543058004438"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/0969594960030302"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "first-page": "621",
+        "volume-title": "Educational measurement",
+        "author": "Cureton E. E.",
+        "year": "1951"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "unstructured": "Debra P. v. Turlington(1981).644 F. 2d 397 (5th Cir. ) 564 F. Supp. 177 (M. D. Fla. 1983)."
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0021-9010.92.5.1380"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0045478"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "first-page": "18",
+        "volume-title": "Testing problems in perspective: Twenty\u2010fifth anniversary volume of topical readings from the invitational conference in testing problems",
+        "author": "Ebel R.",
+        "year": "1966"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-2909.93.1.179"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02294171"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1082-989X.3.3.380"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511807947.020"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "first-page": "650",
+        "volume-title": "Philosophy of educational research",
+        "author": "Ennis R. H.",
+        "year": "1973"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "first-page": "38290",
+        "article-title": "Adoption by four agencies of Uniform Guidelines on employee selection procedures",
+        "volume": "43",
+        "author": "Equal Employment Opportunity Commission (EEOC), Civil Service Commission, Department of Labor, & Department of Justice",
+        "year": "1979",
+        "journal-title": "Federal Register"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jhbs.20079"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "first-page": "105",
+        "volume-title": "Educational measurement",
+        "author": "Feldt L. S.",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "volume-title": "Social studies assessment results 2001",
+        "author": "Flockton L.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1037/0003-066X.39.3.193",
+        "article-title": "The real test bias",
+        "volume": "39",
+        "author": "Frederiksen N.",
+        "year": "1984",
+        "journal-title": "American Psychologist"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X018009027"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780203449066"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "volume-title": "How do experiments end?",
+        "author": "Galison P.",
+        "year": "1987"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1998.tb00828.x"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "unstructured": "Griggs v. Duke Power Company(1971).401 U.S.424."
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0037624"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/014662167700100103"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0735-7028.11.3.385"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "volume-title": "Assessment, measurement, and prediction for personnel decisions",
+        "author": "Guion R.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/13240-000"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "first-page": "20",
+        "volume-title": "Employment discrimination litigation",
+        "author": "Gutman A.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1999.tb00276.x"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "first-page": "65",
+        "volume-title": "Educational measurement",
+        "author": "Haertel E. H.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0091732X027001025"
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "volume-title": "Fallacies, classical and contemporary readings",
+        "author": "Hansen H.",
+        "year": "1995"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1993.tb00550.x"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "first-page": "225",
+        "volume-title": "Wharton on making decisions",
+        "author": "Hershey J.",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "volume-title": "High stakes: Testing for tracking, promotion, and graduation",
+        "author": "Heubert J. P.",
+        "year": "1999"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "volume-title": "Evaluating with validity",
+        "author": "House E. R.",
+        "year": "1980"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1249/00003677-199401000-00005"
+      },
+      {
+        "key": "e_1_2_9_82_1",
+        "first-page": "485",
+        "volume-title": "Educational measurement",
+        "author": "Jaeger R.",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_9_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/014662168200600201"
+      },
+      {
+        "key": "e_1_2_9_84_1",
+        "first-page": "145",
+        "volume-title": "The future of testing",
+        "author": "Kane M.",
+        "year": "1986"
+      },
+      {
+        "key": "e_1_2_9_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-2909.112.3.527"
+      },
+      {
+        "key": "e_1_2_9_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/s15324818ame0904_4"
+      },
+      {
+        "key": "e_1_2_9_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3984.2002.tb01141.x"
+      },
+      {
+        "key": "e_1_2_9_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.2002.tb00083.x"
+      },
+      {
+        "key": "e_1_2_9_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3917/rhu.016.0017"
+      },
+      {
+        "key": "e_1_2_9_90_1",
+        "volume-title": "Errors of measurement, theory, and public policy",
+        "author": "Kane M.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3984.2010.00128.x"
+      },
+      {
+        "key": "e_1_2_9_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1999.tb00010.x"
+      },
+      {
+        "key": "e_1_2_9_93_1",
+        "volume-title": "Interpretation of educational measurements",
+        "author": "Kelley T.",
+        "year": "1927"
+      },
+      {
+        "key": "e_1_2_9_94_1",
+        "first-page": "155",
+        "volume-title": "Educational measurement",
+        "author": "Kolen M.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_95_1",
+        "first-page": "531",
+        "volume-title": "Educational measurement",
+        "author": "Koretz D. M.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781139171434.009"
+      },
+      {
+        "key": "e_1_2_9_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1998.tb00830.x"
+      },
+      {
+        "key": "e_1_2_9_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.2002.tb00082.x"
+      },
+      {
+        "key": "e_1_2_9_99_1",
+        "first-page": "387",
+        "volume-title": "Educational measurement",
+        "author": "Lane S.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1997.tb00587.x"
+      },
+      {
+        "key": "e_1_2_9_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1998.tb00831.x"
+      },
+      {
+        "issue": "33",
+        "key": "e_1_2_9_102_1",
+        "article-title": "Conflicting demands of No Child Left Behind and state systems: Mixed messages about school performance",
+        "volume": "13",
+        "author": "Linn R. L.",
+        "year": "2005",
+        "journal-title": "Education Policy Analysis Archives"
+      },
+      {
+        "key": "e_1_2_9_103_1",
+        "first-page": "195",
+        "volume-title": "The concept of validity",
+        "author": "Linn R. L.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_9_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X07311286"
+      },
+      {
+        "key": "e_1_2_9_105_1",
+        "first-page": "635",
+        "article-title": "Objective tests as instruments of psychological theory",
+        "volume": "3",
+        "author": "Loevinger J.",
+        "year": "1957",
+        "journal-title": "Psychological Reports, Monograph Supplement"
+      },
+      {
+        "key": "e_1_2_9_106_1",
+        "volume-title": "Statistical theories of mental test scores",
+        "author": "Lord F. M.",
+        "year": "1968"
+      },
+      {
+        "key": "e_1_2_9_107_1",
+        "first-page": "83",
+        "volume-title": "Critical issues in curriculum",
+        "author": "Madaus G. F.",
+        "year": "1988"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_9_108_1",
+        "first-page": "109",
+        "article-title": "Construct validity and achievement assessment",
+        "volume": "40",
+        "author": "Maguire T.",
+        "year": "1994",
+        "journal-title": "The Alberta Journal of Educational Research"
+      },
+      {
+        "key": "e_1_2_9_109_1",
+        "first-page": "113",
+        "volume-title": "Alternate assessment: Proceedings from the 8th Annual MARCES Conference",
+        "author": "Marion S.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_9_110_1",
+        "first-page": "57",
+        "volume-title": "Leaving children behind: How \u201cTexas\u2010style\u201d accountability fails Latino youth",
+        "author": "McNeil L.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_9_111_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.1037/h0058557",
+        "article-title": "On the circularity of the law of effect",
+        "volume": "47",
+        "author": "Meehl P.",
+        "year": "1950",
+        "journal-title": "Psychological Bulletin"
+      },
+      {
+        "key": "e_1_2_9_112_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/11281-000"
+      },
+      {
+        "key": "e_1_2_9_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1997.tb00588.x"
+      },
+      {
+        "key": "e_1_2_9_114_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0003-066X.30.10.955"
+      },
+      {
+        "key": "e_1_2_9_115_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0003-066X.35.11.1012"
+      },
+      {
+        "key": "e_1_2_9_116_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X010009009"
+      },
+      {
+        "key": "e_1_2_9_117_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1982.tb00660.x"
+      },
+      {
+        "key": "e_1_2_9_118_1",
+        "first-page": "33",
+        "volume-title": "Test validity",
+        "author": "Messick S.",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_2_9_119_1",
+        "first-page": "13",
+        "volume-title": "Educational measurement",
+        "author": "Messick S.",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_9_120_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X023002013"
+      },
+      {
+        "key": "e_1_2_9_121_1",
+        "volume-title": "A system of logic",
+        "author": "Mill J. S.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_9_122_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3984.1996.tb00498.x"
+      },
+      {
+        "key": "e_1_2_9_123_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/10769986029002241"
+      },
+      {
+        "key": "e_1_2_9_124_1",
+        "first-page": "257",
+        "volume-title": "Educational measurement",
+        "author": "Mislevy R.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_125_1",
+        "first-page": "83",
+        "volume-title": "The concept of validity",
+        "author": "Mislevy R.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_9_126_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/S15366359MEA0101_02"
+      },
+      {
+        "key": "e_1_2_9_127_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/00346543062003229"
+      },
+      {
+        "key": "e_1_2_9_128_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X023002005"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_9_129_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1111/j.1745-3992.1995.tb00854.x",
+        "article-title": "Themes and variations in validity theory",
+        "volume": "4",
+        "author": "Moss P.",
+        "year": "1995",
+        "journal-title": "Educational Measurement: Issues and Practice"
+      },
+      {
+        "key": "e_1_2_9_130_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1998.tb00826.x"
+      },
+      {
+        "key": "e_1_2_9_131_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X07311608"
+      },
+      {
+        "key": "e_1_2_9_132_1",
+        "volume-title": "Knowing what students know: The science and design of educational assessment",
+        "author": "National Research Council",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_9_133_1",
+        "volume-title": "Lessons learned about testing: Ten years of work at the National Research Council",
+        "author": "National Research Council",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_9_134_1",
+        "unstructured": "No Child Left Behind (NCLB) Act(2002).Pub. L. No. 107\u2013110 115 Stat. 1435."
+      },
+      {
+        "key": "e_1_2_9_135_1",
+        "first-page": "307",
+        "volume-title": "Review of Research on Education",
+        "author": "Pellegrino J. W.",
+        "year": "1999"
+      },
+      {
+        "key": "e_1_2_9_136_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-49771-6_4"
+      },
+      {
+        "key": "e_1_2_9_137_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511800917"
+      },
+      {
+        "key": "e_1_2_9_138_1",
+        "first-page": "376",
+        "volume-title": "Evidence and decision making",
+        "author": "Phillips D.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_9_139_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-017-0783-1"
+      },
+      {
+        "key": "e_1_2_9_140_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1997.tb00586.x"
+      },
+      {
+        "key": "e_1_2_9_141_1",
+        "volume-title": "Conjecture and refutation: The growth of scientific knowledge",
+        "author": "Popper K. R.",
+        "year": "1962"
+      },
+      {
+        "key": "e_1_2_9_142_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1744-6570.2008.00108.x"
+      },
+      {
+        "key": "e_1_2_9_143_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1998.tb00827.x"
+      },
+      {
+        "key": "e_1_2_9_144_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.2002.tb00080.x"
+      },
+      {
+        "key": "e_1_2_9_145_1",
+        "first-page": "113",
+        "volume-title": "Beyond multiple choice: Evaluating alternatives for traditional testing for selection",
+        "author": "Sackett P. R.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_9_146_1",
+        "first-page": "453",
+        "volume-title": "Adverse impact: Implications for organizational staffing and high stakes selection",
+        "author": "Sackett P.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_147_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00143275"
+      },
+      {
+        "key": "e_1_2_9_148_1",
+        "first-page": "255",
+        "volume-title": "The role of constructs in psychological and educational measurement",
+        "author": "Scriven M.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_9_149_1",
+        "volume-title": "Experimental and quasi\u2010experimental designs for generalized causal inference",
+        "author": "Shadish W. R.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_9_150_1",
+        "volume-title": "Generalizability theory: A primer",
+        "author": "Shavelson R. J.",
+        "year": "1991"
+      },
+      {
+        "key": "e_1_2_9_151_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1167347"
+      },
+      {
+        "key": "e_1_2_9_152_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1997.tb00585.x"
+      },
+      {
+        "key": "e_1_2_9_153_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1006985528729"
+      },
+      {
+        "key": "e_1_2_9_154_1",
+        "first-page": "19",
+        "volume-title": "The concept of validity",
+        "author": "Sireci S.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_9_155_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.2000.tb00019.x"
+      },
+      {
+        "key": "e_1_2_9_156_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.2006.00065.x"
+      },
+      {
+        "key": "e_1_2_9_157_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/00346543075004457"
+      },
+      {
+        "key": "e_1_2_9_158_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1412107"
+      },
+      {
+        "key": "e_1_2_9_159_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-3992.1998.tb00829.x"
+      },
+      {
+        "key": "e_1_2_9_160_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0057079"
+      },
+      {
+        "key": "e_1_2_9_161_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1744-6570.1977.tb02320.x"
+      },
+      {
+        "key": "e_1_2_9_162_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0070314"
+      },
+      {
+        "key": "e_1_2_9_163_1",
+        "volume-title": "The uses of argument",
+        "author": "Toulmin S.",
+        "year": "1958"
+      },
+      {
+        "key": "e_1_2_9_164_1",
+        "volume-title": "Return to reason",
+        "author": "Toulmin S.",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_9_165_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0003-066X.47.2.244"
+      },
+      {
+        "key": "e_1_2_9_166_1",
+        "volume-title": "Informal logic: A handbook for critical argumentation",
+        "author": "Walton D.",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_9_167_1",
+        "volume-title": "Ability testing: Uses, consequences, and controversies",
+        "author": "Wigdor A.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_9_168_1",
+        "first-page": "75",
+        "volume-title": "Improving inquiry in social science",
+        "author": "Wiley D.",
+        "year": "1991"
+      },
+      {
+        "key": "e_1_2_9_169_1",
+        "volume-title": "Gender and fair assessment",
+        "author": "Willingham W.",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_9_170_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0265532209349465"
+      },
+      {
+        "key": "e_1_2_9_171_1",
+        "first-page": "111",
+        "volume-title": "Educational measurement",
+        "author": "Yen W.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_172_1",
+        "first-page": "45",
+        "volume-title": "Handbook of statistics, Vol. 26: Psychometrics",
+        "author": "Zumbo B.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_9_173_1",
+        "first-page": "65",
+        "volume-title": "The concept of validity",
+        "author": "Zumbo B.",
+        "year": "2009"
+      }
+    ],
+    "container-title": [
+      "Journal of Educational Measurement"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjedm.12000",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjedm.12000",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jedm.12000",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2023-09-12T05:16:04Z",
+      "timestamp": 1694495764000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jedm.12000"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          3
+        ]
+      ]
+    },
+    "references-count": 172,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/jedm.12000"
+    ],
+    "URL": "https://doi.org/10.1111/jedm.12000",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0022-0655",
+      "1745-3984"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-0655",
+        "type": "print"
+      },
+      {
+        "value": "1745-3984",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2013-03-14",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2026-10-11T01:02:15Z",
+      "timestamp": 1791680535926,
+      "version": "4.3.4"
+    },
+    "reference-count": 0,
+    "publisher": "American Psychological Association (APA)",
+    "issue": "10",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "American Psychologist"
+    ],
+    "DOI": "10.1037/0003-066x.34.10.906",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          6,
+          9
+        ]
+      ],
+      "date-time": "2006-06-09T05:53:16Z",
+      "timestamp": 1149832396000
+    },
+    "page": "906-911",
+    "source": "Crossref",
+    "is-referenced-by-count": 9806,
+    "title": [
+      "Metacognition and cognitive monitoring: A new area of cognitive\u2013developmental inquiry."
+    ],
+    "prefix": "10.1037",
+    "volume": "34",
+    "author": [
+      {
+        "given": "John H.",
+        "family": "Flavell",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "15",
+    "published-online": {
+      "date-parts": [
+        [
+          1979,
+          10
+        ]
+      ]
+    },
+    "container-title": [
+      "American Psychologist"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://psycnet.apa.org/journals/amp/34/10/906.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2024-02-06T16:33:29Z",
+      "timestamp": 1707237209000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://doi.apa.org/doi/10.1037/0003-066X.34.10.906"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1979,
+          10
+        ]
+      ]
+    },
+    "references-count": 0,
+    "aliases": [
+      "10.1037//0003-066x.34.10.906",
+      "10.1037//0003-066x.34.10.906",
+      "10.1037//0003-066x.34.10.906",
+      "10.1037//0003-066x.34.10.906",
+      "10.1037//0003-066x.34.10.906",
+      "10.1037//0003-066x.34.10.906"
+    ],
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            1979,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1980-09388-001"
+    ],
+    "URL": "https://doi.org/10.1037/0003-066x.34.10.906",
+    "relation": {},
+    "ISSN": [
+      "1935-990X",
+      "0003-066X"
+    ],
+    "issn-type": [
+      {
+        "value": "1935-990X",
+        "type": "electronic"
+      },
+      {
+        "value": "0003-066X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1979,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2026-10-08T07:19:21Z",
+      "timestamp": 1791443961348,
+      "version": "4.3.3"
+    },
+    "reference-count": 83,
+    "publisher": "American Educational Research Association (AERA)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2015-06-01T00:00:00Z",
+          "timestamp": 1433116800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Review of Educational Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Critical thinking (CT) is purposeful, self-regulatory judgment that results in interpretation, analysis, evaluation, and inference, as well as explanations of the considerations on which that judgment is based. This article summarizes the available empirical evidence on the impact of instruction on the development and enhancement of critical thinking skills and dispositions and student achievement. The review includes 341 effects sizes drawn from quasi- or true-experimental studies that used standardized measures of CT as outcome variables. The weighted random effects mean effect size ( g+) was 0.30 ( p &lt; .001). The collection was heterogeneous ( p &lt; .001). Results demonstrate that there are effective strategies for teaching CT skills, both generic and content specific, and CT dispositions, at all educational levels and across all disciplinary areas. Notably, the opportunity for dialogue, the exposure of students to authentic or situated problems and examples, and mentoring had positive effects on CT skills.</jats:p>",
+    "DOI": "10.3102/0034654314551063",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2014-09-25T23:22:18Z",
+      "timestamp": 1411687338000
+    },
+    "page": "275-314",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 754,
+    "title": [
+      "Strategies for Teaching Students to Think Critically"
+    ],
+    "prefix": "10.3102",
+    "volume": "85",
+    "author": [
+      {
+        "given": "Philip C.",
+        "family": "Abrami",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Concordia University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert M.",
+        "family": "Bernard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Concordia University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eugene",
+        "family": "Borokhovski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Concordia University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David I.",
+        "family": "Waddington",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Concordia University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C. Anne",
+        "family": "Wade",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Concordia University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tonje",
+        "family": "Persson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Concordia University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1604",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0034654308326084"
+      },
+      {
+        "key": "bibr2-0034654314551063",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.3928/0148-4834-19990301-05",
+        "volume": "38",
+        "author": "Adams B. L.",
+        "year": "1999",
+        "journal-title": "Journal of Nursing Education"
+      },
+      {
+        "key": "bibr3-0034654314551063",
+        "volume-title": "Measuring the impact of forensics and communication education on critical thinking: A meta-analytic summary",
+        "author": "Allen M.",
+        "year": "1997"
+      },
+      {
+        "key": "bibr4-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03634529909379149"
+      },
+      {
+        "key": "bibr5-0034654314551063",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1023/A:1005247128053",
+        "volume": "20",
+        "author": "Alston K.",
+        "year": "2001",
+        "journal-title": "Studies in Philosophy and Education"
+      },
+      {
+        "key": "bibr6-0034654314551063",
+        "author": "Arrufat O.",
+        "year": "1997",
+        "journal-title": "The role of exploration and critical decision making and problem solving in making life choices"
+      },
+      {
+        "key": "bibr7-0034654314551063",
+        "unstructured": "Assessment and Learning Research Synthesis Group. (2003). A systematic review of the impact on students and teachers of the use of ICT for assessment of creative and critical thinking skills. Retrieved from http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=109"
+      },
+      {
+        "key": "bibr8-0034654314551063",
+        "volume-title": "Meta-analysis of effects of explicit instruction for critical thinking",
+        "author": "Bangert-Drowns R. L.",
+        "year": "1990"
+      },
+      {
+        "key": "bibr9-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tsc.2007.11.001"
+      },
+      {
+        "key": "bibr10-0034654314551063",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.1023/A:1005290910306",
+        "volume": "20",
+        "author": "Biesta G. J.",
+        "year": "2001",
+        "journal-title": "Studies in Philosophy and Education"
+      },
+      {
+        "key": "bibr11-0034654314551063",
+        "volume-title": "Solving Canada\u2019s innovation conundrum: How public education can help",
+        "author": "Bloom M.",
+        "year": "2003"
+      },
+      {
+        "key": "bibr12-0034654314551063",
+        "unstructured": "Bonk C. J., Angeli C. M., Malikowski S. R., Supplee L. (2001, August). Holy cow: Scaffolding case based conferencing on the web with preservice teachers. Ed at a Distance, 15. Retrieved from http://209.151.89.205/usdla.org/public_html/cms/html/journal/AUG01_Issue/article01.html"
+      },
+      {
+        "key": "bibr13-0034654314551063",
+        "volume-title": "Comprehensive meta-analysis",
+        "author": "Borenstein M.",
+        "year": "2005"
+      },
+      {
+        "key": "bibr14-0034654314551063",
+        "first-page": "179",
+        "volume-title": "The Canadian anthology of social studies: Issues and strategies for teachers",
+        "author": "Case R.",
+        "year": "1999"
+      },
+      {
+        "key": "bibr15-0034654314551063",
+        "volume-title": "Statistical power analysis for the behavioral sciences",
+        "author": "Cohen J.",
+        "year": "1988",
+        "edition": "2"
+      },
+      {
+        "key": "bibr16-0034654314551063",
+        "author": "Crawford J. A.",
+        "year": "1976",
+        "journal-title": "An investigation of the transfer of critical thinking skills from language arts to social studies"
+      },
+      {
+        "key": "bibr17-0034654314551063",
+        "volume-title": "The child and the curriculum",
+        "author": "Dewey J.",
+        "year": "1902"
+      },
+      {
+        "key": "bibr18-0034654314551063",
+        "volume-title": "The school and the curriculum",
+        "author": "Dewey J.",
+        "year": "1907"
+      },
+      {
+        "key": "bibr19-0034654314551063",
+        "volume-title": "Experience and nature",
+        "author": "Dewey J.",
+        "year": "1925"
+      },
+      {
+        "key": "bibr20-0034654314551063",
+        "first-page": "81",
+        "volume": "32",
+        "author": "Ennis R. H.",
+        "year": "1962",
+        "journal-title": "Harvard Educational Review"
+      },
+      {
+        "key": "bibr21-0034654314551063",
+        "first-page": "9",
+        "volume-title": "Teaching thinking skills: Theory and practice",
+        "author": "Ennis R. H.",
+        "year": "1987"
+      },
+      {
+        "key": "bibr22-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X018003004"
+      },
+      {
+        "key": "bibr23-0034654314551063",
+        "volume-title": "Cornell critical thinking test",
+        "author": "Ennis R. H.",
+        "year": "1985"
+      },
+      {
+        "key": "bibr24-0034654314551063",
+        "volume-title": "The California Critical Thinking Skills Test: College level: Interpreting the CCTST, group norms and sub-scores",
+        "author": "Facione P. A.",
+        "year": "1990"
+      },
+      {
+        "key": "bibr25-0034654314551063",
+        "volume-title": "Critical thinking: A statement of expert consensus for purposes of educational assessment and instruction. Research findings and recommendations",
+        "author": "Facione P. A.",
+        "year": "1990"
+      },
+      {
+        "key": "bibr26-0034654314551063",
+        "volume-title": "The California Critical Thinking Disposition Inventory",
+        "author": "Facione P. A.",
+        "year": "1996"
+      },
+      {
+        "key": "bibr27-0034654314551063",
+        "author": "Faryniarz J. V.",
+        "year": "1989",
+        "journal-title": "The effectiveness of microcomputer simulators to stimulate environmental problem-solving with community college students"
+      },
+      {
+        "key": "bibr28-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/1358165990240104"
+      },
+      {
+        "key": "bibr29-0034654314551063",
+        "volume-title": "Paper presented at the 69th annual meeting of the Speech Communication Association",
+        "author": "Follert V. F.",
+        "year": "1983"
+      },
+      {
+        "key": "bibr30-0034654314551063",
+        "first-page": "71",
+        "volume": "20",
+        "author": "Follman J.",
+        "year": "1987",
+        "journal-title": "Research Bulletin"
+      },
+      {
+        "key": "bibr31-0034654314551063",
+        "first-page": "73",
+        "volume": "13",
+        "author": "Follman J.",
+        "year": "2003",
+        "journal-title": "Korean Journal of Thinking and Problem Solving"
+      },
+      {
+        "key": "bibr32-0034654314551063",
+        "first-page": "41",
+        "volume-title": "The politics of truth",
+        "author": "Foucault M.",
+        "year": "1997"
+      },
+      {
+        "key": "bibr33-0034654314551063",
+        "first-page": "281",
+        "volume-title": "Ethics, subjectivity and truth",
+        "author": "Foucault M.",
+        "year": "1998"
+      },
+      {
+        "key": "bibr34-0034654314551063",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gage N. L., Needels M. C. (1989). Process-product research on teaching: A review of criticisms. The Elementary School Journal, 89, 253\u2013300. Retrieved from http://www.jstor.org/stable/1001805",
+        "DOI": "10.1086/461577"
+      },
+      {
+        "key": "bibr35-0034654314551063",
+        "author": "Glaser E. M.",
+        "year": "1941",
+        "journal-title": "An experiment in the development of critical thinking"
+      },
+      {
+        "key": "bibr36-0034654314551063",
+        "volume-title": "An experiment in the development of critical thinking",
+        "author": "Glaser E. M.",
+        "year": "1941"
+      },
+      {
+        "key": "bibr37-0034654314551063",
+        "volume-title": "Meta-analysis in social research",
+        "author": "Glass G. V.",
+        "year": "1981"
+      },
+      {
+        "key": "bibr38-0034654314551063",
+        "volume-title": "A practical study of argument",
+        "author": "Govier T.",
+        "year": "1985"
+      },
+      {
+        "key": "bibr39-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/09585170050045182"
+      },
+      {
+        "key": "bibr40-0034654314551063",
+        "volume-title": "Statistical methods for meta-analysis",
+        "author": "Hedges L. V.",
+        "year": "1985"
+      },
+      {
+        "key": "bibr41-0034654314551063",
+        "author": "Hedges L. V.",
+        "year": "1989",
+        "journal-title": "A practical guide to modern methods of meta-analysis"
+      },
+      {
+        "key": "bibr42-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/002248710005100106"
+      },
+      {
+        "key": "bibr43-0034654314551063",
+        "volume-title": "Paper presented at the Annual Meeting of the American Educational Research Association",
+        "author": "Housen A.",
+        "year": "2001"
+      },
+      {
+        "key": "bibr44-0034654314551063",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.47925/2003.319",
+        "author": "Hyslop-Margison E. J.",
+        "year": "2003",
+        "journal-title": "Philosophy of Education Society Yearbook"
+      },
+      {
+        "key": "bibr45-0034654314551063",
+        "first-page": "311",
+        "volume-title": "Memoirs, correspondence, and private papers of Thomas Jefferson",
+        "author": "Jefferson T.",
+        "year": "1829"
+      },
+      {
+        "key": "bibr46-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/19388079109558069"
+      },
+      {
+        "key": "bibr47-0034654314551063",
+        "volume-title": "Critical thinking: Theory, research, practice, and possibilities",
+        "author": "Kurfiss J. G.",
+        "year": "1988"
+      },
+      {
+        "key": "bibr48-0034654314551063",
+        "volume-title": "Thinking in education",
+        "author": "Lipman M.",
+        "year": "1991"
+      },
+      {
+        "key": "bibr49-0034654314551063",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1023/A:1005243027145",
+        "volume": "20",
+        "author": "Marshall J. D.",
+        "year": "2001",
+        "journal-title": "Studies in Philosophy and Education"
+      },
+      {
+        "key": "bibr50-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00991931"
+      },
+      {
+        "key": "bibr51-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/tea.3660280208"
+      },
+      {
+        "key": "bibr52-0034654314551063",
+        "volume-title": "Critical thinking and education",
+        "author": "McPeck J.",
+        "year": "1981"
+      },
+      {
+        "key": "bibr53-0034654314551063",
+        "first-page": "40",
+        "volume": "42",
+        "author": "Norris S. P.",
+        "year": "1985",
+        "journal-title": "Educational Leadership"
+      },
+      {
+        "key": "bibr54-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0363-8111(02)00123-6"
+      },
+      {
+        "key": "bibr55-0034654314551063",
+        "first-page": "2",
+        "volume": "42",
+        "author": "Paul R. W.",
+        "year": "1985",
+        "journal-title": "National Forum: Phi Kappa Phi Journal"
+      },
+      {
+        "key": "bibr56-0034654314551063",
+        "volume-title": "Critical thinking: What every person needs to survive in a rapidly changing world",
+        "author": "Paul R. W.",
+        "year": "1990"
+      },
+      {
+        "key": "bibr57-0034654314551063",
+        "first-page": "305",
+        "volume-title": "Critical thinking: What every person needs to survive in a rapidly changing world",
+        "author": "Paul R. W.",
+        "year": "1990"
+      },
+      {
+        "key": "bibr58-0034654314551063",
+        "unstructured": "Paul R. W., Elder L., Bartell T. (1997). Study of 38 public universities and 28 private universities to determine faculty emphasis on critical thinking on instruction. Retrieved from http://www.criticalthinking.org/pages/center-for-critical-thinking/401"
+      },
+      {
+        "key": "bibr59-0034654314551063",
+        "author": "Pellegrino A. M.",
+        "year": "2007",
+        "journal-title": "The manifestation of critical thinking and metacognition in secondary American history students through the implementation of lesson plans and activities consistent with historical thinking skills"
+      },
+      {
+        "key": "bibr60-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/001318800440579"
+      },
+      {
+        "key": "bibr61-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/000494419303700206"
+      },
+      {
+        "key": "bibr62-0034654314551063",
+        "author": "Rose M. M.",
+        "year": "1997",
+        "journal-title": "Critical thinking skills instruction for postsecondary students with and without learning disabilities: The effectiveness of icons as part of a literature curriculum"
+      },
+      {
+        "key": "bibr63-0034654314551063",
+        "volume-title": "\u00c9mile",
+        "author": "Rousseau J. J.",
+        "year": "1762"
+      },
+      {
+        "key": "bibr64-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00221325.1995.9914838"
+      },
+      {
+        "key": "bibr65-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-0663.91.3.497"
+      },
+      {
+        "key": "bibr66-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0034654313500826"
+      },
+      {
+        "key": "bibr67-0034654314551063",
+        "author": "Schulhauser C. E.",
+        "year": "1990",
+        "journal-title": "The effects of literary discussion groups on students\u2019 critical thinking ability and attitude toward reading"
+      },
+      {
+        "key": "bibr68-0034654314551063",
+        "unstructured": "Scriven M., Paul R. (1996). Defining critical thinking: Critical thinking as defined by the National Council for Excellence in Critical Thinking, 1987. Retrieved from http://www.criticalthinking.org/pages/defining-critical-thinking/766"
+      },
+      {
+        "key": "bibr69-0034654314551063",
+        "volume-title": "Educating reason: Rationality, critical thinking, and education",
+        "author": "Siegel H.",
+        "year": "1988"
+      },
+      {
+        "key": "bibr70-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0054367"
+      },
+      {
+        "key": "bibr71-0034654314551063",
+        "volume-title": "The cumulative record",
+        "author": "Skinner B. F.",
+        "year": "1959"
+      },
+      {
+        "key": "bibr72-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9752.00270"
+      },
+      {
+        "key": "bibr73-0034654314551063",
+        "first-page": "95",
+        "volume": "34",
+        "author": "Solon T.",
+        "year": "2007",
+        "journal-title": "Journal of Instructional Psychology"
+      },
+      {
+        "key": "bibr74-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3200/JOER.99.5.307-320"
+      },
+      {
+        "key": "bibr75-0034654314551063",
+        "volume-title": "Transforming critical thinking: Thinking constructively",
+        "author": "Thayer-Bacon B.",
+        "year": "2000"
+      },
+      {
+        "key": "bibr76-0034654314551063",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsui L. (2002). Fostering critical thinking through effective pedagogy: Evidence from four institutional case studies. Journal of Higher Education, 73, 740\u2013763. Retrieved from http://muse.jhu.edu/journals/journal_of_higher_education/v073/73.6tsui.pdf",
+        "DOI": "10.1353/jhe.2002.0056"
+      },
+      {
+        "key": "bibr77-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/001698620204600104"
+      },
+      {
+        "key": "bibr78-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/S15328023TOP260306"
+      },
+      {
+        "key": "bibr79-0034654314551063",
+        "volume-title": "Watson-Glaser critical thinking appraisal",
+        "author": "Watson G.",
+        "year": "1980"
+      },
+      {
+        "key": "bibr80-0034654314551063",
+        "volume-title": "Educational psychology",
+        "author": "Woolfolk A. E.",
+        "year": "1998"
+      },
+      {
+        "key": "bibr81-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compedu.2007.04.006"
+      },
+      {
+        "key": "bibr82-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1949-8594.1993.tb12211.x"
+      },
+      {
+        "key": "bibr83-0034654314551063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/tea.3660310208"
+      }
+    ],
+    "container-title": [
+      "Review of Educational Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.3102/0034654314551063",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.3102/0034654314551063",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.3102/0034654314551063",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2026-05-01T03:48:58Z",
+      "timestamp": 1777607338000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.3102/0034654314551063"
+      }
+    },
+    "subtitle": [
+      "A Meta-Analysis"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "references-count": 83,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.3102/0034654314551063"
+    ],
+    "URL": "https://doi.org/10.3102/0034654314551063",
+    "relation": {},
+    "ISSN": [
+      "0034-6543",
+      "1935-1046"
+    ],
+    "issn-type": [
+      {
+        "value": "0034-6543",
+        "type": "print"
+      },
+      {
+        "value": "1935-1046",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T06:02:57Z",
+      "timestamp": 1790834577666,
+      "version": "4.1.0"
+    },
+    "reference-count": 120,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              14
+            ]
+          ],
+          "date-time": "2021-04-14T00:00:00Z",
+          "timestamp": 1618358400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000155",
+        "name": "Social Sciences and Humanities Research Council of Canada",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "435-2014-0155"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "435-2014-0155"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000155",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Educ."
+    ],
+    "abstract": "<jats:p>When thinking critically about socio-scientific issues, individuals\u2019 expectations about the nature of knowledge and knowing, as well as their emotions when these expectations are met or not, may play an important role in critical thinking. In this study, we examined the role of epistemic emotions in mediating the effects of epistemic cognition on critical thinking when contending with conflicting information about genetically modified foods. Two hundred four university students completed a prior knowledge test on genetically modified foods, and then reported their epistemic beliefs about genetically modified foods. Participants then read a text that presented advantages and disadvantages of genetically modified foods, and reported the epistemic emotions they experienced during reading of that text. Participants then composed an argumentative essay about genetically modified foods, which were coded for critical thinking. Results from path analysis revealed that a belief in complex knowledge predicted less surprise and confusion, but more enjoyment. For the source of knowledge, a belief in the active construction of knowledge predicted less surprise and enjoyment. For justification for knowing, a belief that knowledge should be critically evaluated positively predicted curiosity, and negatively predicted confusion and boredom. Moreover, beliefs that knowledge about genetically modified foods is complex and uncertain positively predicted critical thinking. Confusion and anxiety also positively predicted critical thinking, whereas frustration negatively predicted critical thinking. Lastly, confusion mediated relations between epistemic beliefs and critical thinking. Results suggest complex relations between epistemic cognition, epistemic emotions, and critical thinking that have implications for educational practice as well as for future research on epistemic cognition and epistemic emotions.</jats:p>",
+    "DOI": "10.3389/feduc.2021.669908",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          14
+        ]
+      ],
+      "date-time": "2021-04-14T07:59:17Z",
+      "timestamp": 1618387157000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 58,
+    "title": [
+      "Epistemic Emotions and Epistemic Cognition Predict Critical Thinking About Socio-Scientific Issues"
+    ],
+    "prefix": "10.3389",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Krista R.",
+        "family": "Muis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marianne",
+        "family": "Chevrier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Courtney A.",
+        "family": "Denton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kelsey M.",
+        "family": "Losenno",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1102",
+        "DOI": "10.3102/0034654308326084",
+        "article-title": "Instructional interventions affecting critical thinking skills and dispositions: A stage 1 meta-analysis.",
+        "volume": "78",
+        "author": "Abrami",
+        "year": "2008",
+        "journal-title": "Rev. Educat. Res."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "469",
+        "DOI": "10.1007/s10648-014-9283-1",
+        "article-title": "Thinking critically and analytically about critical-analytic thinking: An introduction.",
+        "volume": "26",
+        "author": "Alexander",
+        "year": "2014",
+        "journal-title": "Educat. Psychol. Rev."
+      },
+      {
+        "key": "B3",
+        "author": "Arum",
+        "year": "2011",
+        "journal-title": "Academically adrift: Limited learning on college campuses."
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "427",
+        "DOI": "10.1007/978-1-4419-5546-3_28",
+        "article-title": "\u201cUsing trace data to examine the complex roles of cognitive, metacognitive, and emotional self-regulatory processes during learning with multi-agent systems,\u201d In",
+        "author": "Azevedo",
+        "year": "2013",
+        "journal-title": "International handbook of metacognition and learning technologies."
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1002/9780470996294.ch11",
+        "article-title": "\u201cCritical thinking,\u201d In",
+        "author": "Bailin",
+        "year": "2003",
+        "journal-title": "The Blackwell guide to the philosophy of education"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "247",
+        "DOI": "10.1080/0729436042000235382",
+        "article-title": "Learning for an unknown future.",
+        "volume": "23",
+        "author": "Barnett",
+        "year": "2004",
+        "journal-title": "Higher Educat. Res. Dev."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "86",
+        "DOI": "10.1016/j.learninstruc.2014.12.003",
+        "article-title": "The role of epistemic perspectives in comprehension of multiple author viewpoints.",
+        "volume": "36",
+        "author": "Barzilai",
+        "year": "2015",
+        "journal-title": "Learning Instruct."
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "39",
+        "DOI": "10.1080/07370008.2011.636495",
+        "article-title": "Epistemic thinking in action: Evaluating and integrating online sources.",
+        "volume": "30",
+        "author": "Barzilai",
+        "year": "2012",
+        "journal-title": "Cognit. Instruct."
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1080/00461520.2013.863265",
+        "article-title": "Reconsidering personal epistemology as metacognition: A multifaceted approach to the analysis of epistemic thinking.",
+        "volume": "49",
+        "author": "Barzilai",
+        "year": "2014",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "665",
+        "DOI": "10.1037/0022-3514.71.4.665",
+        "article-title": "Mood and the use of scripts: Does a happy mood really lead to mindlessness?",
+        "volume": "71",
+        "author": "Bless",
+        "year": "1996",
+        "journal-title": "J. Personal. Soc. Psychol."
+      },
+      {
+        "key": "B11",
+        "first-page": "360",
+        "article-title": "\u201cEpistemic cognition interventions,\u201d In",
+        "author": "Br\u00e5ten",
+        "year": "2016",
+        "journal-title": "Handbook of epistemic cognition"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1080/01638530902959646",
+        "article-title": "Effects of task instruction and personal epistemology on the understanding of multiple texts about climate change.",
+        "volume": "47",
+        "author": "Br\u00e5ten",
+        "year": "2009",
+        "journal-title": "Discour. Proc."
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1016/j.learninstruc.2013.11.002",
+        "article-title": "Developing and testing a model of direct and indirect relationships between individual differences, processing, and multiple-text comprehension.",
+        "volume": "30",
+        "author": "Br\u00e5ten",
+        "year": "2014",
+        "journal-title": "Learning Instruct."
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "423",
+        "DOI": "10.1007/978-1-4020-6596-5_20",
+        "article-title": "\u201cKnowledge and epistemological beliefs: An intimate but complicate relationship,\u201d In",
+        "author": "Bromme",
+        "year": "2008",
+        "journal-title": "Knowing, knowledge and beliefs: Epistemological studies across diverse cultures"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "7",
+        "DOI": "10.1007/s11409-009-9053-5",
+        "article-title": "Epistemological beliefs are standards for adaptive learning: a functional theory about epistemological beliefs and metacognition.",
+        "volume": "5",
+        "author": "Bromme",
+        "year": "2010",
+        "journal-title": "Metacognit. Learning"
+      },
+      {
+        "key": "B16",
+        "first-page": "1",
+        "article-title": "\u201cA new role for emotions in epistemology?,\u201d In",
+        "author": "Brun",
+        "year": "2008",
+        "journal-title": "Epistemology and emotions"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "141",
+        "DOI": "10.1080/00461520.2011.587722",
+        "article-title": "Expanding the dimensions of epistemic cognition: Arguments from philosophy and psychology.",
+        "volume": "46",
+        "author": "Chinn",
+        "year": "2011",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "235",
+        "DOI": "10.1007/s11409-013-9103-x",
+        "article-title": "Internet-specific epistemic beliefs and self-regulated learning in online academic information searching.",
+        "volume": "8",
+        "author": "Chiu",
+        "year": "2013",
+        "journal-title": "Metacognit. Learning"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "101",
+        "DOI": "10.1080/19378629.2011.649920",
+        "article-title": "Situation critical: critical theory and critical thinking in engineering education.",
+        "volume": "4",
+        "author": "Claris",
+        "year": "2012",
+        "journal-title": "Engine. Stud."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1111/j.2044-8279.1988.tb00875.x",
+        "article-title": "Failure tolerance and academic risk\u2212taking in ten\u2212to twelve\u2212year\u2212old students.",
+        "volume": "58",
+        "author": "Clifford",
+        "year": "1988",
+        "journal-title": "Br. J. Educat. Psychol."
+      },
+      {
+        "key": "B21",
+        "author": "Cohen",
+        "year": "2003",
+        "journal-title": "Applied multiple regression/correlation analysis for the behavioral sciences"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "777",
+        "DOI": "10.1080/02699930701516759",
+        "article-title": "Emote aloud during learning with AutoTutor: Applying the Facial Action Coding System to cognitive\u2013affective states during learning.",
+        "volume": "22",
+        "author": "Craig",
+        "year": "2008",
+        "journal-title": "Cognit. Emot."
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "145",
+        "DOI": "10.1016/j.learninstruc.2011.10.001",
+        "article-title": "Dynamics of affective states during complex learning.",
+        "volume": "22",
+        "author": "D\u2019Mello",
+        "year": "2012",
+        "journal-title": "Learning Instruct."
+      },
+      {
+        "key": "B24",
+        "first-page": "289",
+        "article-title": "\u201cConfusion,\u201d In",
+        "author": "D\u2019Mello",
+        "year": "2014",
+        "journal-title": "Handbook of emotions in education"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "153",
+        "DOI": "10.1016/j.learninstruc.2012.05.003",
+        "article-title": "Confusion can be beneficial for learning.",
+        "volume": "29",
+        "author": "D\u2019Mello",
+        "year": "2014",
+        "journal-title": "Learning Instruct."
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "282",
+        "DOI": "10.1080/09540253.2015.1115469",
+        "article-title": "Criticality\u2019s affective entanglements: rethinking emotion and critical thinking in higher education.",
+        "volume": "28",
+        "author": "Danvers",
+        "year": "2016",
+        "journal-title": "Gender Educat."
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "281",
+        "DOI": "10.3200/jexe.76.3.281-314",
+        "article-title": "The challenge of measuring epistemic beliefs: An analysis of three self-report instruments.",
+        "volume": "76",
+        "author": "DeBacker",
+        "year": "2008",
+        "journal-title": "J. Exp. Educat."
+      },
+      {
+        "key": "B28",
+        "author": "Dewey",
+        "year": "1933",
+        "journal-title": "Philosophy and civilization."
+      },
+      {
+        "key": "B29",
+        "article-title": "Confused, now what? A cognitive-emotional strategy training intervention for elementary students during mathematics problem solving.",
+        "volume": "62",
+        "author": "Di Leo",
+        "year": "2020",
+        "journal-title": "Contemporary Educat. Psychol."
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1016/j.cedpsych.2019.03.001",
+        "article-title": "Curiosity. Confusion? Frustration! The role and sequencing of emotions during mathematics problem solving.",
+        "volume": "58",
+        "author": "Di Leo",
+        "year": "2019",
+        "journal-title": "Contempor. Educat. Psychol."
+      },
+      {
+        "key": "B31",
+        "first-page": "33",
+        "article-title": "\u201cEmotion and understanding,\u201d In",
+        "author": "Elgin",
+        "year": "2008",
+        "journal-title": "Epistemology and emotions"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "125",
+        "DOI": "10.1177/1754073912463617",
+        "article-title": "Appraisal theory: Old and new questions.",
+        "volume": "5",
+        "author": "Ellsworth",
+        "year": "2013",
+        "journal-title": "Emot. Rev."
+      },
+      {
+        "key": "B33",
+        "first-page": "9",
+        "article-title": "\u201cA taxonomy of critical thinking dispositions and abilities,\u201d In",
+        "author": "Ennis",
+        "year": "1987",
+        "journal-title": "Teaching thinking skills: Theory and practice"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "165",
+        "DOI": "10.1007/s11245-016-9401-4",
+        "article-title": "Critical thinking across the curriculum: A vision.",
+        "volume": "37",
+        "author": "Ennis",
+        "year": "2018",
+        "journal-title": "Topoi"
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.3758/bf03203630",
+        "article-title": "GPOWER: A general power analysis program.",
+        "volume": "28",
+        "author": "Erdfelder",
+        "year": "1996",
+        "journal-title": "Behav. Res. Methods Instruments Comput."
+      },
+      {
+        "key": "B36",
+        "author": "Facione",
+        "year": "1990",
+        "journal-title": "Critical thinking: A statement of expert consensus for purposes of educational assessment and instruction (Research findings and recommendations)."
+      },
+      {
+        "key": "B37",
+        "author": "Facione",
+        "year": "2014",
+        "journal-title": "The holistic critical thinking scoring rubric: A tool for developing and evaluating critical thinking."
+      },
+      {
+        "key": "B38",
+        "author": "Faul",
+        "year": "1992",
+        "journal-title": "GPOWER: A priori, post-hoc, and compromise power analyses for MS-DOS."
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "74",
+        "DOI": "10.1016/j.cogpsych.2015.08.004",
+        "article-title": "Why some surprises are more surprising than others: Surprises as a metacognitive sense of explanatory difficulty.",
+        "volume": "81",
+        "author": "Foster",
+        "year": "2015",
+        "journal-title": "Cognit. Psychol."
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "62",
+        "DOI": "10.1016/j.learninstruc.2011.06.003",
+        "article-title": "Examining the influences of epistemic beliefs and knowledge representations on cognitive processing and conceptual change when learning physics.",
+        "volume": "22",
+        "author": "Franco",
+        "year": "2012",
+        "journal-title": "Learning Instruct."
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "crossref",
+        "first-page": "340",
+        "DOI": "10.3928/0148-4834-20001101-05",
+        "article-title": "Congruency in defining critical thinking by nurse educators and non-nurse scholars.",
+        "volume": "39",
+        "author": "Gordon",
+        "year": "2000",
+        "journal-title": "J. Nurs. Educat."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1016/j.cedpsych.2013.10.002",
+        "article-title": "Modeling and measuring epistemic cognition: A qualitative re-investigation.",
+        "volume": "39",
+        "author": "Greene",
+        "year": "2014",
+        "journal-title": "Contemp. Educat. Psychol."
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "crossref",
+        "first-page": "142",
+        "DOI": "10.1080/00461520802178458",
+        "article-title": "Modeling epistemic and ontological cognition: Philosophical perspectives and methodological directions.",
+        "volume": "43",
+        "author": "Greene",
+        "year": "2008",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "245",
+        "DOI": "10.1080/00461520.2010.515932",
+        "article-title": "The role of epistemic beliefs in students\u2019 self-regulated learning with computer-based learning environments: Conceptual and methodological issues.",
+        "volume": "45",
+        "author": "Greene",
+        "year": "2010",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.4324/9781315795225",
+        "author": "Greene",
+        "year": "2016",
+        "journal-title": "Handbook of epistemic cognition."
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.1016/j.compedu.2014.03.008",
+        "article-title": "Measuring critical components of digital literacy and their relationships with learning.",
+        "volume": "76",
+        "author": "Greene",
+        "year": "2014",
+        "journal-title": "Comput. Educat."
+      },
+      {
+        "key": "B47",
+        "first-page": "3",
+        "article-title": "\u201cEmotion regulation: Conceptual and empirical foundations,\u201d In",
+        "author": "Gross",
+        "year": "2014",
+        "journal-title": "Handbook of emotion regulation"
+      },
+      {
+        "key": "B48",
+        "author": "Halpern",
+        "year": "2014",
+        "journal-title": "Thought and Knowledge"
+      },
+      {
+        "key": "B49",
+        "first-page": "169",
+        "article-title": "\u201cOn the form of personal epistemology,\u201d In",
+        "author": "Hammer",
+        "year": "2002",
+        "journal-title": "Personal epistemology: The psychology of beliefs about knowledge and knowing"
+      },
+      {
+        "key": "B50",
+        "doi-asserted-by": "publisher",
+        "first-page": "106",
+        "DOI": "10.1080/00461520.2019.1587297",
+        "article-title": "Emotion regulation in achievement situations: An integrated model.",
+        "volume": "54",
+        "author": "Harley",
+        "year": "2019",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B51",
+        "author": "Hayes",
+        "year": "2018",
+        "journal-title": "Introduction to mediation, moderation, and conditional process analysis: A regression-based approach"
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "513",
+        "DOI": "10.1080/00220973.2016.1260523",
+        "article-title": "Modifying knowledge, emotions, and attitudes regarding genetically modified foods.",
+        "volume": "85",
+        "author": "Heddy",
+        "year": "2017",
+        "journal-title": "J. Exp. Educat."
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "first-page": "227",
+        "DOI": "10.1037/13273-009",
+        "article-title": "\u201cPersonal epistemology: Theory, research, and future directions,\u201d In",
+        "author": "Hofer",
+        "year": "2012",
+        "journal-title": "APA Educational Psychology Handbook"
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "88",
+        "DOI": "10.3102/00346543067001088",
+        "article-title": "The development of epistemological theories: Beliefs about knowledge and knowing and their relation to learning.",
+        "volume": "6",
+        "author": "Hofer",
+        "year": "1997",
+        "journal-title": "Rev. Educat. Res."
+      },
+      {
+        "key": "B55",
+        "first-page": "51",
+        "article-title": "\u201cEpistemic immediacy, doubt and anxiety: On a role for affective states in epistemic evaluation,\u201d In",
+        "author": "Hookway",
+        "year": "2008",
+        "journal-title": "Epistemology and emotions"
+      },
+      {
+        "key": "B56",
+        "article-title": "Does college teach critical thinking? A meta-analysis.",
+        "volume": "86",
+        "author": "Huber",
+        "year": "2015",
+        "journal-title": "Rev. Educat. Res."
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.14689/ejer.2017.72.11",
+        "article-title": "The complex relationship between students\u2019 critical thinking and epistemological beliefs in the context of problem solving.",
+        "volume": "2",
+        "author": "Hyytinen",
+        "year": "2014",
+        "journal-title": "Frontline Learning Res."
+      },
+      {
+        "key": "B58",
+        "author": "Kahneman",
+        "year": "2011",
+        "journal-title": "Thinking, fast and slow."
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-0663.88.2.260",
+        "article-title": "Effects of preexisiting beliefs, epistemological beliefs, and need for cognition on interpretation of controversial issues.",
+        "volume": "88",
+        "author": "Kardash",
+        "year": "1996",
+        "journal-title": "J. Educat. Psychol."
+      },
+      {
+        "key": "B60",
+        "doi-asserted-by": "publisher",
+        "first-page": "250",
+        "DOI": "10.1080/00461520903213600",
+        "article-title": "Training advanced writing skills: The case for deliberate practice.",
+        "volume": "44",
+        "author": "Kellogg",
+        "year": "2009",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B61",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.21236/ADA006655",
+        "author": "Kincaid",
+        "year": "1975",
+        "journal-title": "Derivation of new readability formulas (Automated Readability Index, Fog Count, and Flesch Reading Ease formula) for Navy enlisted personnel."
+      },
+      {
+        "key": "B62",
+        "first-page": "37",
+        "article-title": "\u201cThe reflective judgment model: Twenty years of research on epistemic cognition,\u201d In",
+        "author": "King",
+        "year": "2002",
+        "journal-title": "Personal epistemology. The psychology of beliefs about knowledge and knowing"
+      },
+      {
+        "key": "B63",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1017/CBO9780511571350",
+        "author": "Kuhn",
+        "year": "1991",
+        "journal-title": "The skills of argument."
+      },
+      {
+        "key": "B64",
+        "doi-asserted-by": "publisher",
+        "first-page": "16",
+        "DOI": "10.3102/0013189x028002016",
+        "article-title": "A developmental model of critical thinking.",
+        "volume": "28",
+        "author": "Kuhn",
+        "year": "1999",
+        "journal-title": "Educat. Researcher"
+      },
+      {
+        "key": "B65",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1007/s11245-016-9373-4",
+        "article-title": "A role for reasoning in a dialogic approach to critical thinking.",
+        "volume": "37",
+        "author": "Kuhn",
+        "year": "2018",
+        "journal-title": "Topoi"
+      },
+      {
+        "key": "B66",
+        "doi-asserted-by": "publisher",
+        "first-page": "545",
+        "DOI": "10.1177/0956797611402512",
+        "article-title": "Dialogic argumentation as a vehicle for developing young adolescents\u2019 thinking.",
+        "volume": "22",
+        "author": "Kuhn",
+        "year": "2011",
+        "journal-title": "Psychol. Sci."
+      },
+      {
+        "key": "B67",
+        "author": "Kuhn",
+        "year": "2015",
+        "journal-title": "Argue with me: argument as a path to developing students\u2019 thinking and writing (Second)."
+      },
+      {
+        "key": "B68",
+        "author": "Kurfiss",
+        "year": "1988",
+        "journal-title": "Critical thinking: Theory, research, practice, and possibilities"
+      },
+      {
+        "key": "B69",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1080/14703297.2019.1687005",
+        "article-title": "How does online peer feedback improve argumentative essay writing and learning?",
+        "volume": "2019",
+        "author": "Latifi",
+        "year": "2019",
+        "journal-title": "Innovat. Educat. Teaching Int."
+      },
+      {
+        "key": "B70",
+        "doi-asserted-by": "publisher",
+        "first-page": "1201",
+        "DOI": "10.1080/09500690600560753",
+        "article-title": "Towards a theoretical framework for teaching controversial socio\u2212scientific issues.",
+        "volume": "28",
+        "author": "Levinson",
+        "year": "2006",
+        "journal-title": "Int. J. Sci. Educat."
+      },
+      {
+        "key": "B71",
+        "doi-asserted-by": "publisher",
+        "first-page": "1585",
+        "DOI": "10.1016/j.paid.2008.01.014",
+        "article-title": "Interest and deprivation factors of epistemic curiosity.",
+        "volume": "44",
+        "author": "Litman",
+        "year": "2008",
+        "journal-title": "Personal. Individ. Differ."
+      },
+      {
+        "key": "B72",
+        "doi-asserted-by": "publisher",
+        "first-page": "75",
+        "DOI": "10.1037/0033-2909.116.1.75",
+        "article-title": "The psychology of curiosity: A review and reinterpretation.",
+        "volume": "116",
+        "author": "Loewenstein",
+        "year": "1994",
+        "journal-title": "Psychol. Bull."
+      },
+      {
+        "key": "B73",
+        "first-page": "228",
+        "article-title": "\u201cCuriosity,\u201d In",
+        "author": "Markey",
+        "year": "2014",
+        "journal-title": "International handbook of emotion in education"
+      },
+      {
+        "key": "B74",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1016/j.cedpsych.2004.01.001",
+        "article-title": "Role of epistemological understanding and interest in interpreting a controversy and in topic-specific belief change.",
+        "volume": "29",
+        "author": "Mason",
+        "year": "2004",
+        "journal-title": "Contemp. Educat. Psychol."
+      },
+      {
+        "key": "B75",
+        "doi-asserted-by": "publisher",
+        "first-page": "492",
+        "DOI": "10.1016/j.learninstruc.2006.09.007",
+        "article-title": "Prediction of students\u2019 argumentation skills about controversial topics by epistemological understanding.",
+        "volume": "16",
+        "author": "Mason",
+        "year": "2006",
+        "journal-title": "Learning Instruct."
+      },
+      {
+        "key": "B76",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1016/j.tsc.2016.01.002",
+        "article-title": "Epistemological orientations and evidence evaluation in undergraduates.",
+        "volume": "19",
+        "author": "McGinnis",
+        "year": "2016",
+        "journal-title": "Thinking Skills Creativity"
+      },
+      {
+        "key": "B77",
+        "doi-asserted-by": "publisher",
+        "first-page": "477",
+        "DOI": "10.1080/02699930244000039",
+        "article-title": "Attentional resource allocation to emotional events: An ERP study.",
+        "volume": "17",
+        "author": "Meinhardt",
+        "year": "2003",
+        "journal-title": "Cognit. Emot."
+      },
+      {
+        "key": "B78",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1023/A:1024422330338",
+        "article-title": "Toward a process analysis of emotions: The case of surprise.",
+        "volume": "21",
+        "author": "Meyer",
+        "year": "1997",
+        "journal-title": "Motivat. Emot."
+      },
+      {
+        "key": "B79",
+        "author": "Meyers",
+        "year": "2017",
+        "journal-title": "Applied multivariate research: Design and interpretation"
+      },
+      {
+        "key": "B80",
+        "first-page": "385",
+        "article-title": "\u201cEpistemic emotions,\u201d In",
+        "author": "Morton",
+        "year": "2010",
+        "journal-title": "The Oxford handbook of philosophy of emotion"
+      },
+      {
+        "key": "B81",
+        "doi-asserted-by": "publisher",
+        "first-page": "173",
+        "DOI": "10.1080/00461520.2010.515932",
+        "article-title": "The role of epistemic beliefs in self-regulated learning.",
+        "volume": "42",
+        "author": "Muis",
+        "year": "2007",
+        "journal-title": "Educ. Psychol."
+      },
+      {
+        "key": "B82",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1037/a0029690",
+        "article-title": "Epistemic climate and epistemic change: Instruction designed to change students\u2019 epistemic beliefs and learning strategies and improve achievement.",
+        "volume": "105",
+        "author": "Muis",
+        "year": "2013",
+        "journal-title": "J. Educat. Psychol."
+      },
+      {
+        "key": "B83",
+        "doi-asserted-by": "publisher",
+        "first-page": "168",
+        "DOI": "10.1016/j.learninstruc.2015.06.003",
+        "article-title": "The curious case of climate change: Testing a theoretical model of epistemic beliefs, epistemic emotions, and complex learning.",
+        "volume": "39",
+        "author": "Muis",
+        "year": "2015",
+        "journal-title": "Learning Instruct."
+      },
+      {
+        "key": "B84",
+        "first-page": "331",
+        "article-title": "\u201cEpistemic climate for epistemic change,\u201d In",
+        "author": "Muis",
+        "year": "2016",
+        "journal-title": "Handbook of epistemic cognition"
+      },
+      {
+        "key": "B85",
+        "doi-asserted-by": "publisher",
+        "first-page": "165",
+        "DOI": "10.1080/00461520.2017.1421465",
+        "article-title": "The role of epistemic emotions in personal epistemology and self-regulated learning.",
+        "volume": "53",
+        "author": "Muis",
+        "year": "2018",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B86",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1111/tops.12397",
+        "article-title": "Learning from surprise: Harnessing a metacognitive surprise signal to build and adapt belief networks.",
+        "volume": "11",
+        "author": "Munnich",
+        "year": "2018",
+        "journal-title": "Topics Cognit. Sci."
+      },
+      {
+        "key": "B87",
+        "doi-asserted-by": "publisher",
+        "first-page": "104",
+        "DOI": "10.1037/edu0000460",
+        "article-title": "Elementary students\u2019 cognitive and affective responses to impasses during mathematics problem-solving.",
+        "volume": "113",
+        "author": "Munzar",
+        "year": "2021",
+        "journal-title": "J. Educat. Psychol."
+      },
+      {
+        "key": "B88",
+        "author": "Muth\u00e9n",
+        "year": "2015",
+        "journal-title": "Mplus user\u2019s guide."
+      },
+      {
+        "key": "B89",
+        "doi-asserted-by": "publisher",
+        "first-page": "114",
+        "DOI": "10.1016/j.edurev.2012.12.002",
+        "article-title": "Do instructional interventions influence college students\u2019 critical thinking skills? A meta-analysis.",
+        "volume": "9",
+        "author": "Niu",
+        "year": "2013",
+        "journal-title": "Educat. Res. Rev."
+      },
+      {
+        "key": "B90",
+        "doi-asserted-by": "publisher",
+        "first-page": "357",
+        "DOI": "10.1080/14703297.2016.1208112",
+        "article-title": "Considering students\u2019 epistemic beliefs to facilitate their argumentative discourse and attitudinal change with a digital dialogue game.",
+        "volume": "55",
+        "author": "Noroozi",
+        "year": "2018",
+        "journal-title": "Innovat. Educat. Teaching Int."
+      },
+      {
+        "key": "B91",
+        "doi-asserted-by": "publisher",
+        "first-page": "548",
+        "DOI": "10.1080/14703297.2018.1431143",
+        "article-title": "The effects of online peer feedback and epistemic beliefs on students\u2019 argumentation-based learning.",
+        "volume": "56",
+        "author": "Noroozi",
+        "year": "2019",
+        "journal-title": "Innovat. Educat. Teaching Int."
+      },
+      {
+        "key": "B92",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1016/j.iheduc.2016.05.002",
+        "article-title": "Relations between scripted online peer feedback processes and quality of written argumentative essay.",
+        "volume": "31",
+        "author": "Noroozi",
+        "year": "2016",
+        "journal-title": "Internet Higher Educ."
+      },
+      {
+        "key": "B93",
+        "doi-asserted-by": "publisher",
+        "first-page": "153",
+        "DOI": "10.1007/s10648-017-9400-z",
+        "article-title": "Promoting argumentation competence: Extending from first-to second-order scaffolding through adaptive fading.",
+        "volume": "30",
+        "author": "Noroozi",
+        "year": "2018",
+        "journal-title": "Educ. Psychol. Rev."
+      },
+      {
+        "key": "B94",
+        "author": "Paul",
+        "year": "1990",
+        "journal-title": "Critical thinking: What every person needs to survive in a rapidly changing world."
+      },
+      {
+        "key": "B95",
+        "doi-asserted-by": "publisher",
+        "first-page": "315",
+        "DOI": "10.1007/s10648-006-9029-9",
+        "article-title": "The control-value theory of achievement emotions: Assumptions, corollaries, and implications for educational research and practice.",
+        "volume": "18",
+        "author": "Pekrun",
+        "year": "2006",
+        "journal-title": "Educat. Psychol. Rev."
+      },
+      {
+        "key": "B96",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.4324/9780203148211",
+        "author": "Pekrun",
+        "year": "2014",
+        "journal-title": "International handbook of emotions in education."
+      },
+      {
+        "key": "B97",
+        "first-page": "120",
+        "article-title": "\u201cControl-value theory of achievement emotions,\u201d In",
+        "author": "Pekrun",
+        "year": "2014",
+        "journal-title": "International handbook of emotions in education"
+      },
+      {
+        "key": "B98",
+        "first-page": "3",
+        "article-title": "\u201cAcademic emotions,\u201d In",
+        "author": "Pekrun",
+        "year": "2012",
+        "journal-title": "APA educational psychology handbook"
+      },
+      {
+        "key": "B99",
+        "doi-asserted-by": "publisher",
+        "first-page": "36",
+        "DOI": "10.1016/j.cedpsych.2010.10.002",
+        "article-title": "Measuring emotions in students\u2019 learning and performance: The Achievement Emotions Questionnaire (AEQ).",
+        "volume": "36",
+        "author": "Pekrun",
+        "year": "2011",
+        "journal-title": "Contempor. Educat. Psychol."
+      },
+      {
+        "key": "B100",
+        "doi-asserted-by": "publisher",
+        "first-page": "91",
+        "DOI": "10.4324/9781410608628-4",
+        "article-title": "Academic emotions in students\u2019 self-regulated learning and achievement: A program of qualitative and quantitative research.",
+        "volume": "37",
+        "author": "Pekrun",
+        "year": "2002",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B101",
+        "doi-asserted-by": "publisher",
+        "first-page": "1268",
+        "DOI": "10.1080/02699931.2016.1204989",
+        "article-title": "Measuring emotions during epistemic activities: The Epistemically-Related Emotion Scales.",
+        "volume": "31",
+        "author": "Pekrun",
+        "year": "2017",
+        "journal-title": "Cognit. Emot."
+      },
+      {
+        "key": "B102",
+        "doi-asserted-by": "publisher",
+        "first-page": "247",
+        "DOI": "10.1037/1089-2680.2.3.247",
+        "article-title": "Levels of analysis and the organization of affect.",
+        "volume": "2",
+        "author": "Rosenberg",
+        "year": "1998",
+        "journal-title": "Rev. General Psychol."
+      },
+      {
+        "key": "B103",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1080/00223980209604134",
+        "article-title": "Epistemological beliefs and thinking about everyday controversial issues.",
+        "volume": "136",
+        "author": "Schommer-Aikins",
+        "year": "2002",
+        "journal-title": "J. Psychol."
+      },
+      {
+        "key": "B104",
+        "author": "Scriven",
+        "year": "1996",
+        "journal-title": "Defining critical thinking: A draft statement for the National Council for Excellence in Critical Thinking."
+      },
+      {
+        "key": "B105",
+        "first-page": "13",
+        "article-title": "\u201cConcepts and structure of emotions,\u201d In",
+        "author": "Shuman",
+        "year": "2014",
+        "journal-title": "International handbook of emotions in education"
+      },
+      {
+        "key": "B106",
+        "author": "Siegel",
+        "year": "1988",
+        "journal-title": "Educating reason: Rationality, critical thinking, and education."
+      },
+      {
+        "key": "B107",
+        "doi-asserted-by": "publisher",
+        "first-page": "89",
+        "DOI": "10.1046/j.1440-172x.2002.00340.x",
+        "article-title": "Critical thinking in nursing education: Literature review.",
+        "volume": "8",
+        "author": "Simpson",
+        "year": "2002",
+        "journal-title": "Int. J. Nurs. Practice"
+      },
+      {
+        "key": "B108",
+        "doi-asserted-by": "publisher",
+        "first-page": "374",
+        "DOI": "10.1002/rrq.005",
+        "article-title": "Bridging reading comprehension and conceptual change in science education: The promise of refutation text.",
+        "volume": "46",
+        "author": "Sinatra",
+        "year": "2011",
+        "journal-title": "Reading Res. Quart."
+      },
+      {
+        "key": "B109",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.18261/ISSN1891-943X-2014-02-02",
+        "article-title": "Students\u2019 sourcing while reading and writing from multiple web documents.",
+        "volume": "2",
+        "author": "Str\u00f8ms\u00f8",
+        "year": "2014",
+        "journal-title": "Nordic J. Digit. Literacy"
+      },
+      {
+        "key": "B110",
+        "doi-asserted-by": "publisher",
+        "first-page": "177",
+        "DOI": "10.1080/01443410.2010.538039",
+        "article-title": "Do students\u2019 beliefs about knowledge and knowing predict their judgement of texts\u2019 trustworthiness?",
+        "volume": "31",
+        "author": "Str\u00f8ms\u00f8",
+        "year": "2011",
+        "journal-title": "Educat. Psychol."
+      },
+      {
+        "key": "B111",
+        "author": "Tabachnick",
+        "year": "2013",
+        "journal-title": "Using multivariate statistics"
+      },
+      {
+        "key": "B112",
+        "doi-asserted-by": "publisher",
+        "first-page": "973",
+        "DOI": "10.1037/0022-3514.81.6.973",
+        "article-title": "Judgment under emotional certainty and uncertainty: The effects of specific emotions on information processing.",
+        "volume": "81",
+        "author": "Tiedens",
+        "year": "2001",
+        "journal-title": "J. Personal. Soc. Psychol."
+      },
+      {
+        "key": "B113",
+        "doi-asserted-by": "publisher",
+        "first-page": "951",
+        "DOI": "10.1007/s10763-010-9203-x",
+        "article-title": "Refutation text in science education: A review of two decades of research.",
+        "volume": "8",
+        "author": "Tippett",
+        "year": "2010",
+        "journal-title": "Int. J. Sci. Math. Educat."
+      },
+      {
+        "key": "B114",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1017/CBO9780511840005",
+        "author": "Toulmin",
+        "year": "2003",
+        "journal-title": "The Uses of Argument."
+      },
+      {
+        "key": "B115",
+        "author": "Tremblay",
+        "year": "2012",
+        "journal-title": "AHELO Feasibility Study Report. Volume 1 Design and Implementation."
+      },
+      {
+        "key": "B116",
+        "doi-asserted-by": "publisher",
+        "first-page": "390",
+        "DOI": "10.1080/00219266.2018.1472132",
+        "article-title": "The effects of an online learning environment with worked examples and peer feedback on students\u2019 argumentative essay writing and domain-specific knowledge acquisition in the field of biotechnology.",
+        "volume": "53",
+        "author": "Valero Haro",
+        "year": "2019",
+        "journal-title": "J. Biol. Educat."
+      },
+      {
+        "key": "B117",
+        "first-page": "73",
+        "article-title": "\u201cExamining emotional diversity on the classroom: An attribution theorist considers the moral emotions,\u201d In",
+        "author": "Weiner",
+        "year": "2007",
+        "journal-title": "Emotion in education"
+      },
+      {
+        "key": "B118",
+        "article-title": "\u201cGenetically modified foods: Harmful or helpful?,\u201d In",
+        "author": "Whitman",
+        "year": "2000",
+        "journal-title": "Canadian Standards Association: Discover Guides"
+      },
+      {
+        "key": "B119",
+        "doi-asserted-by": "publisher",
+        "first-page": "325",
+        "DOI": "10.1007/s11251-008-9084-3",
+        "article-title": "Reasoning about science-related uncertain issues and epistemological perspectives among children.",
+        "volume": "38",
+        "author": "Yang",
+        "year": "2010",
+        "journal-title": "Instruct. Sci. Int. J. Learning Sci."
+      },
+      {
+        "key": "B120",
+        "first-page": "265",
+        "article-title": "\u201cAnxiety in education,\u201d In",
+        "author": "Zeidner",
+        "year": "2014",
+        "journal-title": "International handbook of emotions in education"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Education"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/feduc.2021.669908/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2023-11-02T02:27:51Z",
+      "timestamp": 1698892071000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/feduc.2021.669908/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          14
+        ]
+      ]
+    },
+    "references-count": 120,
+    "alternative-id": [
+      "10.3389/feduc.2021.669908"
+    ],
+    "URL": "https://doi.org/10.3389/feduc.2021.669908",
+    "relation": {},
+    "ISSN": [
+      "2504-284X"
+    ],
+    "issn-type": [
+      {
+        "value": "2504-284X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          14
+        ]
+      ]
+    },
+    "article-number": "669908"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T23:37:41Z",
+      "timestamp": 1791589061246,
+      "version": "4.3.4"
+    },
+    "reference-count": 116,
+    "publisher": "Wiley",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              12
+            ]
+          ],
+          "date-time": "2024-07-12T00:00:00Z",
+          "timestamp": 1720742400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              12
+            ]
+          ],
+          "date-time": "2024-07-12T00:00:00Z",
+          "timestamp": 1720742400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "bera-journals.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Brit J Educational Tech"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Abstract</jats:title>\n                    <jats:p>Large language models (LLMs) are increasingly adopted in educational contexts to provide personalized support to students and teachers. The unprecedented capacity of LLM\u2010based applications to understand and generate natural language can potentially improve instructional effectiveness and learning outcomes, but the integration of LLMs in education technology has renewed concerns over algorithmic bias, which may exacerbate educational inequalities. Building on prior work that mapped the traditional machine learning life cycle, we provide a framework of the LLM life cycle from the initial development of LLMs to customizing pre\u2010trained models for various applications in educational settings. We explain each step in the LLM life cycle and identify potential sources of bias that may arise in the context of education. We discuss why current measures of bias from traditional machine learning fail to transfer to LLM\u2010generated text (eg, tutoring conversations) because text encodings are high\u2010dimensional, there can be multiple correct responses, and tailoring responses may be pedagogically desirable rather than unfair. The proposed framework clarifies the complex nature of bias in LLM applications and provides practical guidance for their evaluation to promote educational equity.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:label/>\n                    <jats:p>\n                      <jats:boxed-text content-type=\"box\" position=\"anchor\">\n                        <jats:caption>\n                          <jats:title>Practitioner notes</jats:title>\n                        </jats:caption>\n                        <jats:p>\n                          What is already known about this topic\n                          <jats:list list-type=\"bullet\">\n                            <jats:list-item>\n                              <jats:p>The life cycle of traditional machine learning (ML) applications which focus on predicting labels is well understood.</jats:p>\n                            </jats:list-item>\n                            <jats:list-item>\n                              <jats:p>Biases are known to enter in traditional ML applications at various points in the life cycle, and methods to measure and mitigate these biases have been developed and tested.</jats:p>\n                            </jats:list-item>\n                            <jats:list-item>\n                              <jats:p>Large language models (LLMs) and other forms of generative artificial intelligence (GenAI) are increasingly adopted in education technologies (EdTech), but current evaluation approaches are not specific to the domain of education.</jats:p>\n                            </jats:list-item>\n                          </jats:list>\n                        </jats:p>\n                        <jats:p>\n                          What this paper adds\n                          <jats:list list-type=\"bullet\">\n                            <jats:list-item>\n                              <jats:p>A holistic perspective of the LLM life cycle with domain\u2010specific examples in education to highlight opportunities and challenges for incorporating natural language understanding (NLU) and natural language generation (NLG) into EdTech.</jats:p>\n                            </jats:list-item>\n                            <jats:list-item>\n                              <jats:p>Potential sources of bias are identified in each step of the LLM life cycle and discussed in the context of education.</jats:p>\n                            </jats:list-item>\n                            <jats:list-item>\n                              <jats:p>A framework for understanding where to expect potential harms of LLMs for students, teachers, and other users of GenAI technology in education, which can guide approaches to bias measurement and mitigation.</jats:p>\n                            </jats:list-item>\n                          </jats:list>\n                        </jats:p>\n                        <jats:p>\n                          Implications for practice and/or policy\n                          <jats:list list-type=\"bullet\">\n                            <jats:list-item>\n                              <jats:p>Education practitioners and policymakers should be aware that biases can originate from a multitude of steps in the LLM life cycle, and the life cycle perspective offers them a heuristic for asking technology developers to explain each step to assess the risk of bias.</jats:p>\n                            </jats:list-item>\n                            <jats:list-item>\n                              <jats:p>Measuring the biases of systems that use LLMs in education is more complex than with traditional ML, in large part because the evaluation of natural language generation is highly context\u2010dependent (eg, what counts as good feedback on an assignment varies).</jats:p>\n                            </jats:list-item>\n                            <jats:list-item>\n                              <jats:p>EdTech developers can play an important role in collecting and curating datasets for the evaluation and benchmarking of LLM applications moving forward.</jats:p>\n                            </jats:list-item>\n                          </jats:list>\n                        </jats:p>\n                      </jats:boxed-text>\n                    </jats:p>\n                  </jats:sec>",
+    "DOI": "10.1111/bjet.13505",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2024-07-12T08:25:39Z",
+      "timestamp": 1720772739000
+    },
+    "page": "1982-2002",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 114,
+    "title": [
+      "The life cycle of large language models in education: A framework for understanding sources of bias"
+    ],
+    "prefix": "10.1111",
+    "volume": "55",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9957-1342",
+        "authenticated-orcid": false,
+        "given": "Jinsook",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Information Science Cornell University  Ithaca New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7234-7001",
+        "authenticated-orcid": false,
+        "given": "Yann",
+        "family": "Hicke",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science Cornell University  Ithaca New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2375-3537",
+        "authenticated-orcid": false,
+        "given": "Renzhe",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Teachers College and Data Science Institute Columbia University  New York New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0875-0204",
+        "authenticated-orcid": false,
+        "given": "Christopher",
+        "family": "Brooks",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information University of Michigan  Ann Arbor Michigan USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6283-5546",
+        "authenticated-orcid": false,
+        "given": "Ren\u00e9 F.",
+        "family": "Kizilcec",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Science Cornell University  Ithaca New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "unstructured": "Almazrouei E. Alobeidli H. Alshamsi A. Cappelli A. Cojocaru R. Debbah M. Goffinet \u00c9. Hesslow D. Launay J. Malartic Q. Mazzotta D. Noune B. Pannier B. &Penedo G.(2023).The falcon series of open language models.arXiv preprint arXiv:2311.16867."
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "unstructured": "Anil R. Dai A. M. Firat O. Johnson M. Lepikhin D. Passos A. Shakeri S. Taropa E. Bailey P. Chen Z. Chu E. Clark J. H. El Shafey L. Huang Y. Meier\u2010Hellstern K. Mishra G. Moreira E. Omernick M. Robinson K. \u2026Wu Y.(2023).PaLM 2 technical report.arXiv preprint arXiv:2305.10403."
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "unstructured": "Anthis J. R. Lum K. Ekstrand M. Feller A. D'Amour A. &Tan C.(2024).The impossibility of fair LLMs.arXiv e\u2010prints arXiv\u20132406."
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "unstructured": "Attri. (2023).A comprehensive guide: Everything you need to know about LLMs' guardrails.https://attri.ai/blog/a\u2010comprehensive\u2010guide\u2010everything\u2010you\u2010need\u2010to\u2010know\u2010about\u2010llms\u2010guardrails"
+      },
+      {
+        "key": "e_1_2_11_6_1",
+        "unstructured": "Bai J. Bai S. Chu Y. Cui Z. Dang K. Deng X. Fan Y. Ge W. Han Y. Huang F. Hui B. Ji L. Li M. Lin J. Lin R. Liu D. Liu G. Lu C. Lu K. \u2026Zhu T.(2023).Qwen technical report.https://arxiv.org/abs/2309.16609"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "unstructured": "Bai Y. Kadavath S. Kundu S. Askell A. Kernion J. Jones A. Chen A. Goldie A. Mirhoseini A. McKinnon C. Chen C. Olsson C. Olah C. Hernandez D. Drain D. Ganguli D. Li D. Tran\u2010Johnson E. Perez E. \u2026Kaplan J.(2022).Constitutional AI: Harmlessness from AI feedback.arXiv preprint arXiv:2212.08073."
+      },
+      {
+        "key": "e_1_2_11_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40593-021-00285-9"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "first-page": "671",
+        "article-title": "Big data's disparate impact",
+        "volume": "104",
+        "author": "Barocas S.",
+        "year": "2016",
+        "journal-title": "California Law Review"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3593013.3594007"
+      },
+      {
+        "key": "e_1_2_11_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-023-02361-7"
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "unstructured": "BigScience Workshop Scao T. L. Fan A. Akiki C. Pavlick E. Ili\u0107 S. Hesslow D. Castagn\u00e9 R. Luccioni A. S. Yvon F. Gall\u00e9 M. Tow J. Rush A. M. Biderman S. Webson A. Ammanamanchi P. S. Wang T. Sagot B. Muennighoff N. \u2026Wolf T.(2023).Bloom: A 176b\u2010parameter open\u2010access multilingual language model."
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.52202/075280-0930"
+      },
+      {
+        "key": "e_1_2_11_14_1",
+        "unstructured": "Birhane A. Prabhu V. U. &Kahembwe E.(2021).Multimodal datasets: Misogyny pornography and malignant stereotypes.arXiv preprint arXiv:2110.01963."
+      },
+      {
+        "key": "e_1_2_11_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/0013189X013006004"
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "first-page": "4349",
+        "article-title": "Man is to computer programmer as woman is to homemaker? Debiasing word embeddings",
+        "volume": "29",
+        "author": "Bolukbasi T.",
+        "year": "2016",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nyas.15007"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bordia S. &Bowman S. R.(2019).Identifying and reducing gender bias in word\u2010level language models. InNorth American chapter of the association for computational linguistics.https://api.semanticscholar.org/CorpusID:102352788",
+        "DOI": "10.18653/v1/N19-3002"
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "first-page": "1877",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "Brown T.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "volume-title": "Proceedings of the 36th International Conference on Machine Learning",
+        "author": "Brunet M.\u2010E.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "unstructured": "Bubeck S. Chandrasekaran V. Eldan R. Gehrke J. Horvitz E. Kamar E. Lee P. Lee Y. T. Li Y. Lundberg S. Nori H. Palangi H. Ribeiro M. T. &Zhang Y.(2023).Sparks of artificial general intelligence: Early experiments with GPT\u20104.arXiv preprint arXiv:2303.12712."
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aal4230"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "unstructured": "Casper S. Davies X. Shi C. Gilbert T. K. Scheurer J. Rando J. Freedman R. Korbak T. Lindner D. Freire P. Wang T. Marks S. Segerie C.\u2010R. Carroll M. Peng A. Christoffersen P. Damani M. Slocum S. Anwar U. \u2026Hadfield\u2010Menell D.(2023).Open problems and fundamental limitations of reinforcement learning from human feedback.arXiv preprint arXiv:2307.15217."
+      },
+      {
+        "issue": "70",
+        "key": "e_1_2_11_24_1",
+        "first-page": "1",
+        "article-title": "Scaling instruction\u2010finetuned language models",
+        "volume": "25",
+        "author": "Chung H. W.",
+        "year": "2024",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "unstructured": "Coursera. (2023).New products tools and features.https://blog.coursera.org/new\u2010products\u2010tools\u2010and\u2010features\u20102023"
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2022.naacl-main.122"
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/01623737231169270"
+      },
+      {
+        "key": "e_1_2_11_28_1",
+        "unstructured": "Denny P. Gulwani S. Heffernan N. T. K\u00e4ser T. Moore S. Rafferty A. N. &Singla A.(2024).Generative AI for education (GAIED): Advances opportunities and challenges.arXiv preprint arXiv:2402.01580."
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Devlin J. Chang M.\u2010W. Lee K. &Toutanova K.(2019).Bert: Pre\u2010training of deep bidirectional transformers for language understanding. InNorth American Chapter of the Association for Computational Linguistics.https://api.semanticscholar.org/CorpusID:52967399",
+        "DOI": "10.18653/v1/N19-1423"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3442188.3445924"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780429433726-31"
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41539\u2010023\u201000174\u2010x"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bjso.12560"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "unstructured": "edX Press. (n.d.).edX Debuts Two AI\u2010Powered Learning Assistants Built on ChatGPT.https://press.edx.org/edx\u2010debuts\u2010two\u2010ai\u2010powered\u2010learning\u2010assistants\u2010built\u2010on\u2010chatgpt"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1364-6613(99)01294-2"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/coli_a_00524"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "unstructured": "Ganguli D. Lovitt L. Kernion J. Askell A. Bai Y. Kadavath S. Mann B. Perez E. Schiefer N. Ndousse K. Jones A. Bowman S. Chen A. Conerly T. DasSarma N. Drain D. Elhage N. El\u2010Showk S. Fort S. \u2026Clark J.(2022).Red teaming language models to reduce harms: Methods scaling behaviors and lessons learned.arXiv preprint arXiv: 2209.07858."
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1720347115"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "unstructured": "Gemini Team Anil R. Borgeaud S. Alayrac J.\u2010B. Yu J. Soricut R. Schalkwyk J. Dai A. M. Hauth A. Millican K. Silver D. Johnson M. Antonoglou I. Schrittwieser J. Glaese A. Chen J. Pitler E. Lillicrap T. Lazaridou A. \u2026Vinyals O.(2024).Gemini: A family of highly capable multimodal models.arXiv preprint arXiv:2312.11805."
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "unstructured": "Gemma Team Mesnard T. Hardin C. Dadashi R. Bhupatiraju S. Pathak S. Sifre L. Rivi\u00e8re M. Kale M. S. Love J. Tafti P. Hussenot L. Sessa P. G. Chowdhery A. Roberts A. Barua A. Botev A. Castro\u2010Ros A. Slone A. \u2026Kenealy K.(2024).Gemma: Open models based on Gemini research and technology. arXiv preprint arXiv:2403.08295."
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2021.acl-long.150"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gonen H. &Goldberg Y.(2019).Lipstick on a pig: Debiasing methods cover up systematic gender biases in word embeddings but do not remove them.arXiv preprint arXiv:1903.03862.",
+        "DOI": "10.18653/v1/N19-1061"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "unstructured": "Google Jigsaw. (2024).Perspective API documentation.https://perspectiveapi.com/"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henkel O. Horne\u2010Robinson H. Kozhakhmetova N. &Lee A.(2024).Effective and scalable math support: Evidence on the impact of an AI\u2010 tutor on math achievement in Ghana.arXiv preprint arXiv:2402.09809.",
+        "DOI": "10.1007/978-3-031-64315-6_34"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "unstructured": "Hicke Y. Agarwal A. Ma Q. &Denny P.(2023).Chata: Towards an intelligent question\u2010answer teaching assistant using open\u2010source LLMs.arXiv preprint arXiv:2311.02775."
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "unstructured": "Hofmann V. Kalluri P. R. Jurafsky D. &King S.(2024).Dialect prejudice predicts AI decisions about people's character employability and criminality.arXiv preprint arXiv: 2403.00742."
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-30938-9"
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3531146.3533089"
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "unstructured": "Inan H. Upasani K. Chi J. Rungta R. Iyer K. Mao Y. Tontchev M. Hu Q. Fuller B. Testuggine D. &Khabsa M.(2023).Llama Guard: LLM\u2010based input\u2010output safeguard for human\u2010AI conversations.arXiv preprint arXiv:2312.06674."
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3442188.3445901"
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10705511.2014.856694"
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "unstructured": "Jiang A. Q. Sablayrolles A. Mensch A. Bamford C. Chaplot D. S. de lasCasas D. Bressand F. Lengyel G. Lample G. Saulnier L. Renard Lavaud L. Lachaux M.\u2010A. Stock P. Le Scao T. Lavril T. Wang T. Lacroix T. &El Sayed W.(2023).Mistral 7B.arXiv preprint arXiv: 2310.06825."
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "unstructured": "Jurenka I. Kunesch M. McKee K. Gillick D. Zhu S. Wiltberger S. Phal S. M. Hermann K. Kasenberg D. Bhoopchand A. Anand A. P\u00eeslar M. Chan S. Wang L. She J. Mahmoudieh P. Rysbek A. Ko W.\u2010J. Huber A. \u2026Ibrahim L.(2024).Towards responsible development of generative AI for education: An evaluation\u2010driven approach. Google Technical Report.https://storage.googleapis.com/deepmind\u2010media/LearnLM/LearnLM_paper.pdf"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "volume-title": "Noise: A flaw in human judgment",
+        "author": "Kahneman D.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lindif.2023.102274"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "unstructured": "Khan Academy. (n.d.).Khan Academy Labs.https://www.khanacademy.org/khan\u2010labs"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2022.findings-emnlp.35"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780429329067-10"
+      },
+      {
+        "key": "e_1_2_11_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3582269.3615599"
+      },
+      {
+        "key": "e_1_2_11_60_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kurita K. Vyas N. Pareek A. Black A. W. &Tsvetkov Y.(2019).Measuring bias in contextualized word representations.arXiv preprint arXiv:1906.07337.",
+        "DOI": "10.18653/v1/W19-3823"
+      },
+      {
+        "key": "e_1_2_11_61_1",
+        "first-page": "1",
+        "article-title": "Bridging large language model disparities: Skill tagging of multilingual educational content",
+        "author": "Kwak Y.",
+        "year": "2024",
+        "journal-title": "British Journal of Educational Technology"
+      },
+      {
+        "key": "e_1_2_11_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.caeai.2024.100210"
+      },
+      {
+        "key": "e_1_2_11_63_1",
+        "unstructured": "LDNOOBW. (2023).List of dirty naughty obscene and otherwise bad words.https://github.com/LDNOOBW/List\u2010of\u2010Dirty\u2010Naughty\u2010Obscene\u2010and\u2010Otherwise\u2010Bad\u2010Words"
+      },
+      {
+        "key": "e_1_2_11_64_1",
+        "unstructured": "Leiker D. Finnigan S. Gyllen A. R. &Cukurova M.(2023).Prototyping the use of large language models (LLMs) for adult learning content creation at scale.arXiv preprint arXiv:2306.01815."
+      },
+      {
+        "key": "e_1_2_11_65_1",
+        "volume-title": "Proceedings of the 15th International Conference on educational data mining, International Educational Data Mining Society",
+        "author": "Levin N.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_11_66_1",
+        "first-page": "9459",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "Lewis P.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_11_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3636555.3636860"
+      },
+      {
+        "key": "e_1_2_11_68_1",
+        "unstructured": "Li Y. Bubeck S. Eldan R. Del Giorno A. Gunasekar S. &Lee Y. T.(2023).Textbooks are all you need ii: phi\u20101.5 technical report.arXiv preprint arXiv:2309.05463."
+      },
+      {
+        "key": "e_1_2_11_69_1",
+        "unstructured": "Liang P. Bommasani R. Lee T. Tsipras D. Soylu D. Yasunaga M. Zhang Y. Narayanan D. Wu Y. Kumar A. Newman B. Yuan B. Yan B. Zhang C. Cosgrove C. Manning C. D. R\u00e9 C. Acosta\u2010Navas D. Hudson D. A. \u2026Koreeda Y.(2023).Holistic evaluation of language models.arXiv preprint arXiv:2211.09110."
+      },
+      {
+        "key": "e_1_2_11_70_1",
+        "unstructured": "Lin J. Thomas D. R. Han F. Gupta S. Tan W. Nguyen N. D. &Koedinger K. R.(2023).Using large language models to provide explanatory feedback to human tutors.arXiv preprint arXiv:2306.15498."
+      },
+      {
+        "key": "e_1_2_11_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.adg9405"
+      },
+      {
+        "key": "e_1_2_11_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3560815"
+      },
+      {
+        "key": "e_1_2_11_73_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu X. Ji K. Fu Y. Tam W. L. Du Z. Yang Z. &Tang J.(2021).P\u2010tuning v2: Prompt tuning can be comparable to fine\u2010tuning universally across scales and tasks.arXiv preprint arXiv:2110.07602.",
+        "DOI": "10.18653/v1/2022.acl-short.8"
+      },
+      {
+        "key": "e_1_2_11_74_1",
+        "unstructured": "Liu Y. Ott M. Goyal N. Du J. Joshi M. Chen D. Levy O. Lewis M. Zettlemoyer L. &Stoyanov V.(2019).Roberta: A robustly optimized BERT pretraining approach.arXiv preprint arXiv:1907.11692."
+      },
+      {
+        "key": "e_1_2_11_75_1",
+        "volume-title": "The effects of virtual tutoring on young readers: Results from a randomized controlled trial",
+        "author": "Loeb S.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_11_76_1",
+        "unstructured": "Lozhkov A. Ben Allal L. vonWerra L. &Wolf T.(2024 May).Fineweb\u2010edu.https://huggingface.co/datasets/HuggingFaceFW/fineweb\u2010edu"
+      },
+      {
+        "key": "e_1_2_11_77_1",
+        "unstructured": "Luo Y. Yang Z. Meng F. Li Y. Zhou J. &Zhang Y.(2023).An empirical study of catastrophic forgetting in large language models during continual fine\u2010tuning.arXiv preprint arXiv:2308.08747."
+      },
+      {
+        "key": "e_1_2_11_78_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "May C. Wang A. Bordia S. Bowman S. R. &Rudinger R.(2019).On measuring social biases in sentence encoders.arXiv preprint arXiv:1903.10561.",
+        "DOI": "10.18653/v1/N19-1063"
+      },
+      {
+        "key": "e_1_2_11_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3457607"
+      },
+      {
+        "key": "e_1_2_11_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.caeai.2023.100199"
+      },
+      {
+        "key": "e_1_2_11_81_1",
+        "unstructured": "Minaee S. Mikolov T. Nikzad N. Chenaghlu M. Socher R. Amatriain X. &Gao J.(2024).Large language models: A survey.arXiv preprint arXiv:2402.06196."
+      },
+      {
+        "key": "e_1_2_11_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2022.ltedi-1.4"
+      },
+      {
+        "key": "e_1_2_11_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bjet.12156"
+      },
+      {
+        "key": "e_1_2_11_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2207676.2208597"
+      },
+      {
+        "key": "e_1_2_11_85_1",
+        "unstructured": "OpenAI. (2023).Gpt\u20104 technical report.https://arxiv.org/abs/2303.08774"
+      },
+      {
+        "key": "e_1_2_11_86_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pankiewicz M. &Baker R. S.(2024).Navigating compiler errors with AI assistance\u2014A study of GPT hints in an introductory programming course.arXiv preprint arXiv:2403.12737.",
+        "DOI": "10.1145/3649217.3653608"
+      },
+      {
+        "key": "e_1_2_11_87_1",
+        "volume-title": "Conversational agents and natural language interaction: Techniques and effective practices: Techniques and effective practices",
+        "author": "Perez\u2010Marin D.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_11_88_1",
+        "unstructured": "Radford A. &Narasimhan K.(2018).Improving language understanding by generative pre\u2010training.https://api.semanticscholar.org/CorpusID:49313245"
+      },
+      {
+        "key": "e_1_2_11_89_1",
+        "volume-title": "Improving language understanding by generative pre\u2010training",
+        "author": "Radford A.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_11_90_1",
+        "unstructured": "Radford A. Wu J. Child R. Luan D. Amodei D. &Sutskever I.(2019).Language models are unsupervised multitask learners.https://api.semanticscholar.org/CorpusID:160025533"
+      },
+      {
+        "key": "e_1_2_11_91_1",
+        "first-page": "53728",
+        "article-title": "Direct preference optimization: Your language model is secretly a reward model",
+        "volume": "36",
+        "author": "Rafailov R.",
+        "year": "2024",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_92_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rajpurkar P. Zhang J. Lopyrev K. &Liang P.(2016).Squad: 100 000+ questions for machine comprehension of text.arXiv preprint arXiv:1606.05250.",
+        "DOI": "10.18653/v1/D16-1264"
+      },
+      {
+        "key": "e_1_2_11_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10462-021-10068-2"
+      },
+      {
+        "key": "e_1_2_11_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2023.acl-long.163"
+      },
+      {
+        "key": "e_1_2_11_95_1",
+        "first-page": "5861",
+        "article-title": "Process for adapting language models to society (palms) with values\u2010targeted datasets",
+        "volume": "34",
+        "author": "Solaiman I.",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_96_1",
+        "unstructured": "spamscanner. (2023).Spam scanner: A node.js anti\u2010spam email filtering and phishing prevention tool and service.https://github.com/spamscanner/spamscanner"
+      },
+      {
+        "key": "e_1_2_11_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3465416.3483305"
+      },
+      {
+        "key": "e_1_2_11_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3306618.3314270"
+      },
+      {
+        "key": "e_1_2_11_99_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tao Y. Viberg O. Baker R. S. &Kizilcec R. F.(2024).Cultural bias and cultural alignment of large language models.arXiv preprint arXiv:2311.14096.",
+        "DOI": "10.1093/pnasnexus/pgae346"
+      },
+      {
+        "key": "e_1_2_11_100_1",
+        "unstructured": "Team G. Mesnard T. Hardin C. Dadashi R. Bhupatiraju S. Pathak S. Sifre L. Rivi\u00e8re M. Kale M. S. Love J. Tafti P. Hussenot L. Sessa P. G. Chowdhery A. Roberts A. Barua A. Botev A. Castro\u2010Ros A. Slone A. \u2026Kenealy K.(2024).Gemma: Open models based on Gemini research and technology.arXiv preprint arXiv:2403.08295."
+      },
+      {
+        "key": "e_1_2_11_101_1",
+        "unstructured": "Touvron H. Lavril T. Izacard G. Martinet X. Lachaux M.\u2010A. Lacroix T. Rozi\u00e8re B. Goyal N. Hambro E. Azhar F. Rodriguez A. Joulin A. Grave E. &Lample G.(2023).LLaMA: Open and efficient foundation language models.arXiv preprint arXiv:2302.13971."
+      },
+      {
+        "key": "e_1_2_11_102_1",
+        "unstructured": "Wang A. Morgenstern J. &Dickerson J. P.(2024).Large language models cannot replace human participants because they cannot portray identity groups.arXiv preprint arXiv:2402.01908."
+      },
+      {
+        "key": "e_1_2_11_103_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang R. E. &Demszky D.(2024).Edu\u2010ConvoKit: An open\u2010source library for education conversation data.arXiv preprint arXiv:2402.05111.",
+        "DOI": "10.18653/v1/2024.naacl-demo.6"
+      },
+      {
+        "key": "e_1_2_11_104_1",
+        "unstructured": "Wang R. E. Zhang Q. Robinson C. Loeb S. &Demszky D.(2023).Step\u2010by\u2010step remediation of students' mathematical mistakes.arXiv preprint arXiv:2310.10648."
+      },
+      {
+        "key": "e_1_2_11_105_1",
+        "unstructured": "Webster K. Wang X. Tenney I. Beutel A. Pitler E. Pavlick E. Chen J. Chi E. &Petrov S.(2020).Measuring and reducing gendered correlations in pre\u2010trained models.arXiv preprint arXiv:2010.06032."
+      },
+      {
+        "key": "e_1_2_11_106_1",
+        "unstructured": "Weidinger L. Mellor J. F. J. Rauh M. Griffin C. Uesato J. Huang P.\u2010S. Cheng M. Glaese M. Balle B. Kasirzadeh A. Kenton Z. Brown S. Hawkins W. Stepleton T. Biles C. Birhane A. Haas J. Rimell L. Hendricks L. A. \u2026Gabriel I.(2021).Ethical and social risks of harm from language models.ArXiv abs/2112.04359.https://api.semanticscholar.org/CorpusID:244954639"
+      },
+      {
+        "key": "e_1_2_11_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3531146.3533088"
+      },
+      {
+        "key": "e_1_2_11_108_1",
+        "unstructured": "Weights & Biases. (2023).Processing data for large language models.https://wandb.ai/wandb_gen/llm\u2010data\u2010processing/reports/Processing\u2010Data\u2010for\u2010Large\u2010Language\u2010Models\u2010\u2010VmlldzozMDg4MTM2"
+      },
+      {
+        "key": "e_1_2_11_109_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frai.2021.654924"
+      },
+      {
+        "key": "e_1_2_11_110_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bjet.13370"
+      },
+      {
+        "key": "e_1_2_11_111_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/2378023117737206"
+      },
+      {
+        "key": "e_1_2_11_112_1",
+        "unstructured": "Zhai Y. Tong S. Li X. Cai M. Qu Q. Lee Y. J. &Ma Y.(2023).Investigating the catastrophic forgetting in multimodal large language models.arXiv preprint arXiv:2309.10313."
+      },
+      {
+        "key": "e_1_2_11_113_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao J. Wang T. Yatskar M. Cotterell R. Ordonez V. &Chang K.\u2010W.(2019).Gender bias in contextualized word embeddings.arXiv preprint arXiv:1904.03310.",
+        "DOI": "10.18653/v1/N19-1064"
+      },
+      {
+        "key": "e_1_2_11_114_1",
+        "first-page": "12697",
+        "volume-title": "International conference on machine learning",
+        "author": "Zhao Z.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_11_115_1",
+        "unstructured": "Zheng H. Shen L. Tang A. Luo Y. Hu H. Du B. &Tao D.(2023).Learn from model beyond fine\u2010tuning: A survey.arXiv preprint arXiv:2310.08184."
+      },
+      {
+        "key": "e_1_2_11_116_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bjet.13156"
+      },
+      {
+        "key": "e_1_2_11_117_1",
+        "unstructured": "Zhou Y. Zanette A. Pan J. Levine S. &Kumar A.(2024).Archer: Training language model agents via hierarchical multi\u2010turn RL.arXiv preprint arXiv:2402.19446."
+      }
+    ],
+    "container-title": [
+      "British Journal of Educational Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://bera-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/bjet.13505",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://bera-journals.onlinelibrary.wiley.com/doi/full-xml/10.1111/bjet.13505",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://bera-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/bjet.13505",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2026-09-01T00:57:31Z",
+      "timestamp": 1788224251000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13505"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ]
+    },
+    "references-count": 116,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/bjet.13505"
+    ],
+    "URL": "https://doi.org/10.1111/bjet.13505",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0007-1013",
+      "1467-8535"
+    ],
+    "issn-type": [
+      {
+        "value": "0007-1013",
+        "type": "print"
+      },
+      {
+        "value": "1467-8535",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-06-03",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-06-26",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-07-12",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+]

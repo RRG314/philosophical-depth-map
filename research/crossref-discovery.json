@@ -1,0 +1,4037 @@
+[
+  {
+    "query": "Validating the Interpretations and Uses of Test Scores Kane",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2026-10-02T07:36:57Z",
+        "timestamp": 1790926617168,
+        "version": "4.1.0"
+      },
+      "edition-number": "1",
+      "reference-count": 34,
+      "publisher": "Emerald Publishing Limited",
+      "isbn-type": [
+        {
+          "value": "9781607522287",
+          "type": "print"
+        },
+        {
+          "value": "9781617352690",
+          "type": "electronic"
+        },
+        {
+          "value": "9781607522287",
+          "type": "print"
+        },
+        {
+          "value": "9781607522270",
+          "type": "print"
+        },
+        {
+          "value": "9781806618057",
+          "type": "electronic"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            10,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>In most discussions of educational and psychological measurement, validity has been defined broadly, to cover the evaluation of interpretations and uses of test scores. If the proposed interpretation of test scores is limited, as it is for some observable attributes, the requirements for validation can be very modest. If the proposed interpretations are more ambitious, as they are for traits and theoretical constructs, more evidence and more kinds of evidence are required for validation. Because validity addresses the wide range of issues associated with the interpretation and uses of test scores, it is viewed as the most fundamental consideration in evaluating testing programs. We can redefine validity as a more specific, technical property of tests or test scores, but if we do so, we should probably not think of it as the most fundamental consideration in evaluating testing programs.</jats:p>",
+      "DOI": "10.1108/978-1-61735-269-020251005",
+      "type": "book-chapter",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            16
+          ]
+        ],
+        "date-time": "2025-12-16T06:33:27Z",
+        "timestamp": 1765866807000
+      },
+      "page": "39-64",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Validating the Interpretations and Uses of Test Scores"
+      ],
+      "prefix": "10.1108",
+      "author": [
+        {
+          "given": "Michael",
+          "family": "Kane",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "140",
+      "reference": [
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref001",
+          "volume-title": "Standards for educational and psychological testing",
+          "author": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education",
+          "year": "1999"
+        },
+        {
+          "issue": "3",
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref002",
+          "doi-asserted-by": "crossref",
+          "first-page": "425",
+          "DOI": "10.1007/s11336-006-1447-6",
+          "article-title": "The attack of the psychometricians",
+          "volume": "71",
+          "author": "Borsboom",
+          "year": "2006",
+          "journal-title": "Psychometrika"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref003",
+          "doi-asserted-by": "crossref",
+          "first-page": "1061",
+          "DOI": "10.1037/0033-295X.111.4.1061",
+          "article-title": "The concept of validity",
+          "volume": "111",
+          "author": "Borsboom",
+          "year": "2004",
+          "journal-title": "Psychological Review"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref004",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-1-4757-3456-0",
+          "volume-title": "Generalizability theory",
+          "author": "Brennan",
+          "year": "2001"
+        },
+        {
+          "issue": "4",
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref005",
+          "doi-asserted-by": "crossref",
+          "first-page": "285",
+          "DOI": "10.1111/j.1745-3984.2001.tb01129.x",
+          "article-title": "An essay on the history and future of reliability from the perspective of replications",
+          "volume": "38",
+          "author": "Brennan",
+          "year": "2001",
+          "journal-title": "Journal of Educational Measurement"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref006",
+          "volume-title": "The logic of modern physics",
+          "author": "Bridgeman",
+          "year": "1927"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref007",
+          "volume-title": "Building a validity argument for the test of English as a foreign language",
+          "author": "Chapelle",
+          "year": "2008"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref008",
+          "doi-asserted-by": "crossref",
+          "first-page": "310",
+          "DOI": "10.1177/01466210022031778",
+          "article-title": "Recurrent issues and recent advances in scoring performance assessments",
+          "volume": "24",
+          "author": "Clauser",
+          "year": "2000",
+          "journal-title": "Applied Psychological Measurement"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref009",
+          "first-page": "443",
+          "volume-title": "Educational measurement",
+          "author": "Cronbach",
+          "year": "1971",
+          "edition": "2nd"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref010",
+          "doi-asserted-by": "crossref",
+          "first-page": "281",
+          "DOI": "10.1037/h0040957",
+          "article-title": "Construct validity in psychological tests",
+          "volume": "52",
+          "author": "Cronbach",
+          "year": "1955",
+          "journal-title": "Psychological Bulletin"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref011",
+          "doi-asserted-by": "crossref",
+          "first-page": "438",
+          "DOI": "10.3102/00346543058004438",
+          "article-title": "The impact of classroom evaluation practices on students",
+          "volume": "58",
+          "author": "Crooks",
+          "year": "1988",
+          "journal-title": "Review of Educational Research"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref012",
+          "first-page": "265",
+          "article-title": "Threats to the valid use of assessments",
+          "volume": "3",
+          "author": "Crooks",
+          "year": "1996",
+          "journal-title": "Assessment in Education"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref013",
+          "volume-title": "Educational measurement",
+          "author": "Cureton",
+          "year": "1951"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref014",
+          "first-page": "03",
+          "volume-title": "What is quantitative reasoning? Defining the construct for assessment purposes",
+          "author": "Dwyer",
+          "year": "2003"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref015",
+          "doi-asserted-by": "crossref",
+          "first-page": "179",
+          "DOI": "10.1037/0033-2909.93.1.179",
+          "article-title": "Construct validity: Construct representation versus nomothetic span",
+          "volume": "93",
+          "author": "Embretson",
+          "year": "1983",
+          "journal-title": "Psychological Bulletin"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref016",
+          "first-page": "105",
+          "volume-title": "Educational measurement",
+          "author": "Feldt",
+          "year": "1989",
+          "edition": "3rd"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref017",
+          "doi-asserted-by": "crossref",
+          "first-page": "385",
+          "DOI": "10.1037/0735-7028.11.3.385",
+          "article-title": "On trinitarian conceptions of validity",
+          "volume": "11",
+          "author": "Guion",
+          "year": "1980",
+          "journal-title": "Professional Psychology"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref018",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1037/13240-000",
+          "volume-title": "Theory of mental tests",
+          "author": "Gulliksen",
+          "year": "1950"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref019",
+          "first-page": "65",
+          "volume-title": "Educational measurement",
+          "author": "Haertel",
+          "year": "2006",
+          "edition": "4th"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref020",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1111/j.1745-3984.2001.tb01130.x",
+          "article-title": "Current concerns in validity theory",
+          "volume": "38",
+          "author": "Kane",
+          "year": "2001",
+          "journal-title": "Journal of Educational Measurement"
+        },
+        {
+          "issue": "3",
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref021",
+          "first-page": "135",
+          "article-title": "Certification testing as an illustration of argument-based approach validation",
+          "volume": "2",
+          "author": "Kane",
+          "year": "2004",
+          "journal-title": "Measurement: Interdisciplinary Research and Perspectives"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref022",
+          "first-page": "17",
+          "volume-title": "Educational measurement",
+          "author": "Kane",
+          "year": "2006",
+          "edition": "4th"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref023",
+          "doi-asserted-by": "crossref",
+          "first-page": "437",
+          "DOI": "10.3102/0013189X07311286",
+          "article-title": "A suggested change in terminology and emphasis regarding validity and education",
+          "volume": "36",
+          "author": "Lissitz",
+          "year": "2007",
+          "journal-title": "Educational Researcher"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref024",
+          "first-page": "635",
+          "article-title": "Objective tests as instruments of psychological theory",
+          "volume": "3",
+          "author": "Loevinger",
+          "year": "1957",
+          "journal-title": "Psychological Reports, Monograph Supplement"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref025",
+          "first-page": "13",
+          "volume-title": "Educational measurement",
+          "author": "Messick",
+          "year": "1989",
+          "edition": "3rd"
+        },
+        {
+          "issue": "2",
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref026",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.3102/0013189X023002013",
+          "article-title": "The interplay of evidence and consequences in the validation of performance assessments",
+          "volume": "23",
+          "author": "Messick",
+          "year": "1994",
+          "journal-title": "Educational Researcher"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref027",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1111/j.1745-3984.1996.tb00498.x",
+          "article-title": "Test theory reconceived",
+          "volume": "33",
+          "author": "Mislevy",
+          "year": "1996",
+          "journal-title": "Journal of Educational Measurement"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref028",
+          "unstructured": "Mislevy, R. (2008, October9\u201310). Validity from the perspective of model-based reasoning. Paper presented at the conference on the concept of validity at the University of Maryland, College Park, MD."
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref029",
+          "first-page": "3",
+          "article-title": "On the structure of educational assessments",
+          "volume": "1",
+          "author": "Mislevy",
+          "year": "2003",
+          "journal-title": "Measurement: Interdisciplinary Research and Perspectives"
+        },
+        {
+          "issue": "2",
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref030",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.1111/j.1745-3992.1997.tb00586.x",
+          "article-title": "Consequential validity: Right concern\u2014wrong concept",
+          "volume": "16",
+          "author": "Popham",
+          "year": "1997",
+          "journal-title": "Educational Measurement: Issues and Practice"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref031",
+          "first-page": "405",
+          "volume-title": "Review of research in education",
+          "author": "Shepard",
+          "year": "1993"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref032",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1023/A:1006985528729",
+          "article-title": "The construct of content validity",
+          "volume": "45",
+          "author": "Sireci",
+          "year": "1998",
+          "journal-title": "Social Indicators Research"
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref033",
+          "unstructured": "Sireci, S. (2008, October9-10). Packing and unpacking sources of validity evidence: History repeats itself again. Paper presented at the conference on the concept of at the University of Maryland, College Park, MD."
+        },
+        {
+          "key": "2025121601332042300_book-978-1-61735-269-020251005-ref034",
+          "volume-title": "The uses of argument",
+          "author": "Toulmin",
+          "year": "1958"
+        }
+      ],
+      "container-title": [
+        "The Concept of Validity"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.emerald.com/books/edited-volume/chapter-pdf/11069138/978-1-61735-269-020251005en.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            16
+          ]
+        ],
+        "date-time": "2025-12-16T06:33:47Z",
+        "timestamp": 1765866827000
+      },
+      "score": 50.994816,
+      "resource": {
+        "primary": {
+          "URL": "https://www.emerald.com/books/book/20598/chapter/106470949/Validating-the-Interpretations-and-Uses-of-Test"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2009,
+            10,
+            1
+          ]
+        ]
+      },
+      "ISBN": [
+        "9781607522287",
+        "9781617352690",
+        "9781607522287",
+        "9781607522270",
+        "9781806618057"
+      ],
+      "references-count": 34,
+      "URL": "https://doi.org/10.1108/978-1-61735-269-020251005",
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            10,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query": "Graded response model Samejima 1969 estimation latent ability",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2026-10-10T12:48:09Z",
+        "timestamp": 1791636489899,
+        "version": "4.3.4"
+      },
+      "reference-count": 17,
+      "publisher": "Cambridge University Press (CUP)",
+      "issue": "S1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 20395,
+          "URL": "https://www.cambridge.org/core/terms"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Psychometrika"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1969,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:p>This monograph is a part of a more comprehensive treatment of estimation of latent traits, when the entire response pattern is used.</jats:p>\n                  <jats:p>The fundamental structure of the whole theory comes from the latent trait model, which was initiated by Lazarsfeld as the latent structure analysis [Lazarsfeld, 1959], and also by Lord and others as a theory of mental test scores [Lord, 1952]. Similarities and differences in their mathematical structures and tendencies were discussed by Lazarsfeld [Lazarsfeld, 1960] and the recent book by Lord and Novick with contributions by Birnbaum [Lord &amp; Novick, 1968] provides the dichotomous case of the latent trait model in the context of mental measurement.</jats:p>",
+      "DOI": "10.1007/bf03372160",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2016,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2016-07-20T23:02:18Z",
+        "timestamp": 1469055738000
+      },
+      "page": "1-97",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1645,
+      "title": [
+        "Estimation of Latent Ability Using a Response Pattern of Graded Scores"
+      ],
+      "prefix": "10.1017",
+      "volume": "34",
+      "author": [
+        {
+          "given": "Fumiko",
+          "family": "Samejima",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "56",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "S0033312300040151_CR5",
+          "volume-title": "Third Report of the Psychological Laboratory on the Hiyoshi Campus",
+          "author": "Indow",
+          "year": "1966"
+        },
+        {
+          "key": "S0033312300040151_CR6",
+          "volume-title": "The advanced theory of statistics",
+          "volume": "2",
+          "author": "Kendall",
+          "year": "1961"
+        },
+        {
+          "key": "S0033312300040151_CR13",
+          "first-page": "60",
+          "article-title": "Development and application of Lord's theory of test scores",
+          "volume": "1",
+          "author": "Samejima",
+          "year": "1962",
+          "journal-title": "Bulletin of Nippon Research Center"
+        },
+        {
+          "key": "S0033312300040151_CR11",
+          "volume-title": "Statistical theories of mental test scores",
+          "author": "Lord",
+          "year": "1968"
+        },
+        {
+          "key": "S0033312300040151_CR7",
+          "volume-title": "Psychology: A study of a science",
+          "author": "Lazarsfeld",
+          "year": "1959"
+        },
+        {
+          "key": "S0033312300040151_CR16",
+          "first-page": "2",
+          "volume-title": "Research Bulletin",
+          "author": "Samejima",
+          "year": "1962"
+        },
+        {
+          "key": "S0033312300040151_CR17",
+          "first-page": "57",
+          "volume-title": "The L. L. Thurstone Psychometric Laboratory Report",
+          "author": "Samejima",
+          "year": "1968"
+        },
+        {
+          "key": "S0033312300040151_CR10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02289028"
+        },
+        {
+          "key": "S0033312300040151_CR12",
+          "volume-title": "Manual for scholastic aptitude test",
+          "year": "1966"
+        },
+        {
+          "key": "S0033312300040151_CR1",
+          "volume-title": "Series Report No. 58-16",
+          "author": "Birnbaum",
+          "year": "1957"
+        },
+        {
+          "key": "S0033312300040151_CR15",
+          "first-page": "55",
+          "volume-title": "The L. L. Thurstone Psychometric Laboratory Report",
+          "author": "Samejima",
+          "year": "1967"
+        },
+        {
+          "key": "S0033312300040151_CR8",
+          "volume-title": "Psychological scaling: Theory and applications",
+          "author": "Lazarsfeld",
+          "year": "1960"
+        },
+        {
+          "key": "S0033312300040151_CR9",
+          "volume-title": "Psychometric Monographs",
+          "author": "Lord",
+          "year": "1952"
+        },
+        {
+          "key": "S0033312300040151_CR3",
+          "volume-title": "Technical Report No. 17",
+          "author": "Birnbaum",
+          "year": "1958"
+        },
+        {
+          "key": "S0033312300040151_CR2",
+          "volume-title": "Series Report No. 15",
+          "author": "Birnbaum",
+          "year": "1958"
+        },
+        {
+          "key": "S0033312300040151_CR14",
+          "first-page": "61",
+          "article-title": "Scale construction when grades are introduced to the responses to each item",
+          "volume": "1",
+          "author": "Samejima",
+          "year": "1962",
+          "journal-title": "Bulletin of Nippon Research Center"
+        },
+        {
+          "key": "S0033312300040151_CR4",
+          "volume-title": "LIS measurement scale for non-verbal reasoning ability",
+          "author": "Indow",
+          "year": "1962"
+        }
+      ],
+      "updated-by": [
+        {
+          "DOI": "10.1007/bf02290599",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                1970,
+                3,
+                1
+              ]
+            ],
+            "date-time": "1970-03-01T00:00:00Z",
+            "timestamp": 5097600000
+          }
+        }
+      ],
+      "container-title": [
+        "Psychometrika"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0033312300040151",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            2
+          ]
+        ],
+        "date-time": "2025-04-02T23:37:37Z",
+        "timestamp": 1743637057000
+      },
+      "score": 58.55719,
+      "resource": {
+        "primary": {
+          "URL": "https://www.cambridge.org/core/product/identifier/S0033312300040151/type/journal_article"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1969,
+            3
+          ]
+        ]
+      },
+      "references-count": 17,
+      "journal-issue": {
+        "issue": "S1",
+        "published-print": {
+          "date-parts": [
+            [
+              1969,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0033312300040151"
+      ],
+      "URL": "https://doi.org/10.1007/bf03372160",
+      "ISSN": [
+        "0033-3123",
+        "1860-0980"
+      ],
+      "issn-type": [
+        {
+          "value": "0033-3123",
+          "type": "print"
+        },
+        {
+          "value": "1860-0980",
+          "type": "electronic"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1969,
+            3
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query": "Critical Thinking A Statement of Expert Consensus Facione 1990",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T11:16:14Z",
+        "timestamp": 1789643774826,
+        "version": "4.0.0"
+      },
+      "reference-count": 0,
+      "publisher": "Philosophy Documentation Center",
+      "issue": "1",
+      "content-domain": {
+        "domain": [
+          "pdcnet.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "DOI": "10.5840/inquiryct20132812",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2013,
+            8,
+            30
+          ]
+        ],
+        "date-time": "2013-08-30T02:01:06Z",
+        "timestamp": 1377828066000
+      },
+      "page": "5-25",
+      "update-policy": "https://doi.org/10.5840/pdc20121120",
+      "source": "Crossref",
+      "is-referenced-by-count": 63,
+      "title": [
+        "Critical Thinking for Life"
+      ],
+      "prefix": "10.5840",
+      "volume": "28",
+      "author": [
+        {
+          "given": "Peter A.",
+          "family": "Facione",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Noreen C.",
+          "family": "Facione",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "name": "Philosophy Documentation Center",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "3884",
+      "published-online": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "container-title": [
+        "Inquiry: Critical Thinking Across the Disciplines"
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            19
+          ]
+        ],
+        "date-time": "2020-05-19T19:01:10Z",
+        "timestamp": 1589914870000
+      },
+      "score": 37.730576,
+      "resource": {
+        "primary": {
+          "URL": "http://www.pdcnet.org/oom/service?url_ver=Z39.88-2004&rft_val_fmt=&rft.imuse_id=inquiryct_2013_0028_0001_0005_0025&svc_id=info:www.pdcnet.org/collection"
+        }
+      },
+      "subtitle": [
+        "Valuing, Measuring, and Training Critical Thinking in All Its Forms"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "inquiryct_2013_0028_0001_0005_0025"
+      ],
+      "URL": "https://doi.org/10.5840/inquiryct20132812",
+      "ISSN": [
+        "1093-1082"
+      ],
+      "issn-type": [
+        {
+          "value": "1093-1082",
+          "type": "print"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "YES",
+          "name": "peer_reviewed",
+          "label": "Peer Reviewed"
+        }
+      ]
+    }
+  },
+  {
+    "query": "Instructional interventions affecting critical thinking skills dispositions Abrami 2015",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T09:44:19Z",
+        "timestamp": 1790761459404,
+        "version": "4.1.0"
+      },
+      "reference-count": 174,
+      "publisher": "American Educational Research Association (AERA)",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2008,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2008-12-01T00:00:00Z",
+            "timestamp": 1228089600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Review of Educational Research"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                    Critical thinking (CT), or the ability to engage in purposeful, self-regulatory judgment, is widely recognized as an important, even essential, skill. This article describes an ongoing meta-analysis that summarizes the available empirical evidence on the impact of instruction on the development and enhancement of critical thinking skills and dispositions. We found 117 studies based on 20,698 participants, which yielded 161 effects with an average effect size ( g+) of 0.341 and a standard deviation of 0.610. The distribution was highly heterogeneous ( Q\n                    <jats:sub>T</jats:sub>\n                    = 1,767.86, p &lt; .001). There was, however, little variation due to research design, so we neither separated studies according to their methodological quality nor used any statistical adjustment for the corresponding effect sizes. Type of CT intervention and pedagogical grounding were substantially related to fluctuations in CT effects sizes, together accounting for 32% of the variance. These findings make it clear that improvement in students\u2019 CT skills and dispositions cannot be a matter of implicit expectation. As important as the development of CT skills is considered to be, educators must take steps to make CT objectives explicit in courses and also to include them in both preservice and in-service training and faculty development.\n                  </jats:p>",
+      "DOI": "10.3102/0034654308326084",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2009,
+            2,
+            10
+          ]
+        ],
+        "date-time": "2009-02-10T16:40:33Z",
+        "timestamp": 1234284033000
+      },
+      "page": "1102-1134",
+      "source": "Crossref",
+      "is-referenced-by-count": 602,
+      "title": [
+        "Instructional Interventions Affecting Critical Thinking Skills and                Dispositions: A Stage 1 Meta-Analysis"
+      ],
+      "prefix": "10.3102",
+      "volume": "78",
+      "author": [
+        {
+          "given": "Philip C.",
+          "family": "Abrami",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Concordia University, Montreal, Quebec, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert M.",
+          "family": "Bernard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Concordia University, Montreal, Quebec, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evgueni",
+          "family": "Borokhovski",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Concordia University, Montreal, Quebec, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anne",
+          "family": "Wade",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Concordia University, Montreal, Quebec, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael A.",
+          "family": "Surkes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Concordia University, Montreal, Quebec, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rana",
+          "family": "Tamim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Concordia University, Montreal, Quebec, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dai",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Concordia University, Montreal, Quebec, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1604",
+      "published-online": {
+        "date-parts": [
+          [
+            2008,
+            12,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "b1-0781102",
+          "volume-title": "Statistical control vs. classification of study quality in meta-analysis",
+          "author": "Abrami PC",
+          "year": "2008"
+        },
+        {
+          "issue": "3",
+          "key": "b2-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "111",
+          "DOI": "10.3928/0148-4834-19990301-05",
+          "volume": "38",
+          "author": "Adams BL",
+          "year": "1999",
+          "journal-title": "Journal of Nursing Education"
+        },
+        {
+          "key": "b3-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15328023top2201_14"
+        },
+        {
+          "key": "b4-0781102",
+          "volume-title": "Paper presented at the annual meeting of the National Communication Association",
+          "author": "Allen M",
+          "year": "1997"
+        },
+        {
+          "issue": "1",
+          "key": "b5-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1080/03634529909379149",
+          "volume": "48",
+          "author": "Allen M",
+          "year": "1999",
+          "journal-title": "Communication Education"
+        },
+        {
+          "issue": "1",
+          "key": "b6-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1023/A:1026471702353",
+          "volume": "29",
+          "author": "Anderson T",
+          "year": "2001",
+          "journal-title": "Instructional Science"
+        },
+        {
+          "issue": "5",
+          "key": "b7-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.3928/0148-4834-20000501-07",
+          "volume": "39",
+          "author": "Angel BF",
+          "year": "2000",
+          "journal-title": "Journal of Nursing Education"
+        },
+        {
+          "issue": "3",
+          "key": "b8-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1016/0361-476X(79)90042-0",
+          "volume": "4",
+          "author": "Annis LF",
+          "year": "1979",
+          "journal-title": "Contemporary Educational Psychology"
+        },
+        {
+          "key": "b9-0781102",
+          "volume-title": "Paper presented at the annual meeting of the National Association for Research in Science Teaching",
+          "author": "Arburn TM",
+          "year": "1999"
+        },
+        {
+          "key": "b10-0781102",
+          "unstructured": "ArloRThe relative effectiveness of inductive and expository teaching of principles of general semantics upon the critical reading ability of 9th-grade students (Doctoral dissertation, New York University, 1969)Dissertation Abstracts International1969302411ARetrieved May 25, 2006, from ProQuest Digital Dissertation + Theses Fulltext database. (ERIC Document Reproduction Service No. ED046923)"
+        },
+        {
+          "key": "b11-0781102",
+          "unstructured": "Assessment and Learning Research Synthesis GroupA systematic review of the impact on students and teachers of the use of ICT for assessment of creative and critical thinking skills2003Social Science Research Unit, Institute of Education, University of London"
+        },
+        {
+          "key": "b12-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/1052562903252515"
+        },
+        {
+          "key": "b13-0781102",
+          "first-page": "3030A",
+          "volume": "58",
+          "author": "Ayoub JL",
+          "year": "1998",
+          "journal-title": "Dissertation Abstracts International"
+        },
+        {
+          "key": "b14-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1002/9780470996294.ch11",
+          "volume-title": "The Blackwell guide to the philosophy of education",
+          "author": "Bailin S",
+          "year": "2003"
+        },
+        {
+          "key": "b15-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Bangert-Drowns RL",
+          "year": "1990"
+        },
+        {
+          "issue": "2",
+          "key": "b16-0781102",
+          "first-page": "64",
+          "volume": "31",
+          "author": "Bartlett DJ",
+          "year": "2002",
+          "journal-title": "Journal of Allied Health"
+        },
+        {
+          "key": "b17-0781102",
+          "unstructured": "BeanATSome comparisons between conventional college teaching methods and a composite of procedures involving large lecture groups, seminars, and reduced class time1969Unpublished doctoral dissertation, North Texas State University. (ERIC Document Reproduction Service No. ED0320320)"
+        },
+        {
+          "key": "b18-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15328023top2201_13"
+        },
+        {
+          "key": "b19-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3102/00346543074003379"
+        },
+        {
+          "key": "b20-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "15",
+          "DOI": "10.1016/j.tsc.2007.11.001",
+          "volume": "3",
+          "author": "Bernard RM",
+          "year": "2008",
+          "journal-title": "Thinking Skills and Creativity"
+        },
+        {
+          "key": "b21-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "408",
+          "DOI": "10.1037/h0042126",
+          "author": "Bledsoe JC",
+          "year": "1955",
+          "journal-title": "Journal of Educational Psychology"
+        },
+        {
+          "key": "b22-0781102",
+          "unstructured": "BloomMWattDSolving Canada\u2019s innovation conundrum: How public education can help2003Ottawa, ONConference Board of Canada"
+        },
+        {
+          "key": "b23-0781102",
+          "author": "Blum M",
+          "year": "1979",
+          "journal-title": "The role of programmed instruction for sequential skill development in higher education"
+        },
+        {
+          "issue": "8",
+          "key": "b24-0781102",
+          "volume-title": "Ed at a Distance",
+          "volume": "15",
+          "author": "Bonk CJ",
+          "year": "2001"
+        },
+        {
+          "issue": "4",
+          "key": "b25-0781102",
+          "first-page": "390",
+          "volume": "37",
+          "author": "Boodt GM",
+          "year": "1984",
+          "journal-title": "Reading Teacher"
+        },
+        {
+          "key": "b26-0781102",
+          "volume-title": "Comprehensive meta-analysis",
+          "author": "Borenstein M",
+          "year": "2005"
+        },
+        {
+          "key": "b27-0781102",
+          "volume-title": "Broward County home economics curriculum development project, July 1, 1967 to July 1, 1970. Final report.",
+          "year": "1970"
+        },
+        {
+          "key": "b28-0781102",
+          "first-page": "2898A",
+          "volume": "30",
+          "author": "Brown LE",
+          "year": "1970",
+          "journal-title": "Dissertation Abstracts International"
+        },
+        {
+          "issue": "4",
+          "key": "b29-0781102",
+          "first-page": "10",
+          "volume": "11",
+          "author": "Browne MN",
+          "year": "1977",
+          "journal-title": "College Student Journal"
+        },
+        {
+          "key": "b30-0781102",
+          "first-page": "28",
+          "author": "Brownell JA",
+          "year": "1953",
+          "journal-title": "California Journal of Educational Research"
+        },
+        {
+          "key": "b31-0781102",
+          "author": "Carey S",
+          "year": "1988",
+          "journal-title": "What junior high school students do, can, and should know about the nature of science and scientific inquiry"
+        },
+        {
+          "key": "b32-0781102",
+          "unstructured": "ChampionBWAn inductive approach to the discrimination of factual and inferential statements as an aspect of critical reading1975Unpublished doctoral dissertation, University of Temple, PA. (ERIC Document Reproduction Service No. ED116129)"
+        },
+        {
+          "issue": "4",
+          "key": "b33-0781102",
+          "first-page": "194",
+          "volume": "23",
+          "author": "Colbert KR",
+          "year": "1987",
+          "journal-title": "Journal of the American Forensic Association"
+        },
+        {
+          "key": "b34-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Comerford SS",
+          "year": "2000"
+        },
+        {
+          "key": "b35-0781102",
+          "volume-title": "Dialogical-thinking reading lessons: Promoting critical thinking among \u201clearning-disabled\u201d",
+          "author": "Commeyras M",
+          "year": "1992"
+        },
+        {
+          "key": "b36-0781102",
+          "volume-title": "Paper presented at the annual meeting of the National Association for Research in Science Teaching",
+          "author": "Crow LW",
+          "year": "1985"
+        },
+        {
+          "issue": "2",
+          "key": "b37-0781102",
+          "first-page": "75",
+          "volume": "26",
+          "author": "Curtis CK",
+          "year": "1980",
+          "journal-title": "Alberta Journal of Educational Research"
+        },
+        {
+          "issue": "1",
+          "key": "b38-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.3928/0148-4834-19990101-12",
+          "volume": "38",
+          "author": "Daley BJ",
+          "year": "1999",
+          "journal-title": "Journal of Nursing Education"
+        },
+        {
+          "key": "b39-0781102",
+          "first-page": "2737A",
+          "volume": "37",
+          "author": "Dolan SL",
+          "year": "1976",
+          "journal-title": "Dissertation Abstracts International"
+        },
+        {
+          "issue": "6",
+          "key": "b40-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "811",
+          "DOI": "10.1080/00207390110053784",
+          "volume": "32",
+          "author": "Elliott B",
+          "year": "2001",
+          "journal-title": "International Journal of Mathematical Education in Science and Technology"
+        },
+        {
+          "issue": "2",
+          "key": "b41-0781102",
+          "first-page": "107",
+          "volume": "10",
+          "author": "Ellis TJ",
+          "year": "2001",
+          "journal-title": "Journal of Educational Multimedia and Hypermedia"
+        },
+        {
+          "key": "b42-0781102",
+          "unstructured": "EnglishJDImprovement in drafting instruction: Using graphic organizers and paired problem solving to enhance critical thinking and content knowledge (Doctoral dissertation, University of Kentucky, 1999)Dissertation Abstracts International199960718ARetrieved October 27, 2004, from ProQuest Digital Dissertation + Theses Fulltext database"
+        },
+        {
+          "issue": "1",
+          "key": "b43-0781102",
+          "first-page": "81",
+          "volume": "3",
+          "author": "Ennis RH",
+          "year": "1962",
+          "journal-title": "Harvard Educational Review"
+        },
+        {
+          "key": "b44-0781102",
+          "first-page": "9",
+          "volume-title": "Teaching thinking skills: Theory and practice",
+          "author": "Ennis RH",
+          "year": "1987"
+        },
+        {
+          "key": "b45-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1174885"
+        },
+        {
+          "key": "b46-0781102",
+          "volume-title": "Conditional logic and children",
+          "author": "Ennis RH",
+          "year": "1969"
+        },
+        {
+          "key": "b47-0781102",
+          "volume-title": "Cornell Critical Thinking Test, Level X",
+          "author": "Ennis RH",
+          "year": "1985"
+        },
+        {
+          "key": "b48-0781102",
+          "volume-title": "Cornell Critical Thinking Test, Level Z",
+          "author": "Ennis RH",
+          "year": "1985"
+        },
+        {
+          "key": "b49-0781102",
+          "volume-title": "The California Critical Thinking Skills Test\u2014College level: Experimental validation and content validity",
+          "author": "Facione PA",
+          "year": "1990"
+        },
+        {
+          "key": "b50-0781102",
+          "volume-title": "The California Critical Thinking Skills Test\u2014College Level: Factors predictive of CT skills",
+          "author": "Facione PA",
+          "year": "1990"
+        },
+        {
+          "key": "b51-0781102",
+          "volume-title": "Critical thinking: A statement of expert consensus for purposes of educational assessment and instruction. Research findings and recommendations",
+          "author": "Facione PA",
+          "year": "1990"
+        },
+        {
+          "key": "b52-0781102",
+          "volume-title": "The California Critical Thinking Skills Test\u2014College level: Interpreting the CCTST, group norms and sub-scores",
+          "author": "Facione PA",
+          "year": "1990"
+        },
+        {
+          "key": "b53-0781102",
+          "volume-title": "The California Critical Thinking Dispositions Inventory (CCTDI) and the CCTDI test manual",
+          "author": "Facione PA",
+          "year": "1992"
+        },
+        {
+          "issue": "3",
+          "key": "b54-0781102",
+          "volume-title": "International Journal of Instructional Technology and Distance Education",
+          "volume": "2",
+          "author": "Fahy PJ",
+          "year": "2005"
+        },
+        {
+          "issue": "5",
+          "key": "b55-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "453",
+          "DOI": "10.1002/tea.3660290503",
+          "volume": "29",
+          "author": "Farynaiarz JV",
+          "year": "1992",
+          "journal-title": "Journal of Research in Science Teaching"
+        },
+        {
+          "issue": "1",
+          "key": "b56-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1080/1358165990240104",
+          "volume": "24",
+          "author": "Feuerstein M",
+          "year": "1999",
+          "journal-title": "Journal of Educational Media"
+        },
+        {
+          "key": "b57-0781102",
+          "volume-title": "Paper presented at the 69th annual meeting of the Speech Communication Association",
+          "author": "Follert VF",
+          "year": "1983"
+        },
+        {
+          "key": "b58-0781102",
+          "first-page": "2248A",
+          "volume-title": "Dissertation Abstracts International",
+          "volume": "55",
+          "author": "Freeman B",
+          "year": "1995"
+        },
+        {
+          "issue": "4",
+          "key": "b59-0781102",
+          "first-page": "359",
+          "volume": "32",
+          "author": "Frost SH",
+          "year": "1991",
+          "journal-title": "Journal of College Student Development"
+        },
+        {
+          "key": "b60-0781102",
+          "volume-title": "Paper presented at the 26th International Congress of Psychology",
+          "author": "Gadzella BM",
+          "year": "1996"
+        },
+        {
+          "key": "b61-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Psychological Association",
+          "author": "Garcia T",
+          "year": "1992"
+        },
+        {
+          "issue": "1",
+          "key": "b62-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1080/08923640109527071",
+          "volume": "15",
+          "author": "Garrison DR",
+          "year": "2001",
+          "journal-title": "American Journal of Distance Education"
+        },
+        {
+          "issue": "2",
+          "key": "b63-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "102",
+          "DOI": "10.21061/jots.v27i2.a.5",
+          "volume": "27",
+          "author": "Gelven DR",
+          "year": "2001",
+          "journal-title": "Journal of Technology Studies"
+        },
+        {
+          "issue": "3",
+          "key": "b64-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.1002/tea.3660260305",
+          "volume": "26",
+          "author": "Germann PJ",
+          "year": "1989",
+          "journal-title": "Journal of Research in Science Teaching"
+        },
+        {
+          "key": "b65-0781102",
+          "unstructured": "GibbsLEBrowneMNKeeleySMStimulating critical thinking through faculty development: Design, evaluation, and problems1988Unpublished manuscript, Wisconsin University, Eau Claire. (ERIC Document Reproduction Service No. ED306902)"
+        },
+        {
+          "key": "b66-0781102",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1177/016146814204300507",
+          "volume-title": "An experiment in the development of critical thinking",
+          "author": "Glaser EM",
+          "year": "1942"
+        },
+        {
+          "key": "b67-0781102",
+          "volume-title": "Meta-analysis in social research",
+          "author": "Glass GV",
+          "year": "1981"
+        },
+        {
+          "key": "b68-0781102",
+          "volume-title": "Knowledge matters: Skills and learning for Canadians",
+          "author": "Government of Canada",
+          "year": "2002"
+        },
+        {
+          "issue": "4",
+          "key": "b69-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.2307/1317631",
+          "volume": "18",
+          "author": "Green CSI",
+          "year": "1990",
+          "journal-title": "Teaching Sociology"
+        },
+        {
+          "key": "b70-0781102",
+          "unstructured": "GriffinCMThe effect of the use of selected newspaper articles in the teaching of certain critical reading/thinking skills1979Unpublished doctoral dissertation, University of New Jersey, Rutgers, NJ. (ERIC Document Reproduction Service No. ED169479)"
+        },
+        {
+          "issue": "2",
+          "key": "b71-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1080/09585170050045182",
+          "volume": "11",
+          "author": "Halliday J",
+          "year": "2000",
+          "journal-title": "Curriculum Journal"
+        },
+        {
+          "issue": "3",
+          "key": "b72-0781102",
+          "first-page": "139",
+          "volume": "3",
+          "author": "Hancock BW",
+          "year": "1983",
+          "journal-title": "Educational and Psychological Research"
+        },
+        {
+          "key": "b73-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/9780773561243"
+        },
+        {
+          "key": "b74-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Hartman-Haas HJ",
+          "year": "1984"
+        },
+        {
+          "key": "b75-0781102",
+          "volume-title": "Academic challenge program: Evaluation report",
+          "author": "Harty H",
+          "year": "1986"
+        },
+        {
+          "issue": "3",
+          "key": "b76-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "299",
+          "DOI": "10.1080/08886504.2001.10782316",
+          "volume": "33",
+          "author": "Hawkes M",
+          "year": "2001",
+          "journal-title": "Journal of Research on Computing in Education"
+        },
+        {
+          "key": "b77-0781102",
+          "volume-title": "Statistical methods for meta-analysis",
+          "author": "Hedges LV",
+          "year": "1985"
+        },
+        {
+          "key": "b78-0781102",
+          "unstructured": "HedgesLVShymanskyJAWoodworthGA practical guide to modern methods of meta-analysis.1989ERIC Document Reproduction Service No. ED 309 952)"
+        },
+        {
+          "key": "b79-0781102",
+          "volume-title": "Paper presented at the annual meeting of the College Reading Association",
+          "author": "Heerman CE",
+          "year": "1983"
+        },
+        {
+          "issue": "7",
+          "key": "b80-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "691",
+          "DOI": "10.1108/02683940010378063",
+          "volume": "15",
+          "author": "Heraty N",
+          "year": "2000",
+          "journal-title": "Journal of Managerial Psychology"
+        },
+        {
+          "issue": "11",
+          "key": "b81-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "1539",
+          "DOI": "10.1002/sim.1186",
+          "volume": "21",
+          "author": "Higgins JPT",
+          "year": "2002",
+          "journal-title": "Statistics in Medicine"
+        },
+        {
+          "issue": "3",
+          "key": "b82-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.1080/08923640009527065",
+          "volume": "14",
+          "author": "Hilgenberg C",
+          "year": "2000",
+          "journal-title": "American Journal of Distance Education"
+        },
+        {
+          "key": "b83-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/002248710005100106"
+        },
+        {
+          "key": "b84-0781102",
+          "volume-title": "Illinois state-wide curriculum study center in preparation of secondary school English teachers: Final report",
+          "author": "Hook JN",
+          "year": "1969"
+        },
+        {
+          "key": "b85-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Housen A",
+          "year": "2001"
+        },
+        {
+          "issue": "5",
+          "key": "b86-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "262",
+          "DOI": "10.1080/00220671.1988.10885834",
+          "volume": "81",
+          "author": "Hudgins BB",
+          "year": "1988",
+          "journal-title": "Journal of Educational Research"
+        },
+        {
+          "issue": "2",
+          "key": "b87-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "193",
+          "DOI": "10.1037/1082-989X.11.2.193",
+          "volume": "11",
+          "author": "Huedo-Medina TB",
+          "year": "2006",
+          "journal-title": "Psychological Methods"
+        },
+        {
+          "key": "b88-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/104973150001000402"
+        },
+        {
+          "key": "b89-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.47925/2003.319",
+          "author": "Hyslop-Margison EJ",
+          "year": "2003",
+          "journal-title": "Philosophy of Education Society Yearbook"
+        },
+        {
+          "issue": "1",
+          "key": "b90-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.21061/jcte.v21i1.646",
+          "volume": "21",
+          "author": "Hyslop-Margison EJ",
+          "year": "2004",
+          "journal-title": "Journal of Career and Technical Education"
+        },
+        {
+          "issue": "3",
+          "key": "b91-0781102",
+          "first-page": "215",
+          "volume": "20",
+          "author": "Inlow FH",
+          "year": "1993",
+          "journal-title": "Journal of Instructional Psychology"
+        },
+        {
+          "key": "b92-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Kamin C",
+          "year": "2002"
+        },
+        {
+          "key": "b93-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00986289809709713"
+        },
+        {
+          "issue": "1",
+          "key": "b94-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.1080/19388079109558069",
+          "volume": "31",
+          "author": "Kemp SG",
+          "year": "1991",
+          "journal-title": "Reading Research and Instruction"
+        },
+        {
+          "key": "b95-0781102",
+          "unstructured": "Kintgen AndrewsJDevelopment of critical thinking: Career ladder P.N. and A.D. nursing students, pre-health science freshmen, generic baccalaureate sophomore nursing students1988Unpublished manuscript, University of Minnesota School of Nursing, Minneapolis. (ERIC Document Reproduction Service No. ED297153)"
+        },
+        {
+          "issue": "1",
+          "key": "b96-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1007/BF00889560",
+          "volume": "8",
+          "author": "Klassen PT",
+          "year": "1983",
+          "journal-title": "Innovative Higher Education"
+        },
+        {
+          "key": "b97-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/082957359701300104"
+        },
+        {
+          "key": "b98-0781102",
+          "volume-title": "Critical thinking: theory, research, practice, and possibilities",
+          "author": "Kurfiss JG",
+          "year": "1988"
+        },
+        {
+          "key": "b99-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2466/pms.1993.77.3.970"
+        },
+        {
+          "key": "b100-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2190/PW3F-HLFD-1NNJ-H77Q"
+        },
+        {
+          "key": "b101-0781102",
+          "unstructured": "LewanskiPMThe effect of computer-assisted library research on critical thinking skills acquisition of ninth-grade students1999Unpublished doctoral dissertation, United States International University, Nairobi, Kenya"
+        },
+        {
+          "key": "b102-0781102",
+          "volume-title": "Thinking in education",
+          "author": "Lipman M",
+          "year": "1991"
+        },
+        {
+          "key": "b103-0781102",
+          "volume-title": "Paper presented at ED-MEDIA/ED-TELECOM 98 World Conference on Educational Multimedia and Hypermedia and World Conference on Educational Telecommunications",
+          "author": "Liu M",
+          "year": "1998"
+        },
+        {
+          "key": "b104-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Psychological Association",
+          "author": "Loesch-Griffin DA",
+          "year": "1986"
+        },
+        {
+          "key": "b105-0781102",
+          "unstructured": "LundsteenSWRTeaching abilities in critical listening in the fifth and sixth grades1963Unpublished doctoral dissertation, University of California, Berkeley. (ERIC Document Reproduction Service No. ED063296)"
+        },
+        {
+          "issue": "2",
+          "key": "b106-0781102",
+          "first-page": "61",
+          "volume": "17",
+          "author": "MacPhail-Wilcox B",
+          "year": "1990",
+          "journal-title": "Educational Considerations"
+        },
+        {
+          "issue": "8",
+          "key": "b107-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "360",
+          "DOI": "10.3928/0148-4834-20001101-07",
+          "volume": "39",
+          "author": "Magnussen L",
+          "year": "2000",
+          "journal-title": "Journal of Nursing Education"
+        },
+        {
+          "key": "b108-0781102",
+          "first-page": "43",
+          "volume-title": "Men of ideas: Some creators of contemporary philosophy",
+          "author": "Marcuse H",
+          "year": "1984"
+        },
+        {
+          "key": "b109-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Marsh SM",
+          "year": "1998"
+        },
+        {
+          "issue": "4",
+          "key": "b110-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "366",
+          "DOI": "10.1353/aad.2012.0156",
+          "volume": "146",
+          "author": "Martin DS",
+          "year": "2001",
+          "journal-title": "American Annals of the Deaf"
+        },
+        {
+          "key": "b111-0781102",
+          "volume-title": "Evaluations of the \u201ctactics for thinking\u201d program: Summary report",
+          "author": "Marzano RJ",
+          "year": "1989"
+        },
+        {
+          "issue": "5",
+          "key": "b112-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "202",
+          "DOI": "10.1080/00098655.1989.10114050",
+          "volume": "62",
+          "author": "Matthews DB",
+          "year": "1989",
+          "journal-title": "Clearing House"
+        },
+        {
+          "issue": "4",
+          "key": "b113-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "373",
+          "DOI": "10.1016/0742-051X(94)00040-D",
+          "volume": "11",
+          "author": "McBride R",
+          "year": "1995",
+          "journal-title": "Teaching and Teacher Education"
+        },
+        {
+          "issue": "1",
+          "key": "b114-0781102",
+          "first-page": "45",
+          "volume": "8",
+          "author": "McCarthy-Tucker TSN",
+          "year": "1998",
+          "journal-title": "Korean Journal of Thinking and Problem Solving"
+        },
+        {
+          "key": "b115-0781102",
+          "volume-title": "Paper presented at the annual meeting of the National Association for Research in Science Teaching",
+          "author": "McConney AW",
+          "year": "1994"
+        },
+        {
+          "issue": "1",
+          "key": "b116-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/BF00991931",
+          "volume": "26",
+          "author": "McMillan JH",
+          "year": "1987",
+          "journal-title": "Research in Higher Education"
+        },
+        {
+          "key": "b117-0781102",
+          "volume-title": "Critical thinking and education",
+          "author": "McPeck J",
+          "year": "1981"
+        },
+        {
+          "key": "b118-0781102",
+          "volume-title": "Paper presented at the annual meeting of the International Communication Association",
+          "author": "Meiss GT",
+          "year": "1984"
+        },
+        {
+          "key": "b119-0781102",
+          "volume-title": "Paper presented at the annual meeting of the Mid-Western Educational Research Association",
+          "author": "Moffett DW",
+          "year": "1998"
+        },
+        {
+          "key": "b120-0781102",
+          "volume-title": "Paper presented at the Conference on Thinking",
+          "author": "Neimark ED",
+          "year": "1984"
+        },
+        {
+          "key": "b121-0781102",
+          "first-page": "6068A",
+          "volume-title": "Dissertation Abstracts International",
+          "volume": "33",
+          "author": "Neman RL",
+          "year": "1972"
+        },
+        {
+          "issue": "3",
+          "key": "b122-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "329",
+          "DOI": "10.1080/08886504.1992.10782014",
+          "volume": "24",
+          "author": "Norris C",
+          "year": "1992",
+          "journal-title": "Journal of Research on Computing in Education"
+        },
+        {
+          "issue": "8",
+          "key": "b123-0781102",
+          "first-page": "40",
+          "volume": "42",
+          "author": "Norris SP",
+          "year": "1985",
+          "journal-title": "Educational Leadership"
+        },
+        {
+          "key": "b124-0781102",
+          "volume-title": "Paper presented at the annual meeting of the Mid-South Research Association",
+          "author": "Norton S",
+          "year": "1985"
+        },
+        {
+          "issue": "2",
+          "key": "b125-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "167",
+          "DOI": "10.1016/S0363-8111(02)00123-6",
+          "volume": "28",
+          "author": "Parkinson MG",
+          "year": "2002",
+          "journal-title": "Public Relations Review"
+        },
+        {
+          "key": "b126-0781102",
+          "volume-title": "Critical thinking: What every person needs to survive in a rapidly changing world",
+          "author": "Paul RW",
+          "year": "1990"
+        },
+        {
+          "key": "b127-0781102",
+          "first-page": "305",
+          "volume-title": "Critical thinking: What every person needs to survive in a rapidly changing world",
+          "author": "Paul RW",
+          "year": "1990"
+        },
+        {
+          "key": "b128-0781102",
+          "unstructured": "PaulRWElderLBartellTStudy of 38 public universities and 28 private universities to determine faculty emphasis on critical thinking on instruction1997Retrieved April 6, 2003, fromhttp://www.criticalthinking.org/schoolstudy"
+        },
+        {
+          "issue": "1",
+          "key": "b129-0781102",
+          "first-page": "298",
+          "volume": "9",
+          "author": "Perkins C",
+          "year": "2006",
+          "journal-title": "Educational Technology and Society"
+        },
+        {
+          "issue": "1",
+          "key": "b130-0781102",
+          "first-page": "22",
+          "volume": "46",
+          "author": "Perkins DN",
+          "year": "1988",
+          "journal-title": "Educational Leadership"
+        },
+        {
+          "key": "b131-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "251",
+          "DOI": "10.1080/00220973.1953.11010458",
+          "volume": "21",
+          "author": "Perlman JS",
+          "year": "1953",
+          "journal-title": "Journal of Experimental Education"
+        },
+        {
+          "key": "b132-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Pierce W",
+          "year": "1988"
+        },
+        {
+          "issue": "3",
+          "key": "b133-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.1080/001318800440579",
+          "volume": "42",
+          "author": "Pithers RT",
+          "year": "2000",
+          "journal-title": "Educational Research"
+        },
+        {
+          "key": "b134-0781102",
+          "unstructured": "Pitts ScarangelloACA study in developing critical thinking through a text in elementary school social studies1971Unpublished doctoral dissertation, University of Pennsylvania, Philadelphia. (ERIC Document Reproduction Service No. ED079718)"
+        },
+        {
+          "key": "b135-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Price WF",
+          "year": "1988"
+        },
+        {
+          "key": "b136-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/000494419303700206"
+        },
+        {
+          "issue": "2",
+          "key": "b137-0781102",
+          "first-page": "201",
+          "volume": "35",
+          "author": "Reed JH",
+          "year": "2001",
+          "journal-title": "College Student Journal"
+        },
+        {
+          "issue": "1",
+          "key": "b138-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1080/00220671.1991.10702808",
+          "volume": "85",
+          "author": "Riesenmy MR",
+          "year": "1991",
+          "journal-title": "Journal of Educational Research"
+        },
+        {
+          "key": "b139-0781102",
+          "unstructured": "RobinsonISA program to incorporate high-order thinking skills into teaching and learning for Grades K\u201331987Unpublished doctoral dissertation, Nova Southeastern University, Fort Lauderdale, FL. (ERIC Document Reproduction Service No. ED284689)"
+        },
+        {
+          "issue": "4",
+          "key": "b140-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "477",
+          "DOI": "10.1080/00221325.1995.9914838",
+          "volume": "156",
+          "author": "Royalty J",
+          "year": "1991",
+          "journal-title": "Journal of Genetic Psychology"
+        },
+        {
+          "issue": "3",
+          "key": "b141-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "497",
+          "DOI": "10.1037/0022-0663.91.3.497",
+          "volume": "91",
+          "author": "S\u00e1 WC",
+          "year": "1999",
+          "journal-title": "Journal of Educational Psychology"
+        },
+        {
+          "issue": "1",
+          "key": "b142-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1080/08934219409367580",
+          "volume": "7",
+          "author": "Sanders JA",
+          "year": "1994",
+          "journal-title": "Communication Reports"
+        },
+        {
+          "issue": "5",
+          "key": "b143-0781102",
+          "first-page": "240",
+          "volume": "21",
+          "author": "Saucier BL",
+          "year": "2000",
+          "journal-title": "Nursing and Health Care Perspectives"
+        },
+        {
+          "key": "b144-0781102",
+          "unstructured": "ScrivenMPaulRDefining critical thinking: A draft statement for the National Council for Excellence in critical thinking1996Retrieved April 23, 2003, fromhttp://www.criticalthinking.org/University/univlibrary/library.nclk"
+        },
+        {
+          "key": "b145-0781102",
+          "first-page": "171",
+          "volume-title": "The Canadian anthology of social studies",
+          "author": "Sears A",
+          "year": "1999"
+        },
+        {
+          "key": "b146-0781102",
+          "volume-title": "Reason and teaching",
+          "author": "Sheffler I",
+          "year": "1973"
+        },
+        {
+          "key": "b147-0781102",
+          "volume-title": "Educating reason: Rationality, critical thinking, and education",
+          "author": "Siegel H",
+          "year": "1988"
+        },
+        {
+          "key": "b148-0781102",
+          "unstructured": "Sister ConstantineMSSJAn experimental study of the development of critical thinking skills of high school English teachers enrolled in a methods course1968(Interim Report 32). (ERIC Document Reproduction Service No. ED019283)"
+        },
+        {
+          "key": "b149-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/105382590202500205"
+        },
+        {
+          "issue": "2",
+          "key": "b150-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "207",
+          "DOI": "10.1111/1467-9752.00270",
+          "volume": "36",
+          "author": "Smith G",
+          "year": "2002",
+          "journal-title": "Journal of Philosophy of Education"
+        },
+        {
+          "issue": "2",
+          "key": "b151-0781102",
+          "first-page": "73",
+          "volume": "7",
+          "author": "Solon T",
+          "year": "2001",
+          "journal-title": "Michigan Community College Journal: Research and Practice"
+        },
+        {
+          "key": "b152-0781102",
+          "unstructured": "SoukupFAssessment of critical thinking skills in associate degree nursing students1999Unpublished master\u2019s thesis, University of Wisconsin\u2013Stout. (ERIC Document Reproduction Service No. ED430081)"
+        },
+        {
+          "issue": "7",
+          "key": "b153-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "408",
+          "DOI": "10.2307/4444033",
+          "volume": "34",
+          "author": "Starr RJ",
+          "year": "1972",
+          "journal-title": "American Biology Teacher"
+        },
+        {
+          "key": "b154-0781102",
+          "volume-title": "Development of a more flexible physical science laboratory program for non-science majors with superior high school science backgrounds: Final report",
+          "author": "Stekel FD",
+          "year": "1969"
+        },
+        {
+          "key": "b155-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/002248719104200206"
+        },
+        {
+          "key": "b156-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Thomas JW",
+          "year": "1975"
+        },
+        {
+          "issue": "3",
+          "key": "b157-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "351",
+          "DOI": "10.1046/j.0266-4909.2002.03800.x",
+          "volume": "18",
+          "author": "Thomas MJW",
+          "year": "2002",
+          "journal-title": "Journal of Computer Assisted Learning"
+        },
+        {
+          "issue": "5",
+          "key": "b158-0781102",
+          "first-page": "248",
+          "volume": "20",
+          "author": "Thompson C",
+          "year": "1999",
+          "journal-title": "Nursing and Health Care Perspectives"
+        },
+        {
+          "key": "b159-0781102",
+          "volume-title": "Paper presented at the annual meeting of the Association for the Study of Higher Education",
+          "author": "Tsui L",
+          "year": "1998"
+        },
+        {
+          "issue": "6",
+          "key": "b160-0781102",
+          "first-page": "740",
+          "volume": "73",
+          "author": "Tsui L",
+          "year": "2002",
+          "journal-title": "Journal of Higher Education"
+        },
+        {
+          "key": "b161-0781102",
+          "volume-title": "Paper presented at the annual meeting of the American Educational Research Association",
+          "author": "Unrau NJ",
+          "year": "1991"
+        },
+        {
+          "key": "b162-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/001698620204600104"
+        },
+        {
+          "key": "b163-0781102",
+          "first-page": "44",
+          "volume-title": "Celebrating the faces of literacy",
+          "author": "Viscovich SA",
+          "year": "2002"
+        },
+        {
+          "key": "b164-0781102",
+          "volume-title": "Paper presented at the annual convention of the American Education Research Association",
+          "author": "Vockell EL",
+          "year": "1984"
+        },
+        {
+          "key": "b165-0781102",
+          "volume-title": "Paper presented at the annual meeting of the College Reading Association",
+          "author": "Walters KK",
+          "year": "1991"
+        },
+        {
+          "key": "b166-0781102",
+          "first-page": "445",
+          "volume-title": "Annual proceedings of selected research and development [and] practice papers presented at the National Convention of the Association for Educational Communications and Technology",
+          "author": "Wang W",
+          "year": "2001"
+        },
+        {
+          "key": "b167-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/S15328023TOP260306"
+        },
+        {
+          "key": "b168-0781102",
+          "volume-title": "Watson-Glaser Critical Thinking Appraisal",
+          "author": "Watson G",
+          "year": "1980"
+        },
+        {
+          "key": "b169-0781102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00986289809709714"
+        },
+        {
+          "key": "b170-0781102",
+          "volume-title": "Paper presented at the annual meeting of the National Association for Research in Science Teaching",
+          "author": "Westbrook SL",
+          "year": "1991"
+        },
+        {
+          "key": "b171-0781102",
+          "unstructured": "WilliamsRLCritical thinking as a predictor and outcome measure in a large undergraduate educational psychology course2003Unpublished manuscript, University of Tennessee, Knoxville. (ERIC Document Reproduction Service No. ED478075)"
+        },
+        {
+          "issue": "2",
+          "key": "b172-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "256",
+          "DOI": "10.3758/BF03201608",
+          "volume": "12",
+          "author": "Wood LE",
+          "year": "1980",
+          "journal-title": "Behavior Research Methods and Instrumentation"
+        },
+        {
+          "issue": "3",
+          "key": "b173-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "136",
+          "DOI": "10.1111/j.1949-8594.1993.tb12211.x",
+          "volume": "93",
+          "author": "Zohar A",
+          "year": "1993",
+          "journal-title": "School Science and Mathematics"
+        },
+        {
+          "issue": "2",
+          "key": "b174-0781102",
+          "doi-asserted-by": "crossref",
+          "first-page": "183",
+          "DOI": "10.1002/tea.3660310208",
+          "volume": "31",
+          "author": "Zohar A",
+          "year": "1994",
+          "journal-title": "Journal of Research in Science Teaching"
+        }
+      ],
+      "container-title": [
+        "Review of Educational Research"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.3102/0034654308326084",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/full-xml/10.3102/0034654308326084",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.3102/0034654308326084",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ],
+        "date-time": "2026-05-01T03:48:09Z",
+        "timestamp": 1777607289000
+      },
+      "score": 53.46533,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.sagepub.com/doi/10.3102/0034654308326084"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2008,
+            12
+          ]
+        ]
+      },
+      "references-count": 174,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.3102/0034654308326084"
+      ],
+      "URL": "https://doi.org/10.3102/0034654308326084",
+      "ISSN": [
+        "0034-6543",
+        "1935-1046"
+      ],
+      "issn-type": [
+        {
+          "value": "0034-6543",
+          "type": "print"
+        },
+        {
+          "value": "1935-1046",
+          "type": "electronic"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            12
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query": "The skills of argument Kuhn 1991",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2026-10-10T11:38:56Z",
+        "timestamp": 1791632336552,
+        "version": "4.3.4"
+      },
+      "edition-number": "1",
+      "reference-count": 0,
+      "publisher": "Cambridge University Press",
+      "isbn-type": [
+        {
+          "value": "9780521404518",
+          "type": "print"
+        },
+        {
+          "value": "9780521423496",
+          "type": "print"
+        },
+        {
+          "value": "9780511571350",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                5,
+                3
+              ]
+            ],
+            "date-time": "2011-05-03T00:00:00Z",
+            "timestamp": 1304380800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 7221,
+          "URL": "https://www.cambridge.org/core/terms"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1991,
+            7,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The Skills of Argument presents a comprehensive empirical study of informal reasoning as argument, involving subjects across the life span. Subjects ranging in age from adolescence to late adulthood were asked to describe their views on social problems that people have occasion to think and talk about in everyday life, such as crime and unemployment. In addition to providing supporting evidence for their theories, subjects were asked to contemplate alternative theories and counterarguments and to evaluate new evidence on the topics. This is the first major study of informal reasoning across the life span. Highlighting the importance of argumentive reasoning in everyday thought, the book offers a theoretical framework for conceptualizing and studying thinking as argument. The findings address issues of major importance to cognitive and developmental psychologists, as well as educators concerned with improving the quality of people's thinking. The work is also relevant to philosophers, political scientists, and linguists interested in informal reasoning and argumentive discourse.</jats:p>",
+      "DOI": "10.1017/cbo9780511571350",
+      "type": "monograph",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            4
+          ]
+        ],
+        "date-time": "2011-05-04T10:18:01Z",
+        "timestamp": 1304504281000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1259,
+      "title": [
+        "The Skills of Argument"
+      ],
+      "prefix": "10.1017",
+      "author": [
+        {
+          "given": "Deanna",
+          "family": "Kuhn",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "56",
+      "published-online": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            3
+          ]
+        ]
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            14
+          ]
+        ],
+        "date-time": "2022-10-14T15:28:19Z",
+        "timestamp": 1665761299000
+      },
+      "score": 40.10721,
+      "resource": {
+        "primary": {
+          "URL": "https://www.cambridge.org/core/product/identifier/9780511571350/type/book"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1991,
+            7,
+            26
+          ]
+        ]
+      },
+      "ISBN": [
+        "9780521404518",
+        "9780521423496",
+        "9780511571350"
+      ],
+      "references-count": 0,
+      "URL": "https://doi.org/10.1017/cbo9780511571350",
+      "published": {
+        "date-parts": [
+          [
+            1991,
+            7,
+            26
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query": "Metacognition cognitive monitoring Flavell 1979",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "Stealth assessment measuring supporting learning video games Shute Ventura 2013",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2026-10-08T03:19:34Z",
+        "timestamp": 1791429574356,
+        "version": "4.3.3"
+      },
+      "reference-count": 0,
+      "publisher": "The MIT Press",
+      "isbn-type": [
+        {
+          "value": "9780262315210",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                3,
+                8
+              ]
+            ],
+            "date-time": "2013-03-08T00:00:00Z",
+            "timestamp": 1362700800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            3,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:p>An approach to performance-based assessments that embeds assessments in digital games in order to measure how students are progressing toward targeted goals.</jats:p>\n               <jats:p>To succeed in today's interconnected and complex world, workers need to be able to think systemically, creatively, and critically. Equipping K-16 students with these twenty-first-century competencies requires new thinking not only about what should be taught in school but also about how to develop valid assessments to measure and support these competencies. In Stealth Assessment, Valerie Shute and Matthew Ventura investigate an approach that embeds performance-based assessments in digital games. They argue that using well-designed games as vehicles to assess and support learning will help combat students' growing disengagement from school, provide dynamic and ongoing measures of learning processes and outcomes, and offer students opportunities to apply such complex competencies as creativity, problem solving, persistence, and collaboration. Embedding assessments within games provides a way to monitor players' progress toward targeted competencies and to use that information to support learning.</jats:p>\n               <jats:p>Shute and Ventura discuss problems with such traditional assessment methods as multiple-choice questions, review evidence relating to digital games and learning, and illustrate the stealth-assessment approach with a set of assessments they are developing and embedding in the digital game Newton's Playground. These stealth assessments are intended to measure levels of creativity, persistence, and conceptual understanding of Newtonian physics during game play. Finally, they consider future research directions related to stealth assessment in education.</jats:p>",
+      "DOI": "10.7551/mitpress/9589.001.0001",
+      "type": "edited-book",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            11
+          ]
+        ],
+        "date-time": "2019-01-11T13:22:55Z",
+        "timestamp": 1547212975000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 292,
+      "title": [
+        "Stealth Assessment"
+      ],
+      "prefix": "10.7551",
+      "author": [
+        {
+          "given": "Valerie",
+          "family": "Shute",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew",
+          "family": "Ventura",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "281",
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            30
+          ]
+        ],
+        "date-time": "2024-01-30T20:54:07Z",
+        "timestamp": 1706648047000
+      },
+      "score": 90.09297,
+      "resource": {
+        "primary": {
+          "URL": "https://direct.mit.edu/books/book/3700/Stealth-AssessmentMeasuring-and-Supporting"
+        }
+      },
+      "subtitle": [
+        "Measuring and Supporting Learning in Video Games"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2013,
+            3,
+            8
+          ]
+        ]
+      },
+      "ISBN": [
+        "9780262315210"
+      ],
+      "references-count": 0,
+      "URL": "https://doi.org/10.7551/mitpress/9589.001.0001",
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            3,
+            8
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query": "Game based assessment Mislevy 2012",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            28
+          ]
+        ],
+        "date-time": "2026-08-28T06:33:25Z",
+        "timestamp": 1787898805661,
+        "version": "build-2784847793"
+      },
+      "publisher-location": "Cham",
+      "reference-count": 49,
+      "publisher": "Springer International Publishing",
+      "isbn-type": [
+        {
+          "value": "9783030155681",
+          "type": "print"
+        },
+        {
+          "value": "9783030155698",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2019-01-01T00:00:00Z",
+            "timestamp": 1546300800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2019-01-01T00:00:00Z",
+            "timestamp": 1546300800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "DOI": "10.1007/978-3-030-15569-8_3",
+      "type": "book-chapter",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2019-11-05T16:03:30Z",
+        "timestamp": 1572969810000
+      },
+      "page": "37-65",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 11,
+      "title": [
+        "Summative Game-Based Assessment"
+      ],
+      "prefix": "10.1007",
+      "author": [
+        {
+          "given": "Andreas",
+          "family": "Oranje",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bob",
+          "family": "Mislevy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Malcolm I.",
+          "family": "Bauer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G. Tanner",
+          "family": "Jackson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            6
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "3_CR1",
+          "first-page": "1",
+          "volume": "5",
+          "author": "R Almond",
+          "year": "2002",
+          "unstructured": "Almond, R., Steinberg, L., & Mislevy, R. S. (2002). Enhancing the design and delivery of assessment systems: A four process architecture. The Journal of Technology and Assessment, 5(1), 1\u201363.",
+          "journal-title": "The Journal of Technology and Assessment"
+        },
+        {
+          "key": "3_CR2",
+          "volume-title": "Effect of immediate feedback and revision on psychometric properties of open-ended GRE subject test items (Research Report 08-21)",
+          "author": "Y Attali",
+          "year": "2008",
+          "unstructured": "Attali, Y., & Powers, D. (2008). Effect of immediate feedback and revision on psychometric properties of open-ended GRE subject test items (Research Report 08-21). Princeton, NJ: Educational Testing Service."
+        },
+        {
+          "key": "3_CR3",
+          "volume-title": "International encyclopedia of education",
+          "author": "RSJ Baker",
+          "year": "2010",
+          "unstructured": "Baker, R. S. J. (2010). Data mining for education. In B. McGaw, P. Peterson, & E. Baker (Eds.), International encyclopedia of education (3rd ed.). Oxford, UK: Elsevier.",
+          "edition": "3"
+        },
+        {
+          "issue": "7",
+          "key": "3_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "525",
+          "DOI": "10.3102/0013189X10386593",
+          "volume": "39",
+          "author": "SA Barab",
+          "year": "2010",
+          "unstructured": "Barab, S. A., Gresalfi, M. S., & Ingram-Goble, A. (2010). Transformational play: Using games to position person, content, and context. Educational Researcher, 39(7), 525\u2013536.",
+          "journal-title": "Educational Researcher"
+        },
+        {
+          "issue": "S1",
+          "key": "3_CR5",
+          "first-page": "19",
+          "volume": "18",
+          "author": "M Bauer",
+          "year": "2017",
+          "unstructured": "Bauer, M., Wylie, C., Jackson, T., Mislevy, R., Hoffman-John, E., & John, M. (2017). Why video games can be a good fit for formative assessment. Journal of Applied Testing Technology, 18(S1), 19\u201331.",
+          "journal-title": "Journal of Applied Testing Technology"
+        },
+        {
+          "issue": "2\u20133",
+          "key": "3_CR6",
+          "first-page": "70",
+          "volume": "8",
+          "author": "RE Bennett",
+          "year": "2010",
+          "unstructured": "Bennett, R. E. (2010). Cognitively based assessment of, for, and as learning (CBAL): A preliminary theory of action for summative and formative assessment. Measurement, 8(2\u20133), 70\u201391.",
+          "journal-title": "Measurement"
+        },
+        {
+          "key": "3_CR7",
+          "unstructured": "Carolan, J., & Zielezinski, M. B. (2019). Debunking the \u2018gold standard\u2019 myths in edtech efficacy. Retrieved from: https://www.edsurge.com/news/2019-05-21-debunking-the-gold-standard-myths-in-edtech-efficacy"
+        },
+        {
+          "key": "3_CR8",
+          "volume-title": "Beyond boredom and anxiety",
+          "author": "M Cs\u00edkszentmih\u00e1lyi",
+          "year": "1975",
+          "unstructured": "Cs\u00edkszentmih\u00e1lyi, M. (1975). Beyond boredom and anxiety. San Francisco, CA: Jossey-Bass."
+        },
+        {
+          "key": "3_CR9",
+          "volume-title": "Flow: The psychology of optimal experience",
+          "author": "M Cs\u00edkszentmih\u00e1lyi",
+          "year": "1990",
+          "unstructured": "Cs\u00edkszentmih\u00e1lyi, M. (1990). Flow: The psychology of optimal experience. New York, NY: Harper Collins."
+        },
+        {
+          "key": "3_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "227",
+          "DOI": "10.1207/S15327965PLI1104_01",
+          "volume": "11",
+          "author": "EL Deci",
+          "year": "2000",
+          "unstructured": "Deci, E. L., & Ryan, R. M. (2000). The \u201cwhat\u201d and \u201cwhy\u201d of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11, 227\u2013268.",
+          "journal-title": "Psychological Inquiry"
+        },
+        {
+          "key": "3_CR11",
+          "first-page": "273",
+          "volume-title": "Computers and their impact on state assessment: Recent history and predictions for the future",
+          "author": "KE DiCerbo",
+          "year": "2012",
+          "unstructured": "DiCerbo, K. E., & Behrens, J. T. (2012). Implications of the Digital Ocean on current and future assessment. In R. Lissitz (Ed.), Computers and their impact on state assessment: Recent history and predictions for the future (pp. 273\u2013306). Charlotte, NC: Information Age Publishing."
+        },
+        {
+          "issue": "4",
+          "key": "3_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "20",
+          "DOI": "10.1111/j.1745-3992.2012.00250.x",
+          "volume": "31",
+          "author": "NJ Dorans",
+          "year": "2012",
+          "unstructured": "Dorans, N. J. (2012). The contestant perspective on taking tests: Emanations from the statue within. Educational Measurement: Issues and Practice, 31(4), 20\u201337.",
+          "journal-title": "Educational Measurement: Issues and Practice"
+        },
+        {
+          "key": "3_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "289",
+          "DOI": "10.1207/s15324818ame0404_3",
+          "volume": "4",
+          "author": "SB Dunbar",
+          "year": "1991",
+          "unstructured": "Dunbar, S. B., Koretz, D. M., & Hoover, H. D. (1991). Quality control in the development and use of performance assessments. Applied Measurement in Education, 4, 289\u2013303.",
+          "journal-title": "Applied Measurement in Education"
+        },
+        {
+          "key": "3_CR14",
+          "volume-title": "The Sims 4 [computer software]",
+          "author": "Electronic Arts",
+          "year": "2018",
+          "unstructured": "Electronic Arts. (2018). The Sims 4 [computer software]. Redwood City, CA: Electronic Arts."
+        },
+        {
+          "key": "3_CR15",
+          "series-title": "The NCME applications of educational assessment and measurement book series",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4324/9781315708591",
+          "volume-title": "Validation of score meaning for the next generation of assessments: The use of response processes",
+          "author": "K Ercikan",
+          "year": "2017",
+          "unstructured": "Ercikan, K., & Pellegrino, J. W. (2017). Validation of score meaning for the next generation of assessments: The use of response processes (The NCME applications of educational assessment and measurement book series). Washington, DC: National Council on Measurement in Education."
+        },
+        {
+          "issue": "9",
+          "key": "3_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "27",
+          "DOI": "10.3102/0013189X018009027",
+          "volume": "18",
+          "author": "JR Frederiksen",
+          "year": "1989",
+          "unstructured": "Frederiksen, J. R., & Collins, A. (1989). A systems approach to educational testing. Educational Researcher, 18(9), 27\u201332.",
+          "journal-title": "Educational Researcher"
+        },
+        {
+          "key": "3_CR17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3726/978-1-4539-1162-4",
+          "volume-title": "Good video games + good learning",
+          "author": "JP Gee",
+          "year": "2007",
+          "unstructured": "Gee, J. P. (2007). Good video games + good learning. New York, NY: Peter Lang."
+        },
+        {
+          "key": "3_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "5",
+          "DOI": "10.1037/0003-066X.53.1.5",
+          "volume": "53",
+          "author": "JG Greeno",
+          "year": "1998",
+          "unstructured": "Greeno, J. G. (1998). The situativity of knowing, learning, and research. American Psychologist, 53, 5\u201326.",
+          "journal-title": "American Psychologist"
+        },
+        {
+          "key": "3_CR19",
+          "first-page": "27",
+          "volume-title": "Proceedings of the social statistics section of the American Statistical Association",
+          "author": "PW Holland",
+          "year": "1994",
+          "unstructured": "Holland, P. W. (1994). Measurements or contests? Comments on Zwick, bond and Allen/Donoghue. In Proceedings of the social statistics section of the American Statistical Association (pp. 27\u201329). Alexandria, VA: American Statistical Association."
+        },
+        {
+          "key": "3_CR20",
+          "unstructured": "John, M. (2014). Gamification is dead, long live games for learning. Retrieved from http://techcrunch.com/2014/10/05/gamification-is-dead-long-live-games-for-learning/"
+        },
+        {
+          "issue": "1",
+          "key": "3_CR21",
+          "first-page": "144",
+          "volume": "4",
+          "author": "D Kerr",
+          "year": "2012",
+          "unstructured": "Kerr, D., & Chung, G. K. W. K. (2012). Identifying key features of student performance in educational video games and simulations through cluster analysis. Journal of Educational Data Mining, 4(1), 144\u2013182.",
+          "journal-title": "Journal of Educational Data Mining"
+        },
+        {
+          "key": "3_CR22",
+          "unstructured": "Klopfer, E., Osterweil, S., & Salen, K. (2009). Moving learning games forward: Obstacles, opportunities & openness. Retrieved from http://education.mit.edu/papers/MovingLearningGamesForward_EdArcade.pdf"
+        },
+        {
+          "key": "3_CR23",
+          "volume-title": "A theory of fun for game design",
+          "author": "R Koster",
+          "year": "2014",
+          "unstructured": "Koster, R. (2014). A theory of fun for game design. Sebastopol, CA: O\u2019Reilly Media."
+        },
+        {
+          "key": "3_CR24",
+          "volume-title": "Cognitive diagnostic assessment for education. Theory and applications",
+          "year": "2007",
+          "unstructured": "Leighton, J. P., & Gierl, M. J. (Eds.). (2007). Cognitive diagnostic assessment for education. Theory and applications. Cambridge, MA: Cambridge University Press."
+        },
+        {
+          "issue": "2",
+          "key": "3_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "13",
+          "DOI": "10.3102/0013189X023002013",
+          "volume": "23",
+          "author": "S Messick",
+          "year": "1994",
+          "unstructured": "Messick, S. (1994). The interplay of evidence and consequences in the validation of performance assessments. Educational Research, 23(2), 13\u201323.",
+          "journal-title": "Educational Research"
+        },
+        {
+          "issue": "1",
+          "key": "3_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "86",
+          "DOI": "10.4018/jgcms.2011010107",
+          "volume": "3",
+          "author": "SJ Metcalf",
+          "year": "2011",
+          "unstructured": "Metcalf, S. J., Kamarainen, A., Tutwiler, M. S., Grotzer, T. A., & Dede, C. J. (2011). Ecosystem science learning via multi-user virtual environments. International Journal of Gaming and Computer-Mediated Simulations., 3(1), 86\u201390.",
+          "journal-title": "International Journal of Gaming and Computer-Mediated Simulations."
+        },
+        {
+          "key": "3_CR28",
+          "first-page": "11",
+          "volume": "4",
+          "author": "RJ Mislevy",
+          "year": "2012",
+          "unstructured": "Mislevy, R. J., Behrens, J. T., DiCerbo, K. E., & Levy, R. (2012). Design and discovery in educational assessment: Evidence centered design, psychometrics, and data mining. Journal of Educational Data Mining, 4, 11\u201348. Retrieved from http://www.educationaldatamining.org/JEDM/images/articles/vol4/issue1/MislevyEtAlVol4Issue1P11_48.pdf",
+          "journal-title": "Journal of Educational Data Mining"
+        },
+        {
+          "key": "3_CR29",
+          "first-page": "23",
+          "volume-title": "Technology and testing",
+          "author": "RJ Mislevy",
+          "year": "2016",
+          "unstructured": "Mislevy, R. J., Corrigan, S., Oranje, A., DiCerbo, K. E., Bauer, M. I., von Davier, A., & John, M. (2016). Psychometrics and game-based assessment. In F. Drasgow (Ed.), Technology and testing (pp. 23\u201348). New York, NY: Routledge."
+        },
+        {
+          "key": "3_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "121",
+          "DOI": "10.1080/13803611.2013.767614",
+          "volume": "19",
+          "author": "RJ Mislevy",
+          "year": "2013",
+          "unstructured": "Mislevy, R. J., Haertel, G., Cheng, B. H., Ructtinger, L., DeBarger, A., Murray, E., \u2026 Vendlinski, T. (2013). A \u201cconditional\u201d sense of fairness in assessment. Educational Research and Evaluation, 19, 121\u2013140.",
+          "journal-title": "Educational Research and Evaluation"
+        },
+        {
+          "key": "3_CR31",
+          "volume-title": "Psychometric considerations in game-based assessment",
+          "author": "RJ Mislevy",
+          "year": "2014",
+          "unstructured": "Mislevy, R. J., Oranje, A., Bauer, M. I., von Davier, A., Hao, J., Corrigan, S., \u2026 John, M. (2014). Psychometric considerations in game-based assessment. Redwood City, CA: GlassLab."
+        },
+        {
+          "key": "3_CR32",
+          "first-page": "3",
+          "volume": "1",
+          "author": "RJ Mislevy",
+          "year": "2003",
+          "unstructured": "Mislevy, R. J., Steinberg, L. S., & Almond, R. G. (2003). On the structure of educational assessments. Measurement: Interdisciplinary Research and Perspectives, 1, 3\u201367.",
+          "journal-title": "Measurement: Interdisciplinary Research and Perspectives"
+        },
+        {
+          "key": "3_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "363",
+          "DOI": "10.1207/S15324818AME1504_03",
+          "volume": "15",
+          "author": "RJ Mislevy",
+          "year": "2002",
+          "unstructured": "Mislevy, R. J., Steinberg, L. S., Breyer, F. J., Johnson, L., & Almond, R. A. (2002). Making sense of data from complex assessments. Applied Measurement in Education, 15, 363\u2013378.",
+          "journal-title": "Applied Measurement in Education"
+        },
+        {
+          "key": "3_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "391",
+          "DOI": "10.1007/BF02296153",
+          "volume": "65",
+          "author": "I Moustaki",
+          "year": "2000",
+          "unstructured": "Moustaki, I., & Knott, M. (2000). Generalised latent trait models. Psychometrika, 65, 391\u2013411.",
+          "journal-title": "Psychometrika"
+        },
+        {
+          "key": "3_CR35",
+          "volume-title": "Science framework for the 2015 National Assessment of educational Progress",
+          "author": "National Assessment Governing Board",
+          "year": "2014",
+          "unstructured": "National Assessment Governing Board. (2014). Science framework for the 2015 National Assessment of educational Progress. Washington, DC: National Assessment Governing Board."
+        },
+        {
+          "key": "3_CR36",
+          "unstructured": "Partnership for 21st Century Skills. (2011). Framework for 21stcentury learning. Retrieved from P21.org"
+        },
+        {
+          "key": "3_CR37",
+          "volume-title": "Causality: Models, reasoning, and inference",
+          "author": "J Pearl",
+          "year": "2000",
+          "unstructured": "Pearl, J. (2000). Causality: Models, reasoning, and inference. Cambridge, UK: Cambridge University Press."
+        },
+        {
+          "key": "3_CR38",
+          "volume-title": "Handbook of automated speech scoring",
+          "author": "V Ramanarayanan",
+          "year": "2019",
+          "unstructured": "Ramanarayanan, V., Evanini, K., & Tsuprun, E. (2019). Beyond monologues: Automated processing of conversational speech. In K. Zechner & K. Evanini (Eds.), Handbook of automated speech scoring. London, UK: Routledge."
+        },
+        {
+          "key": "3_CR39",
+          "volume-title": "Learning at home: Families\u2019 educational media use in America",
+          "author": "V Rideout",
+          "year": "2014",
+          "unstructured": "Rideout, V. (2014). Learning at home: Families\u2019 educational media use in America. New York, NY: The Joan Ganz Cooney Center."
+        },
+        {
+          "key": "3_CR40",
+          "volume-title": "Rules of play: Game design fundamentals",
+          "author": "K Salen",
+          "year": "2003",
+          "unstructured": "Salen, K., & Zimmerman, E. (2003). Rules of play: Game design fundamentals. Cambridge, MA: MIT Press."
+        },
+        {
+          "key": "3_CR41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9780080919171",
+          "volume-title": "The art of game design",
+          "author": "J Schell",
+          "year": "2008",
+          "unstructured": "Schell, J. (2008). The art of game design. Boca Raton, FL: CRC Francis & Taylor."
+        },
+        {
+          "key": "3_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "629",
+          "DOI": "10.1037/0021-9010.77.5.629",
+          "volume": "77",
+          "author": "MJ Schmit",
+          "year": "1992",
+          "unstructured": "Schmit, M. J., & Ryan, A. (1992). Test-taking dispositions: A missing link? Journal of Applied Psychology, 77, 629\u2013637.",
+          "journal-title": "Journal of Applied Psychology"
+        },
+        {
+          "key": "3_CR43",
+          "unstructured": "Scott, L. A. (2017). 21st century skills early learning. Partnership for 21stCentury Learning. Retrieved from http://www.p21.org/storage/documents/EarlyLearning_Framework/P21_ELF_Framework_Final.pdf"
+        },
+        {
+          "key": "3_CR44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1057/9780230601994",
+          "volume-title": "How computer games help children learn",
+          "author": "DW Shaffer",
+          "year": "2006",
+          "unstructured": "Shaffer, D. W. (2006). How computer games help children learn. New York, NY: Palgrave Macmillan."
+        },
+        {
+          "key": "3_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "423",
+          "DOI": "10.1080/00220671.2013.832970",
+          "volume": "106",
+          "author": "VJ Shute",
+          "year": "2013",
+          "unstructured": "Shute, V. J., Ventura, M., & Kim, Y.-J. (2013). Assessment and learning of qualitative physics in Newton\u2019s playground. The Journal of Educational Research, 106, 423\u2013430.",
+          "journal-title": "The Journal of Educational Research"
+        },
+        {
+          "key": "3_CR46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7249/RR863",
+          "volume-title": "Measuring hard-to-measure student competencies: A research and development plan",
+          "author": "BM Stecher",
+          "year": "2014",
+          "unstructured": "Stecher, B. M., & Hamilton, L. S. (2014). Measuring hard-to-measure student competencies: A research and development plan. Santa Monica, CA: RAND Corporation."
+        },
+        {
+          "key": "3_CR47",
+          "volume-title": "Essential facts about the computer and video game industry",
+          "author": "The Entertainment Software Association",
+          "year": "2013",
+          "unstructured": "The Entertainment Software Association. (2013). Essential facts about the computer and video game industry. Washington, DC: The Entertainment Software Association."
+        },
+        {
+          "key": "3_CR48",
+          "unstructured": "Tsang, A. (2017). Want to work for Jaguar Land Rover? Start playing phone games. The New York Times. Retrieved from https://www.nytimes.com/2017/06/19/business/jaguar-land-rover-app-puzzles.html"
+        },
+        {
+          "key": "3_CR49",
+          "unstructured": "U.S. Army (2012). http://www.military.com/Entertainment/Games/"
+        },
+        {
+          "key": "3_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "361",
+          "DOI": "10.1111/j.1745-3984.1984.tb01040.x",
+          "volume": "21",
+          "author": "DJ Weiss",
+          "year": "1984",
+          "unstructured": "Weiss, D. J., & Kingsbury, G. G. (1984). Application of computerized adaptive testing to educational problems. Journal of Educational Measurement, 21, 361\u2013375.",
+          "journal-title": "Journal of Educational Measurement"
+        }
+      ],
+      "container-title": [
+        "Advances in Game-Based Learning",
+        "Game-Based Assessment Revisited"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-15569-8_3",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            8
+          ]
+        ],
+        "date-time": "2022-12-08T18:09:44Z",
+        "timestamp": 1670522984000
+      },
+      "score": 35.194546,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/978-3-030-15569-8_3"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "ISBN": [
+        "9783030155681",
+        "9783030155698"
+      ],
+      "references-count": 49,
+      "URL": "https://doi.org/10.1007/978-3-030-15569-8_3",
+      "ISSN": [
+        "2567-8086",
+        "2567-8485"
+      ],
+      "issn-type": [
+        {
+          "value": "2567-8086",
+          "type": "print"
+        },
+        {
+          "value": "2567-8485",
+          "type": "electronic"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "6 November 2019",
+          "order": 1,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ChapterHistory",
+            "label": "Chapter History"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "query": "Kohlberg Stage sequence cognitive developmental approach socialization 1969",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "A Rationale and Test for the Number of Factors in Factor Analysis Horn 1965",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2026-10-10T22:24:42Z",
+        "timestamp": 1791671082214,
+        "version": "4.3.4"
+      },
+      "reference-count": 6,
+      "publisher": "Cambridge University Press (CUP)",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 21764,
+          "URL": "https://www.cambridge.org/core/terms"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Psychometrika"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1965,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:p>It is suggested that if Guttman\u2019s latent-root-one lower bound estimate for the rank of a correlation matrix is accepted as a psychometric upper bound, following the proofs and arguments of Kaiser and Dickman, then the rank for a sample matrix should be estimated by subtracting out the component in the latent roots which can be attributed to sampling error, and least-squares \u201ccapitalization\u201d on this error, in the calculation of the correlations and the roots. A procedure based on the generation of random variables is given for estimating the component which needs to be subtracted.</jats:p>",
+      "DOI": "10.1007/bf02289447",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            1,
+            25
+          ]
+        ],
+        "date-time": "2006-01-25T12:55:06Z",
+        "timestamp": 1138193706000
+      },
+      "page": "179-185",
+      "source": "Crossref",
+      "is-referenced-by-count": 6882,
+      "title": [
+        "A Rationale and Test for the Number of Factors in Factor Analysis"
+      ],
+      "prefix": "10.1017",
+      "volume": "30",
+      "author": [
+        {
+          "given": "John L.",
+          "family": "Horn",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Denver"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "56",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "S003331230004165X_CR1",
+          "volume-title": "An introduction to multivariate statistical analysis",
+          "author": "Anderson",
+          "year": "1958"
+        },
+        {
+          "key": "S003331230004165X_CR5",
+          "volume-title": "The advanced theory of statistics (Vols. I and II)",
+          "author": "Kendall",
+          "year": "1958"
+        },
+        {
+          "key": "S003331230004165X_CR3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02289162"
+        },
+        {
+          "key": "S003331230004165X_CR4",
+          "unstructured": "[4] Kaiser, H. The application of electronic computers to factor analysis. (Paper read at a symposium on application of computers to psychological problems. Meeting of Amer. Psychol. Ass., 1959)."
+        },
+        {
+          "key": "S003331230004165X_CR2",
+          "unstructured": "[2] Dickman, K. W. Factorial validity of a rating instrument. Unpublished doctoral dissertation, Univ. Illinois, 1960."
+        },
+        {
+          "key": "S003331230004165X_CR6",
+          "volume-title": "Advanced statistical methods in biometric research",
+          "author": "Rao",
+          "year": "1952"
+        }
+      ],
+      "container-title": [
+        "Psychometrika"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/BF02289447.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1007/BF02289447/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S003331230004165X",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2026-04-17T06:16:03Z",
+        "timestamp": 1776406563000
+      },
+      "score": 54.145725,
+      "resource": {
+        "primary": {
+          "URL": "https://www.cambridge.org/core/product/identifier/S003331230004165X/type/journal_article"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1965,
+            6
+          ]
+        ]
+      },
+      "references-count": 6,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              1965,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S003331230004165X"
+      ],
+      "URL": "https://doi.org/10.1007/bf02289447",
+      "ISSN": [
+        "0033-3123",
+        "1860-0980"
+      ],
+      "issn-type": [
+        {
+          "value": "0033-3123",
+          "type": "print"
+        },
+        {
+          "value": "1860-0980",
+          "type": "electronic"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1965,
+            6
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query": "A Guideline of Selecting and Reporting Intraclass Correlation Coefficients Koo Li 2016",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "Statistical power analysis for the behavioral sciences Cohen 1988",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2026-10-10T22:55:07Z",
+        "timestamp": 1791672907088,
+        "version": "4.3.4"
+      },
+      "edition-number": "0",
+      "reference-count": 0,
+      "publisher": "Routledge",
+      "isbn-type": [
+        {
+          "value": "9781134742707",
+          "type": "electronic"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "DOI": "10.4324/9780203771587",
+      "type": "book",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            14
+          ]
+        ],
+        "date-time": "2014-03-14T05:07:58Z",
+        "timestamp": 1394773678000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 18206,
+      "title": [
+        "Statistical Power Analysis for the Behavioral Sciences"
+      ],
+      "prefix": "10.4324",
+      "author": [
+        {
+          "given": "Jacob",
+          "family": "Cohen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            13
+          ]
+        ]
+      },
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            6
+          ]
+        ],
+        "date-time": "2021-04-06T04:04:41Z",
+        "timestamp": 1617681881000
+      },
+      "score": 41.497654,
+      "resource": {
+        "primary": {
+          "URL": "https://www.taylorfrancis.com/books/9781134742707"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            13
+          ]
+        ]
+      },
+      "ISBN": [
+        "9781134742707"
+      ],
+      "references-count": 0,
+      "URL": "https://doi.org/10.4324/9780203771587",
+      "relation": {
+        "is-referenced-by": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s12909-025-07350-0",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            13
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query": "Unveiling the Tapestry of Automated Essay Scoring",
+    "status": "retrieved",
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T17:36:56Z",
+        "timestamp": 1790789816236,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+      "issue": "20",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "AAAI"
+      ],
+      "abstract": "<jats:p>Automatic Essay Scoring (AES) is a well-established educational pursuit that employs machine learning to evaluate student-authored essays. While much effort has been made in this area, current research primarily focuses on either (i) boosting the predictive accuracy of an AES model for a specific prompt (i.e., developing prompt-specific models), which often heavily relies on the use of the labeled data from the same target prompt; or (ii) assessing the applicability of AES models developed on non-target prompts to the intended target prompt (i.e., developing the AES models in a cross-prompt setting). Given the inherent bias in machine learning and its potential impact on marginalized groups, it is imperative to investigate whether such bias exists in current AES methods and, if identified, how it intervenes with an AES model's accuracy and generalizability. Thus, our study aimed to uncover the intricate relationship between an AES model's accuracy, fairness, and generalizability, contributing practical insights for developing effective AES models in real-world education. To this end, we meticulously selected nine prominent AES methods and evaluated their performance using seven distinct metrics on an open-sourced dataset, which contains over 25,000 essays and various demographic information about students such as gender, English language learner status, and economic status. Through extensive evaluations, we demonstrated that: (1) prompt-specific models tend to outperform their cross-prompt counterparts in terms of predictive accuracy; (2) prompt-specific models frequently exhibit a greater bias towards students of different economic statuses compared to cross-prompt models; (3) in the pursuit of generalizability, traditional machine learning models (e.g., SVM) coupled with carefully engineered features hold greater potential for achieving both high accuracy and fairness than complex neural network models.</jats:p>",
+      "DOI": "10.1609/aaai.v38i20.30254",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            25
+          ]
+        ],
+        "date-time": "2024-03-25T12:32:18Z",
+        "timestamp": 1711369938000
+      },
+      "page": "22466-22474",
+      "source": "Crossref",
+      "is-referenced-by-count": 20,
+      "title": [
+        "Unveiling the Tapestry of Automated Essay Scoring: A Comprehensive Investigation of Accuracy, Fairness, and Generalizability"
+      ],
+      "prefix": "10.1609",
+      "volume": "38",
+      "author": [
+        {
+          "given": "Kaixun",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mladen",
+          "family": "Rakovi\u0107",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuyang",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Quanlong",
+          "family": "Guan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dragan",
+          "family": "Ga\u0161evi\u0107",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guangliang",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "9382",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            24
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the AAAI Conference on Artificial Intelligence"
+      ],
+      "link": [
+        {
+          "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/30254/32236",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/30254/32237",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://ojs.aaai.org/index.php/AAAI/article/download/30254/32236",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            25
+          ]
+        ],
+        "date-time": "2024-03-25T12:32:18Z",
+        "timestamp": 1711369938000
+      },
+      "score": 37.032047,
+      "resource": {
+        "primary": {
+          "URL": "https://ojs.aaai.org/index.php/AAAI/article/view/30254"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            24
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "20",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              25
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1609/aaai.v38i20.30254",
+      "ISSN": [
+        "2374-3468",
+        "2159-5399"
+      ],
+      "issn-type": [
+        {
+          "value": "2374-3468",
+          "type": "electronic"
+        },
+        {
+          "value": "2159-5399",
+          "type": "print"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            24
+          ]
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "consequentialism",
+    "label": "Consequentialism",
+    "domain": "ethics",
+    "description": "Evaluating acts or other objects through their consequences.",
+    "reference": "https://plato.stanford.edu/entries/consequentialism/"
+  },
+  {
+    "id": "special-obligations",
+    "label": "Special obligations",
+    "domain": "ethics",
+    "description": "Duties arising from relationships, commitments, or roles rather than duties owed identically to everyone.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "aggregation",
+    "label": "Aggregation",
+    "domain": "ethics",
+    "description": "Combining benefits and burdens across people when evaluating options.",
+    "reference": "https://plato.stanford.edu/entries/consequentialism/"
+  },
+  {
+    "id": "moral-luck",
+    "label": "Moral luck",
+    "domain": "ethics",
+    "description": "The influence of factors beyond an agent's control on moral assessment.",
+    "reference": "https://plato.stanford.edu/entries/moral-responsibility/"
+  },
+  {
+    "id": "virtue-ethics",
+    "label": "Virtue ethics",
+    "domain": "ethics",
+    "description": "An approach that gives moral character and practical judgment a central explanatory role.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "consent",
+    "label": "Consent",
+    "domain": "ethics",
+    "description": "Authorization through agreement, with questions about understanding, capacity, and freedom from pressure.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "beneficence",
+    "label": "Beneficence",
+    "domain": "ethics",
+    "description": "Reasons or duties to benefit others and prevent harm.",
+    "reference": "https://plato.stanford.edu/entries/consequentialism/"
+  },
+  {
+    "id": "intergenerational-ethics",
+    "label": "Intergenerational ethics",
+    "domain": "ethics",
+    "description": "Duties and fairness involving people who live at different times.",
+    "reference": "https://plato.stanford.edu/entries/justice-intergenerational/"
+  },
+  {
+    "id": "moral-status",
+    "label": "Moral status",
+    "domain": "ethics",
+    "description": "The basis and extent of a being's claim to moral consideration.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "restorative-justice",
+    "label": "Restorative justice",
+    "domain": "ethics",
+    "description": "Responses to wrongdoing focused on addressing harms, accountability, and relationships.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "care-ethics",
+    "label": "Care ethics",
+    "domain": "ethics",
+    "description": "Ethical attention to dependency, relationships, and situated responsibilities of care.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "moral-responsibility",
+    "label": "Moral responsibility",
+    "domain": "ethics",
+    "description": "Conditions under which conduct and consequences are appropriately attributed to an agent.",
+    "reference": "https://plato.stanford.edu/entries/moral-responsibility/"
+  },
+  {
+    "id": "deontology",
+    "label": "Deontology",
+    "domain": "ethics",
+    "description": "Ethical approaches that give duties, permissions, or constraints a foundational role.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "intrinsic-value",
+    "label": "Intrinsic value",
+    "domain": "ethics",
+    "description": "Value something has in itself, distinguished from its usefulness as a means.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "moral-relativism",
+    "label": "Moral relativism",
+    "domain": "ethics",
+    "description": "Accounts relating moral truth or justification to standards of cultures or other frameworks.",
+    "reference": "https://plato.stanford.edu/entries/moral-responsibility/"
+  },
+  {
+    "id": "repentance",
+    "label": "Repentance",
+    "domain": "ethics",
+    "description": "Acknowledgment of wrongdoing joined to a changed orientation and questions of repair.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "moral-uncertainty",
+    "label": "Moral uncertainty",
+    "domain": "ethics",
+    "description": "Uncertainty about which moral principles or judgments are correct.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "instrumental-rationality",
+    "label": "Instrumental rationality",
+    "domain": "ethics",
+    "description": "Assessment of means relative to an end, distinct from justification of that end.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "bodily-autonomy",
+    "label": "Bodily autonomy",
+    "domain": "ethics",
+    "description": "Authority over one's body and limits on others' interference.",
+    "reference": "https://plato.stanford.edu/entries/ethics-virtue/"
+  },
+  {
+    "id": "reflective-equilibrium",
+    "label": "Reflective equilibrium",
+    "domain": "ethics",
+    "description": "Mutual adjustment of judgments, principles, and background commitments in pursuit of considered coherence.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "truth-and-belief",
+    "label": "Truth and belief",
+    "domain": "epistemology",
+    "description": "The distinction between holding a claim and the claim's being true.",
+    "reference": "https://plato.stanford.edu/entries/knowledge-analysis/"
+  },
+  {
+    "id": "testimony",
+    "label": "Testimony",
+    "domain": "epistemology",
+    "description": "Acquiring belief or knowledge through what others communicate.",
+    "reference": "https://plato.stanford.edu/entries/testimony-episprob/"
+  },
+  {
+    "id": "epistemic-luck",
+    "label": "Epistemic luck",
+    "domain": "epistemology",
+    "description": "Accidental correctness that raises doubts about whether a true belief counts as knowledge.",
+    "reference": "https://plato.stanford.edu/entries/knowledge-analysis/"
+  },
+  {
+    "id": "peer-disagreement",
+    "label": "Peer disagreement",
+    "domain": "epistemology",
+    "description": "Disagreement among people of comparable relevant competence and access to evidence.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "epistemic-rationality",
+    "label": "Epistemic rationality",
+    "domain": "epistemology",
+    "description": "Standards for beliefs and inquiry as directed toward truth or other epistemic goods.",
+    "reference": "https://plato.stanford.edu/entries/knowledge-analysis/"
+  },
+  {
+    "id": "epistemic-injustice",
+    "label": "Epistemic injustice",
+    "domain": "epistemology",
+    "description": "Wronging someone in their capacity as a knower, including distorted credibility or interpretive exclusion.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "negative-evidence",
+    "label": "Negative evidence",
+    "domain": "epistemology",
+    "description": "Absence that counts as evidence when presence would probably have been detected.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "regress-of-justification",
+    "label": "Regress of justification",
+    "domain": "epistemology",
+    "description": "The challenge of explaining how reasons support beliefs without infinite regress or vicious circularity.",
+    "reference": "https://plato.stanford.edu/entries/knowledge-analysis/"
+  },
+  {
+    "id": "memory-knowledge",
+    "label": "Memory knowledge",
+    "domain": "epistemology",
+    "description": "Knowledge or justified belief retained or reconstructed through memory.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "epistemic-independence",
+    "label": "Epistemic independence",
+    "domain": "epistemology",
+    "description": "The extent to which sources supply information without merely inheriting the same origin.",
+    "reference": "https://plato.stanford.edu/entries/testimony-episprob/"
+  },
+  {
+    "id": "knowledge-how",
+    "label": "Knowledge how",
+    "domain": "epistemology",
+    "description": "Practical competence and its relation to propositional knowledge.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "skepticism",
+    "label": "Skepticism",
+    "domain": "epistemology",
+    "description": "Challenges to whether or how knowledge in some domain is possible.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "inductive-justification",
+    "label": "Inductive justification",
+    "domain": "epistemology",
+    "description": "Support for conclusions extending beyond observed cases.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "expertise",
+    "label": "Expertise",
+    "domain": "epistemology",
+    "description": "Specialized competence relevant to the reliability of judgments within a domain.",
+    "reference": "https://plato.stanford.edu/entries/testimony-episprob/"
+  },
+  {
+    "id": "first-person-evidence",
+    "label": "First person evidence",
+    "domain": "epistemology",
+    "description": "Evidence accessible through one's own experience or perspective.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "intellectual-humility",
+    "label": "Intellectual humility",
+    "domain": "epistemology",
+    "description": "Recognition and responsible management of the limits of one's epistemic position.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "fallibilism",
+    "label": "Fallibilism",
+    "domain": "epistemology",
+    "description": "The view that knowledge or justification need not require an impossibility of error.",
+    "reference": "https://plato.stanford.edu/entries/knowledge-analysis/"
+  },
+  {
+    "id": "epistemic-responsibility",
+    "label": "Epistemic responsibility",
+    "domain": "epistemology",
+    "description": "Responsibilities governing inquiry, belief formation, and management of uncertainty.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "understanding",
+    "label": "Understanding",
+    "domain": "epistemology",
+    "description": "Grasp of explanatory or other significant connections, contrasted with merely possessing isolated information.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "epistemic-dependence",
+    "label": "Epistemic dependence",
+    "domain": "epistemology",
+    "description": "Reliance on other people, institutions, and inherited methods in acquiring knowledge.",
+    "reference": "https://plato.stanford.edu/entries/epistemology/"
+  },
+  {
+    "id": "modus-ponens",
+    "label": "Modus ponens",
+    "domain": "logic",
+    "description": "The valid inference from if P then Q, together with P, to Q.",
+    "reference": "https://plato.stanford.edu/entries/logic-classical/"
+  },
+  {
+    "id": "unstated-premises",
+    "label": "Unstated premises",
+    "domain": "logic",
+    "description": "Assumptions an argument needs but does not explicitly state.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "validity-and-truth",
+    "label": "Validity and truth",
+    "domain": "logic",
+    "description": "The distinction between a conclusion being true and following from its premises.",
+    "reference": "https://plato.stanford.edu/entries/logic-classical/"
+  },
+  {
+    "id": "affirming-the-consequent",
+    "label": "Affirming the consequent",
+    "domain": "logic",
+    "description": "The invalid general inference from if P then Q and Q to P.",
+    "reference": "https://plato.stanford.edu/entries/fallacies/"
+  },
+  {
+    "id": "equivocation",
+    "label": "Equivocation",
+    "domain": "logic",
+    "description": "A shift in a term's meaning that disrupts an argument.",
+    "reference": "https://plato.stanford.edu/entries/fallacies/"
+  },
+  {
+    "id": "quantification",
+    "label": "Quantification",
+    "domain": "logic",
+    "description": "Logical expressions of scope such as some, every, and none.",
+    "reference": "https://plato.stanford.edu/entries/logic-classical/"
+  },
+  {
+    "id": "interpretive-charity",
+    "label": "Interpretive charity",
+    "domain": "logic",
+    "description": "Interpreting an argument fairly while respecting what its author actually commits to.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "circular-reasoning",
+    "label": "Circular reasoning",
+    "domain": "logic",
+    "description": "Reasoning that relies on the disputed claim in a way that fails to provide the required support.",
+    "reference": "https://plato.stanford.edu/entries/fallacies/"
+  },
+  {
+    "id": "analogical-reasoning",
+    "label": "Analogical reasoning",
+    "domain": "logic",
+    "description": "Reasoning from relevant similarities between cases.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "slippery-slope",
+    "label": "Slippery slope",
+    "domain": "logic",
+    "description": "An argument linking an initial step to a sequence of further consequences requiring support.",
+    "reference": "https://plato.stanford.edu/entries/fallacies/"
+  },
+  {
+    "id": "ad-hominem",
+    "label": "Ad hominem",
+    "domain": "logic",
+    "description": "An attack on a speaker that does not appropriately address the support for their claim.",
+    "reference": "https://plato.stanford.edu/entries/fallacies/"
+  },
+  {
+    "id": "false-dilemma",
+    "label": "False dilemma",
+    "domain": "logic",
+    "description": "Treating a restricted set of alternatives as exhaustive without adequate grounds.",
+    "reference": "https://plato.stanford.edu/entries/fallacies/"
+  },
+  {
+    "id": "necessary-conditions",
+    "label": "Necessary conditions",
+    "domain": "logic",
+    "description": "A condition that must hold for something, distinguished from a condition that guarantees it.",
+    "reference": "https://plato.stanford.edu/entries/logic-classical/"
+  },
+  {
+    "id": "counterexamples",
+    "label": "Counterexamples",
+    "domain": "logic",
+    "description": "Cases that challenge a general claim by satisfying its scope while violating its conclusion.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "burden-of-proof",
+    "label": "Burden of proof",
+    "domain": "logic",
+    "description": "The responsibility to supply appropriate support for a claim in a context of inquiry.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "consistency",
+    "label": "Consistency",
+    "domain": "logic",
+    "description": "Compatibility of commitments under the same relevant meanings and circumstances.",
+    "reference": "https://plato.stanford.edu/entries/logic-classical/"
+  },
+  {
+    "id": "inferential-strength",
+    "label": "Inferential strength",
+    "domain": "logic",
+    "description": "How strong or broad a conclusion the premises warrant.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "abduction",
+    "label": "Abduction",
+    "domain": "logic",
+    "description": "Inference toward an explanatory hypothesis, often through comparison with alternatives.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "argument-revision",
+    "label": "Argument revision",
+    "domain": "logic",
+    "description": "Changing premises or inferential steps to address an objection without arbitrary exception.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "undercutting-defeaters",
+    "label": "Undercutting defeaters",
+    "domain": "logic",
+    "description": "Reasons that undermine a source of support without directly establishing the opposite conclusion.",
+    "reference": "https://plato.stanford.edu/entries/logic-informal/"
+  },
+  {
+    "id": "modality",
+    "label": "Modality",
+    "domain": "metaphysics",
+    "description": "Necessity, possibility, and their relation to what is actual.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "persistence",
+    "label": "Persistence",
+    "domain": "metaphysics",
+    "description": "What it takes for something to continue existing through change.",
+    "reference": "https://plato.stanford.edu/entries/identity-personal/"
+  },
+  {
+    "id": "social-ontology",
+    "label": "Social ontology",
+    "domain": "metaphysics",
+    "description": "The existence and dependence of institutions, roles, obligations, and other social entities.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "causation",
+    "label": "Causation",
+    "domain": "metaphysics",
+    "description": "Relations of production, dependence, or difference-making between events or states.",
+    "reference": "https://plato.stanford.edu/entries/causation-metaphysics/"
+  },
+  {
+    "id": "free-will",
+    "label": "Free will",
+    "domain": "metaphysics",
+    "description": "Agency and control over action, including their compatibility with determinism.",
+    "reference": "https://plato.stanford.edu/entries/freewill/"
+  },
+  {
+    "id": "relations",
+    "label": "Relations",
+    "domain": "metaphysics",
+    "description": "Connections between things and questions about whether these are metaphysically fundamental.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "abstract-objects",
+    "label": "Abstract objects",
+    "domain": "metaphysics",
+    "description": "Putative entities such as numbers that are not ordinary concrete spatiotemporal objects.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "vagueness",
+    "label": "Vagueness",
+    "domain": "metaphysics",
+    "description": "Borderline cases and indeterminacy in the application of concepts.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "cosmological-explanation",
+    "label": "Cosmological explanation",
+    "domain": "metaphysics",
+    "description": "Accounts of the existence or dependence of the universe as a whole.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "grounding",
+    "label": "Grounding",
+    "domain": "metaphysics",
+    "description": "Non-causal dependence sometimes expressed as one fact obtaining in virtue of another.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "identity",
+    "label": "Identity",
+    "domain": "metaphysics",
+    "description": "Being one and the same entity, distinguished from qualitative resemblance.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "response-dependence",
+    "label": "Response dependence",
+    "domain": "metaphysics",
+    "description": "Accounts locating some properties in relations to observers or their responses.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "natural-kinds",
+    "label": "Natural kinds",
+    "domain": "metaphysics",
+    "description": "Categories proposed to track significant divisions in nature rather than mere convenience.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "personal-identity",
+    "label": "Personal identity",
+    "domain": "metaphysics",
+    "description": "Conditions for the persistence of a person across time and change.",
+    "reference": "https://plato.stanford.edu/entries/identity-personal/"
+  },
+  {
+    "id": "compatibilism",
+    "label": "Compatibilism",
+    "domain": "metaphysics",
+    "description": "The view that determinism can be compatible with the relevant kind of free agency.",
+    "reference": "https://plato.stanford.edu/entries/freewill/"
+  },
+  {
+    "id": "levels-of-description",
+    "label": "Levels of description",
+    "domain": "metaphysics",
+    "description": "Different explanatory vocabularies or scales used to describe a phenomenon.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "laws-of-nature",
+    "label": "Laws of nature",
+    "domain": "metaphysics",
+    "description": "General principles of nature and questions about their necessity or governing force.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "nothingness",
+    "label": "Nothingness",
+    "domain": "metaphysics",
+    "description": "The proposed absence of all entities, distinguished from empty space.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "first-cause",
+    "label": "First cause",
+    "domain": "metaphysics",
+    "description": "A proposed explanatory origin or ground that does not itself depend on a prior cause.",
+    "reference": "https://plato.stanford.edu/entries/causation-metaphysics/"
+  },
+  {
+    "id": "ontological-parsimony",
+    "label": "Ontological parsimony",
+    "domain": "metaphysics",
+    "description": "Preference for avoiding unnecessary entities, balanced against explanatory demands.",
+    "reference": "https://plato.stanford.edu/entries/metaphysics/"
+  },
+  {
+    "id": "phenomenal-consciousness",
+    "label": "Phenomenal consciousness",
+    "domain": "mind",
+    "description": "The felt or experiential character of a conscious state.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "other-minds",
+    "label": "Other minds",
+    "domain": "mind",
+    "description": "The problem of knowing or explaining experience in subjects other than oneself.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "artificial-understanding",
+    "label": "Artificial understanding",
+    "domain": "mind",
+    "description": "Whether and how artificial systems can possess understanding rather than merely produce convincing outputs.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "knowledge-argument",
+    "label": "Knowledge argument",
+    "domain": "mind",
+    "description": "An argument using new experience to challenge the completeness of exclusively physical knowledge.",
+    "reference": "https://plato.stanford.edu/entries/qualia-knowledge/"
+  },
+  {
+    "id": "extended-mind",
+    "label": "Extended mind",
+    "domain": "mind",
+    "description": "The proposal that some cognitive processes extend beyond an individual's biological boundaries.",
+    "reference": "https://plato.stanford.edu/entries/embodied-cognition/"
+  },
+  {
+    "id": "attention",
+    "label": "Attention",
+    "domain": "mind",
+    "description": "Selective orientation of cognitive resources and its relation to consciousness.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "emotion",
+    "label": "Emotion",
+    "domain": "mind",
+    "description": "Affective states involving feelings, bodily changes, appraisals, and action tendencies.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "embodied-cognition",
+    "label": "Embodied cognition",
+    "domain": "mind",
+    "description": "Accounts in which bodily capacities and activities help constitute or shape cognition.",
+    "reference": "https://plato.stanford.edu/entries/embodied-cognition/"
+  },
+  {
+    "id": "mental-causation",
+    "label": "Mental causation",
+    "domain": "mind",
+    "description": "How mental states can contribute causally to actions and other events.",
+    "reference": "https://plato.stanford.edu/entries/causation-metaphysics/"
+  },
+  {
+    "id": "self-knowledge",
+    "label": "Self knowledge",
+    "domain": "mind",
+    "description": "Knowledge of one's own mental states, motives, and character.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "psychological-continuity",
+    "label": "Psychological continuity",
+    "domain": "mind",
+    "description": "Connections of memory, intention, disposition, and other psychological features across time.",
+    "reference": "https://plato.stanford.edu/entries/identity-personal/"
+  },
+  {
+    "id": "empathy",
+    "label": "Empathy",
+    "domain": "mind",
+    "description": "Understanding or sharing another's affective perspective without assuming identity of subjects.",
+    "reference": "https://plato.stanford.edu/entries/empathy/"
+  },
+  {
+    "id": "nonlinguistic-thought",
+    "label": "Nonlinguistic thought",
+    "domain": "mind",
+    "description": "Cognition that does not require linguistic expression or representation.",
+    "reference": "https://plato.stanford.edu/entries/embodied-cognition/"
+  },
+  {
+    "id": "homunculus-problem",
+    "label": "Homunculus problem",
+    "domain": "mind",
+    "description": "An explanatory regress caused by attributing the unexplained capacity to an inner agent.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "self-conception",
+    "label": "Self conception",
+    "domain": "mind",
+    "description": "A person's understanding and interpretation of who they are.",
+    "reference": "https://plato.stanford.edu/entries/identity-personal/"
+  },
+  {
+    "id": "neural-explanation",
+    "label": "Neural explanation",
+    "domain": "mind",
+    "description": "Explaining cognition and behavior through processes in the nervous system.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "animal-consciousness",
+    "label": "Animal consciousness",
+    "domain": "mind",
+    "description": "The possibility, nature, and evidence for experience in nonhuman animals.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "unity-of-consciousness",
+    "label": "Unity of consciousness",
+    "domain": "mind",
+    "description": "The relations through which experiences are presented together or as belonging to one subject.",
+    "reference": "https://plato.stanford.edu/entries/consciousness/"
+  },
+  {
+    "id": "process-self",
+    "label": "Process self",
+    "domain": "mind",
+    "description": "Accounts of the self as an organized continuity of activity rather than an unchanging substance.",
+    "reference": "https://plato.stanford.edu/entries/identity-personal/"
+  },
+  {
+    "id": "explanatory-gap",
+    "label": "Explanatory gap",
+    "domain": "mind",
+    "description": "The apparent gap between explaining physical or functional processes and explaining felt experience.",
+    "reference": "https://plato.stanford.edu/entries/qualia-knowledge/"
+  },
+  {
+    "id": "procedural-justice",
+    "label": "Procedural justice",
+    "domain": "politics",
+    "description": "Fairness in decision procedures, distinguished from fairness of resulting distributions.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "political-legitimacy",
+    "label": "Political legitimacy",
+    "domain": "politics",
+    "description": "The justification of political authority and the right to impose binding rules.",
+    "reference": "https://plato.stanford.edu/entries/legitimacy/"
+  },
+  {
+    "id": "majority-rule",
+    "label": "Majority rule",
+    "domain": "politics",
+    "description": "A collective decision rule that gives the greater number of votes decisive procedural weight.",
+    "reference": "https://plato.stanford.edu/entries/democracy/"
+  },
+  {
+    "id": "distributive-justice",
+    "label": "Distributive justice",
+    "domain": "politics",
+    "description": "Principles governing the allocation of benefits, opportunities, and burdens.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "equality-of-opportunity",
+    "label": "Equality of opportunity",
+    "domain": "politics",
+    "description": "Fair access to positions or prospects and the significance of unchosen starting conditions.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "non-domination",
+    "label": "Non domination",
+    "domain": "politics",
+    "description": "Freedom understood as security against arbitrary or uncontrolled power.",
+    "reference": "https://plato.stanford.edu/entries/liberty-positive-negative/"
+  },
+  {
+    "id": "freedom-of-expression",
+    "label": "Freedom of expression",
+    "domain": "politics",
+    "description": "Protections for communication and debate and the grounds for legitimate limitations.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "civil-disobedience",
+    "label": "Civil disobedience",
+    "domain": "politics",
+    "description": "Principled breach of law as a form of political contestation.",
+    "reference": "https://plato.stanford.edu/entries/legitimacy/"
+  },
+  {
+    "id": "migration-ethics",
+    "label": "Migration ethics",
+    "domain": "politics",
+    "description": "Ethical questions about admission, movement, borders, and duties to displaced people.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "public-reason",
+    "label": "Public reason",
+    "domain": "politics",
+    "description": "Justification of shared political arrangements through reasons others can reasonably assess.",
+    "reference": "https://plato.stanford.edu/entries/legitimacy/"
+  },
+  {
+    "id": "reparative-justice",
+    "label": "Reparative justice",
+    "domain": "politics",
+    "description": "Duties to address the consequences of past or continuing injustice.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "structural-power",
+    "label": "Structural power",
+    "domain": "politics",
+    "description": "Power exercised through social arrangements, dependencies, and control of opportunities.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "democratic-authority",
+    "label": "Democratic authority",
+    "domain": "politics",
+    "description": "The justification and limits of rule through democratic procedures.",
+    "reference": "https://plato.stanford.edu/entries/democracy/"
+  },
+  {
+    "id": "emergency-powers",
+    "label": "Emergency powers",
+    "domain": "politics",
+    "description": "Exceptional authority claimed in response to serious threats and its required constraints.",
+    "reference": "https://plato.stanford.edu/entries/legitimacy/"
+  },
+  {
+    "id": "collective-action",
+    "label": "Collective action",
+    "domain": "politics",
+    "description": "Coordination and contribution problems involving shared benefits or costs.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "value-pluralism",
+    "label": "Value pluralism",
+    "domain": "politics",
+    "description": "The possibility of multiple important values that cannot simply be reduced to one measure.",
+    "reference": "https://plato.stanford.edu/entries/legitimacy/"
+  },
+  {
+    "id": "complicity",
+    "label": "Complicity",
+    "domain": "politics",
+    "description": "Responsibility associated with participating in or enabling another's wrongdoing.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "prioritarianism",
+    "label": "Prioritarianism",
+    "domain": "politics",
+    "description": "Giving additional moral weight to benefits for those who are worse off.",
+    "reference": "https://plato.stanford.edu/entries/justice/"
+  },
+  {
+    "id": "associational-freedom",
+    "label": "Associational freedom",
+    "domain": "politics",
+    "description": "Freedom to form, join, leave, and maintain associations and the limits of their authority.",
+    "reference": "https://plato.stanford.edu/entries/liberty-positive-negative/"
+  },
+  {
+    "id": "epistemic-democracy",
+    "label": "Epistemic democracy",
+    "domain": "politics",
+    "description": "Accounts connecting democratic participation to the quality of collective inquiry or decisions.",
+    "reference": "https://plato.stanford.edu/entries/democracy/"
+  },
+  {
+    "id": "aesthetic-judgment",
+    "label": "Aesthetic judgment",
+    "domain": "aesthetics",
+    "description": "Evaluative judgment about beauty or other aesthetic qualities.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "reasons-for-taste",
+    "label": "Reasons for taste",
+    "domain": "aesthetics",
+    "description": "Considerations offered to support or criticize aesthetic appreciation.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "authenticity",
+    "label": "Authenticity",
+    "domain": "aesthetics",
+    "description": "Relations between a work's identity, origin, history, and claims to genuineness.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "ethical-criticism-of-art",
+    "label": "Ethical criticism of art",
+    "domain": "aesthetics",
+    "description": "The relation between a work's moral features and its artistic or aesthetic value.",
+    "reference": "https://plato.stanford.edu/entries/art-definition/"
+  },
+  {
+    "id": "definition-of-art",
+    "label": "Definition of art",
+    "domain": "aesthetics",
+    "description": "Accounts of what makes something art, distinct from whether it is good art.",
+    "reference": "https://plato.stanford.edu/entries/art-definition/"
+  },
+  {
+    "id": "authorial-intention",
+    "label": "Authorial intention",
+    "domain": "aesthetics",
+    "description": "The creator's intended meaning and its relevance to interpretation.",
+    "reference": "https://plato.stanford.edu/entries/art-definition/"
+  },
+  {
+    "id": "aesthetic-emotion",
+    "label": "Aesthetic emotion",
+    "domain": "aesthetics",
+    "description": "Emotional experience elicited through engagement with art or aesthetic objects.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "environmental-aesthetics",
+    "label": "Environmental aesthetics",
+    "domain": "aesthetics",
+    "description": "Aesthetic appreciation of natural and human-shaped environments.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "cultural-appropriation",
+    "label": "Cultural appropriation",
+    "domain": "aesthetics",
+    "description": "Borrowing cultural practices and the importance of power, attribution, and context.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "creativity",
+    "label": "Creativity",
+    "domain": "aesthetics",
+    "description": "Production or recognition of something novel and valuable in a relevant practice.",
+    "reference": "https://plato.stanford.edu/entries/art-definition/"
+  },
+  {
+    "id": "artistic-value",
+    "label": "Artistic value",
+    "domain": "aesthetics",
+    "description": "The kinds of merit a work may have as art.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "ontology-of-art",
+    "label": "Ontology of art",
+    "domain": "aesthetics",
+    "description": "The nature and identity conditions of artworks, performances, and copies.",
+    "reference": "https://plato.stanford.edu/entries/art-definition/"
+  },
+  {
+    "id": "aesthetic-cognition",
+    "label": "Aesthetic cognition",
+    "domain": "aesthetics",
+    "description": "Relations between knowledge, interpretation, perception, and aesthetic experience.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "originality",
+    "label": "Originality",
+    "domain": "aesthetics",
+    "description": "Novelty or distinctiveness of a contribution in relation to relevant precedents.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "public-art",
+    "label": "Public art",
+    "domain": "aesthetics",
+    "description": "Art in shared spaces and its civic, expressive, and institutional roles.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "aesthetic-expertise",
+    "label": "Aesthetic expertise",
+    "domain": "aesthetics",
+    "description": "Informed competence in perceiving, interpreting, and evaluating aesthetic objects.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "expression",
+    "label": "Expression",
+    "domain": "aesthetics",
+    "description": "How works or acts articulate feelings, attitudes, or perspectives.",
+    "reference": "https://plato.stanford.edu/entries/art-definition/"
+  },
+  {
+    "id": "conservation",
+    "label": "Conservation",
+    "domain": "aesthetics",
+    "description": "Preservation and restoration of works, including tensions among material, appearance, and history.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "the-sublime-and-the-beautiful",
+    "label": "The sublime and the beautiful",
+    "domain": "aesthetics",
+    "description": "Contrasting aesthetic experiences of beauty, overwhelming magnitude, disturbance, or power.",
+    "reference": "https://plato.stanford.edu/entries/aesthetic-judgment/"
+  },
+  {
+    "id": "canon-formation",
+    "label": "Canon formation",
+    "domain": "aesthetics",
+    "description": "Processes through which institutions and communities select works as exemplary or enduring.",
+    "reference": "https://plato.stanford.edu/entries/art-definition/"
+  },
+  {
+    "id": "confirmation",
+    "label": "Confirmation",
+    "domain": "science",
+    "description": "The evidential support observations can provide for a hypothesis.",
+    "reference": "https://plato.stanford.edu/entries/scientific-method/"
+  },
+  {
+    "id": "underdetermination",
+    "label": "Underdetermination",
+    "domain": "science",
+    "description": "The possibility that evidence leaves more than one theoretical account available.",
+    "reference": "https://plato.stanford.edu/entries/scientific-realism/"
+  },
+  {
+    "id": "causal-inference",
+    "label": "Causal inference",
+    "domain": "science",
+    "description": "Reasoning about what produces or changes an outcome rather than merely correlates with it.",
+    "reference": "https://plato.stanford.edu/entries/causation-metaphysics/"
+  },
+  {
+    "id": "scientific-models",
+    "label": "Scientific models",
+    "domain": "science",
+    "description": "Representations used to investigate systems, often through deliberate simplification.",
+    "reference": "https://plato.stanford.edu/entries/models-science/"
+  },
+  {
+    "id": "falsifiability",
+    "label": "Falsifiability",
+    "domain": "science",
+    "description": "A claim's exposure to possible empirical refutation.",
+    "reference": "https://plato.stanford.edu/entries/scientific-method/"
+  },
+  {
+    "id": "scientific-realism",
+    "label": "Scientific realism",
+    "domain": "science",
+    "description": "Commitment to some theory-described entities or structures as mind-independent realities.",
+    "reference": "https://plato.stanford.edu/entries/scientific-realism/"
+  },
+  {
+    "id": "operationalization",
+    "label": "Operationalization",
+    "domain": "science",
+    "description": "Connecting a theoretical construct to procedures for observing or measuring it.",
+    "reference": "https://plato.stanford.edu/entries/measurement-science/"
+  },
+  {
+    "id": "replication",
+    "label": "Replication",
+    "domain": "science",
+    "description": "Repeating or independently reproducing an investigation to examine the stability of a finding.",
+    "reference": "https://plato.stanford.edu/entries/scientific-method/"
+  },
+  {
+    "id": "values-in-science",
+    "label": "Values in science",
+    "domain": "science",
+    "description": "Roles of epistemic and social values in research choices and judgments.",
+    "reference": "https://plato.stanford.edu/entries/scientific-objectivity/"
+  },
+  {
+    "id": "scientific-change",
+    "label": "Scientific change",
+    "domain": "science",
+    "description": "Changes in theories, concepts, or standards over the history of inquiry.",
+    "reference": "https://plato.stanford.edu/entries/scientific-method/"
+  },
+  {
+    "id": "external-validity",
+    "label": "External validity",
+    "domain": "science",
+    "description": "The extent to which findings transfer beyond the conditions or population studied.",
+    "reference": "https://plato.stanford.edu/entries/models-science/"
+  },
+  {
+    "id": "emergence",
+    "label": "Emergence",
+    "domain": "science",
+    "description": "System-level properties arising through organization or interaction among components.",
+    "reference": "https://plato.stanford.edu/entries/models-science/"
+  },
+  {
+    "id": "selection-bias",
+    "label": "Selection bias",
+    "domain": "science",
+    "description": "Distortion arising when inclusion in observed data is related to the quantity or comparison of interest.",
+    "reference": "https://plato.stanford.edu/entries/scientific-method/"
+  },
+  {
+    "id": "prediction-and-explanation",
+    "label": "Prediction and explanation",
+    "domain": "science",
+    "description": "The relation between forecasting outcomes and accounting for why they occur.",
+    "reference": "https://plato.stanford.edu/entries/models-science/"
+  },
+  {
+    "id": "statistical-inference",
+    "label": "Statistical inference",
+    "domain": "science",
+    "description": "Drawing conclusions from data using probabilistic methods and their assumptions.",
+    "reference": "https://plato.stanford.edu/entries/measurement-science/"
+  },
+  {
+    "id": "measurement-uncertainty",
+    "label": "Measurement uncertainty",
+    "domain": "science",
+    "description": "Limits on the precision and interpretation of measurements and estimates.",
+    "reference": "https://plato.stanford.edu/entries/measurement-science/"
+  },
+  {
+    "id": "theory-ladenness",
+    "label": "Theory ladenness",
+    "domain": "science",
+    "description": "Influence of conceptual and theoretical commitments on observation and interpretation.",
+    "reference": "https://plato.stanford.edu/entries/scientific-objectivity/"
+  },
+  {
+    "id": "simulation",
+    "label": "Simulation",
+    "domain": "science",
+    "description": "Computational representations of systems whose implementation and empirical adequacy require separate checks.",
+    "reference": "https://plato.stanford.edu/entries/models-science/"
+  },
+  {
+    "id": "explanatory-pluralism",
+    "label": "Explanatory pluralism",
+    "domain": "science",
+    "description": "The use of multiple legitimate explanatory approaches for different aspects or aims.",
+    "reference": "https://plato.stanford.edu/entries/scientific-objectivity/"
+  },
+  {
+    "id": "construct-validity",
+    "label": "Construct validity",
+    "domain": "science",
+    "description": "The evidential basis for interpreting and using a measure as representing an intended construct.",
+    "reference": "https://plato.stanford.edu/entries/measurement-science/"
+  }
+]
