@@ -183,7 +183,7 @@ export const emptyState = (): State => ({
   settings: {
     motion: !matchMediaSafe(),
     sound: false,
-    diver: "minimized",
+    diver: "expanded",
     aiConsent: false,
   },
 });

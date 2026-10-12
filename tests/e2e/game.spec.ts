@@ -38,6 +38,13 @@ test("complete local exploration, persistence, assessment, export/import and del
   await expect(
     page.getByRole("heading", { name: "What you’re bringing back" }),
   ).toBeVisible();
+  const depth = page.getByRole("complementary", { name: "Your ocean depth" });
+  await expect(depth).toContainText("The shallows");
+  await expect(depth).toContainText("1 question explored");
+  await page.goto("/#learn");
+  await expect(depth).toContainText("The shallows");
+  await page.goto("/#lab");
+  await expect(depth).toContainText("1 question explored");
   await page.goto("/#achievements");
   await expect(page.getByText("First Question", { exact: true })).toBeVisible();
   await page.goto("/#settings");

@@ -382,15 +382,11 @@ export default function LabApp({ route }: { route: string }) {
                 <>
                   <section className="lab-hero">
                     <p className="eyebrow">PHILOSOPHICAL REASONING LAB</p>
-                    <h1>
-                      One problem.
-                      <br />
-                      Different ways to inquire.
-                    </h1>
+                    <h1>How should we examine an argument?</h1>
                     <p className="lead">
-                      Compare methodological doubt, elenchus, pragmatist inquiry
-                      and neutral dialogue. Inspect what each procedure does—and
-                      what it cannot tell you.
+                      Try the same problem with Descartes’ doubt, Socratic
+                      questioning, or Dewey’s inquiry. Compare the questions
+                      each method asks and the reasons it leaves standing.
                     </p>
                     <a className="button" href="#lab/demo">
                       Compare the methods →
@@ -403,13 +399,26 @@ export default function LabApp({ route }: { route: string }) {
                     {methods.map((m) => (
                       <article className="card" key={m}>
                         <h2>{protocols[m].name}</h2>
-                        <p>{protocols[m].stages.join(" → ")}</p>
+                        <p>
+                          {
+                            {
+                              cartesian:
+                                "Which beliefs survive a careful examination of their foundations? Trace what an argument depends on, and distinguish a reason for doubt from a proof that something is false.",
+                              socratic:
+                                "What do you mean, and do your commitments fit together? Examine a definition against a counterexample, then decide what needs to change.",
+                              pragmatist:
+                                "What would resolve the problem? Propose an explanation, work out what follows from it, and identify the evidence needed to test it.",
+                              neutral:
+                                "Clarify the claim and discuss its reasons without following one of the three method-specific procedures. This provides a comparison condition.",
+                            }[m]
+                          }
+                        </p>
                         <a href="#lab/methods">Method and limitations →</a>
                       </article>
                     ))}
                   </div>
                   <section className="lab-reading">
-                    <h2>A laboratory, not a ranking</h2>
+                    <h2>What you can try here</h2>
                     <p>
                       The rule engines operate on declared propositions and
                       dependencies. They cannot understand arbitrary prose.

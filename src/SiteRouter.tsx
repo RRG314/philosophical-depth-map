@@ -1,3 +1,4 @@
+import SavedDepthWindow from "./components/SavedDepthWindow";
 import { lazy, Suspense, useEffect, useState } from "react";
 const DepthMap = lazy(() => import("./App"));
 const Lab = lazy(() => import("./lab/LabApp"));
@@ -23,6 +24,9 @@ export default function SiteRouter() {
         <Learn />
       ) : (
         <DepthMap />
+      )}
+      {(route.startsWith("lab") || route.startsWith("learn")) && (
+        <SavedDepthWindow />
       )}
     </Suspense>
   );

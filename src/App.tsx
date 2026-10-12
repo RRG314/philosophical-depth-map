@@ -1,4 +1,5 @@
 import SiteHeader from "./components/SiteHeader";
+import DepthWindow from "./components/DepthWindow";
 import { lazy, useEffect, useRef, useState } from "react";
 import type { FormEvent, CSSProperties } from "react";
 import questionsData from "./data/questions.json";
@@ -372,13 +373,17 @@ export default function App() {
     setTimeout(() => URL.revokeObjectURL(url), 1000);
     setNotice("Export created. It contains your private written reflections.");
   }
-  const cards = (items: Question[]) => (
-    <div className="cards">
+  const questionList = (items: Question[]) => (
+    <div className="question-index">
+      {items.length === 0 && (
+        <p className="empty-index">
+          No questions match this search. Try another subject or a shorter
+          phrase.
+        </p>
+      )}
       {items.map((item) => (
-        <article className="card" key={item.id}>
-          <span className="eyebrow">
-            {labels[item.domain]} · {item.responseType}
-          </span>
+        <article className="question-row" key={item.id}>
+          <span className="eyebrow">{labels[item.domain]}</span>
           <h3>{item.title}</h3>
           <p>{item.prompt}</p>
           <div className="card-actions">
@@ -527,7 +532,12 @@ export default function App() {
         Skip to content
       </a>
       <SiteHeader />
-      <main id="main-content" tabIndex={-1} ref={main}>
+      <main
+        id="main-content"
+        className={`depth-page page-${page}`}
+        tabIndex={-1}
+        ref={main}
+      >
         {notice && (
           <div className="notice" role="status">
             {notice}
@@ -542,26 +552,23 @@ export default function App() {
         )}
         {page === "home" && (
           <>
-            <section className="hero">
+            <section className="hero ocean-front">
               <div className="hero-copy">
-                <p className="eyebrow">PHILOSOPHICAL DEPTH MAP</p>
+                <p className="eyebrow">A PLACE TO THINK</p>
                 <h1>
                   How deep does
                   <br />a question go?
                 </h1>
                 <p className="lead">
-                  Write what you think, consider an objection,
-                  <br />
-                  and decide what still holds up.
+                  Begin with a question. Follow an objection. See where your
+                  thinking takes you.
                 </p>
                 <a className="button" id="start-btn" href="#explore">
                   Choose a question <span aria-hidden="true">↗</span>
                 </a>
-                <p>
-                  <a className="text-link" href="#expedition">
-                    Explore the ocean →
-                  </a>
-                </p>
+                <a className="hero-ocean-link" href="#expedition/4">
+                  Explore the ocean <span aria-hidden="true">↗</span>
+                </a>
                 <p className="small">
                   Your reflections stay in this browser. No account required.
                 </p>
@@ -570,9 +577,8 @@ export default function App() {
               <Ocean />
             </section>
             <section className="intro-strip">
-              <span>01 &nbsp; Take a position</span>
-              <span>02 &nbsp; Meet an objection</span>
-              <span>03 &nbsp; Follow the connection</span>
+              <p>A notebook for your thinking. An ocean to explore.</p>
+              <a href="#progress">Open your journal →</a>
             </section>
             <section className="section">
               <div className="section-heading">
@@ -628,8 +634,8 @@ export default function App() {
           </>
         )}
         {page === "explore" && (
-          <section className="section">
-            <p className="eyebrow">QUESTIONS</p>
+          <section className="section question-browser">
+            <p className="eyebrow">THE QUESTION INDEX</p>
             <h1>Start exploring</h1>
             <p>
               A short answer is welcome. You can question the question, remain
@@ -645,8 +651,20 @@ export default function App() {
                 </small>
               </p>
             )}
+            <nav className="subject-tabs" aria-label="Question subjects">
+              {domains.map((d) => (
+                <button
+                  key={d}
+                  className="quiet"
+                  aria-pressed={domain === d}
+                  onClick={() => setDomain(d)}
+                >
+                  {labels[d]}
+                </button>
+              ))}
+            </nav>
             <div className="filters">
-              <label>
+              <label className="area-select">
                 Area
                 <select
                   value={domain}
@@ -668,7 +686,7 @@ export default function App() {
                 />
               </label>
             </div>
-            {cards(
+            {questionList(
               qs.filter(
                 (q) =>
                   q.domain === domain &&
@@ -1094,7 +1112,7 @@ export default function App() {
                   unresolved questions and opportunities for evidence. They do
                   not infer your ability.
                 </p>
-                {cards(
+                {questionList(
                   recommendations(
                     s,
                     qs,
@@ -1118,7 +1136,7 @@ export default function App() {
             {profile(s.answers)}
             <h2>Saved questions</h2>
             {s.saved.length ? (
-              cards(qs.filter((q) => s.saved.includes(q.id)))
+              questionList(qs.filter((q) => s.saved.includes(q.id)))
             ) : (
               <p>Save a question while exploring to return to it here.</p>
             )}
@@ -1342,7 +1360,7 @@ export default function App() {
                       ))}
                   </ul>
                   <p>{neighbours(c.id, edges).length} linked nodes</p>
-                  {cards(
+                  {questionList(
                     qs.filter((q) => q.concepts.includes(c.id)).slice(0, 2),
                   )}
                 </details>
@@ -1589,7 +1607,7 @@ export default function App() {
               certify full conformance. Assistive-technology and user testing
               remain necessary.
             </p>
-            <a href="#settings">Change motion and companion preferences →</a>
+            <a href="#settings">Change motion and depth window preferences →</a>
           </article>
         )}
         {page === "settings" && (
@@ -1620,8 +1638,9 @@ export default function App() {
             </label>
             <p>Sound is muted. This version contains no audio.</p>
             <label>
-              Diver companion
+              Depth window
               <select
+                aria-label="Depth window"
                 value={s.settings.diver}
                 onChange={(e) =>
                   update((s) => ({
@@ -1759,67 +1778,29 @@ export default function App() {
         </nav>
       </footer>
       {page !== "expedition" && s.settings.diver !== "dismissed" && (
-        <aside
-          className={`companion ${s.settings.diver}`}
-          aria-label="Diver companion"
-        >
-          <Diver
-            state={
-              diving
-                ? "descent"
-                : page === "results"
-                  ? "surface"
-                  : page === "play"
-                    ? "swim"
-                    : "idle"
+        <DepthWindow
+          state={s}
+          onToggle={async () => {
+            const next: State = {
+              ...s,
+              settings: {
+                ...s.settings,
+                diver:
+                  s.settings.diver === "expanded" ? "minimized" : "expanded",
+              },
+            };
+            writeQueue.current = writeQueue.current.then(() => save(next));
+            try {
+              await writeQueue.current;
+              setState(next);
+            } catch {
+              writeQueue.current = Promise.resolve();
+              setNotice(
+                "The depth preference could not be saved. Please try again.",
+              );
             }
-          />
-          {s.settings.diver === "expanded" && (
-            <div>
-              <p>
-                {region(s)} · {xp(s)} exploration XP
-              </p>
-              <meter
-                min="0"
-                max={regions.length - 1}
-                value={regions.indexOf(region(s))}
-                aria-label="Exploration milestone"
-              />
-              <p className="small">What would change your mind?</p>
-              <button
-                className="quiet"
-                onClick={() =>
-                  update((s) => ({
-                    ...s,
-                    settings: { ...s.settings, diver: "dismissed" },
-                  }))
-                }
-              >
-                Dismiss
-              </button>
-            </div>
-          )}
-          <button
-            className="quiet"
-            aria-label={
-              s.settings.diver === "expanded"
-                ? "Minimize diver"
-                : "Expand diver"
-            }
-            onClick={() =>
-              update((s) => ({
-                ...s,
-                settings: {
-                  ...s.settings,
-                  diver:
-                    s.settings.diver === "expanded" ? "minimized" : "expanded",
-                },
-              }))
-            }
-          >
-            {s.settings.diver === "expanded" ? "−" : "+"}
-          </button>
-        </aside>
+          }}
+        />
       )}
     </>
   );

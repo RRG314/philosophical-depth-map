@@ -7,3 +7,5 @@ createRoot(document.getElementById("root")!).render(
     <SiteRouter />
   </React.StrictMode>,
 );
+
+import "./redesign.css";
