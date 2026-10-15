@@ -1,0 +1,163 @@
+[
+  {
+    "slug": "the-last-prisoner",
+    "title": "The Last Prisoner",
+    "subtitle": "A Philosophical Thought Experiment on Punishment, Justice, and Moral Responsibility",
+    "author": "Steven Reid — Independent Researcher",
+    "kind": "original",
+    "tags": ["Ethics", "Punishment", "Authority"],
+    "scenario": "A man has committed terrible crimes against humanity. He enjoys causing suffering, has no remorse, and would continue harming people if given the opportunity.\n\nHe is sentenced to life in a fully automated maximum-security prison, completely isolated from human contact. The prison provides everything he needs to live comfortably, including food, water, shelter, medical care, and recreation.\n\nOne day, every other human being on Earth disappears.\n\nThe prisoner eventually learns that he is the last person alive. His prison continues operating normally, providing for all his needs. He cannot escape, but there is no longer anyone to harm, no society to protect, and no authority to enforce his sentence.\n\nHe remains guilty, dangerous in disposition, and confined, but he is also safe, comfortable, and provided for.",
+    "question": "Is he still being punished?\n\nIf not, what would an appropriate punishment be?",
+    "reveal": "Assume you possess all the powers of a god and can impose any punishment you consider appropriate, with only one restriction: you cannot kill the prisoner.",
+    "finalQuestion": "What would you do, and why?",
+    "context": "Kant’s dissolving-island case asks what a community must do before it dissolves. This case instead asks what remains after the political community has disappeared. The order of events matters.\n\nConsider the difference between calling confinement punishment and judging it justified. Does guilt settle who may punish? Does a dangerous disposition matter when there is nobody to harm? What separates justice from vengeance, and what obligations accompany exceptional power? The unspecified crimes leave exact proportionality unsettled.\n\nKant: The Metaphysics of Morals, Doctrine of Right, section 49, Academy edition 6:333. This comparison does not establish that Kant’s argument has been refuted.",
+    "references": [
+      {
+        "title": "Kant’s Social and Political Philosophy — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/kant-social-political/"
+      }
+    ],
+    "featured": true,
+    "order": 0,
+    "status": "published",
+    "version": 1
+  },
+  {
+    "slug": "ship-of-theseus",
+    "title": "The Ship of Theseus",
+    "subtitle": "A thought experiment",
+    "author": "Ancient puzzle reported by Plutarch; later reconstruction variant associated with Thomas Hobbes",
+    "kind": "historical",
+    "tags": ["Identity", "Metaphysics"],
+    "scenario": "A ship is repaired over many years. Each worn plank is replaced until none of its original timbers remains. It keeps sailing under the same name.\n\nSomeone has saved every removed plank and assembles them into a second ship.",
+    "question": "Which, if either, is the original ship? Explain what makes something persist through change.",
+    "reveal": "",
+    "finalQuestion": "",
+    "context": "Continuity of use and structure points toward the repaired ship; continuity of material points toward the reassembled one. These criteria need not always agree. Distinguish being exactly the same object from being similar, serving the same purpose, or carrying the same name. The reconstruction extends the ancient replacement puzzle.",
+    "references": [
+      {
+        "title": "Identity Over Time — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/identity-time/"
+      }
+    ],
+    "featured": true,
+    "order": 1,
+    "status": "published",
+    "version": 1
+  },
+  {
+    "slug": "trolley-problem",
+    "title": "The Trolley Problem",
+    "subtitle": "A thought experiment",
+    "author": "Philippa Foot (1967); related bystander and footbridge variants developed by Judith Jarvis Thomson",
+    "kind": "historical",
+    "tags": ["Ethics", "Responsibility"],
+    "scenario": "A runaway trolley is heading toward five people on a track. You can divert it onto a side track where it will kill one person instead. In this version, these outcomes are certain and there is no way to stop the trolley.",
+    "question": "Should you divert it? What explains the difference, if any, between permitting five deaths and causing one?",
+    "reveal": "",
+    "finalQuestion": "",
+    "context": "This is a switch variant in a family of cases, not a verbatim reproduction of Foot’s original discussion. The cases test whether consequences exhaust moral justification and whether intention, means, and the distinction between doing and allowing harm matter. Changing the scenario can change the relevant reasoning.",
+    "references": [
+      {
+        "title": "Doctrine of Double Effect — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/double-effect/"
+      }
+    ],
+    "featured": true,
+    "order": 2,
+    "status": "published",
+    "version": 1
+  },
+  {
+    "slug": "experience-machine",
+    "title": "The Experience Machine",
+    "subtitle": "A thought experiment",
+    "author": "Robert Nozick, Anarchy, State, and Utopia (1974)",
+    "kind": "historical",
+    "tags": ["Well-being", "Reality"],
+    "scenario": "A machine could give you a life filled with whatever experiences you would most want. While connected, you would believe those experiences were real. Your actual body would remain attached to the machine; the achievements and relationships you experienced would be simulated.",
+    "question": "Would you choose that life? What, if anything, matters beyond how life feels from the inside?",
+    "reveal": "",
+    "finalQuestion": "",
+    "context": "Nozick uses the machine to challenge accounts that make pleasant experience the whole of well-being. A refusal can reflect concerns about doing things, being a certain person, or contact with reality. A preference elicited by the case is not itself a proof of any theory, and imagined risks should be distinguished from the stipulated reliability of the machine.",
+    "references": [
+      {
+        "title": "Well-Being — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/well-being/"
+      }
+    ],
+    "featured": true,
+    "order": 3,
+    "status": "published",
+    "version": 1
+  },
+  {
+    "slug": "marys-room",
+    "title": "Mary’s Room",
+    "subtitle": "A thought experiment",
+    "author": "Frank Jackson, “Epiphenomenal Qualia” (1982)",
+    "kind": "historical",
+    "tags": ["Mind", "Knowledge"],
+    "scenario": "Mary studies colour vision while living entirely in a black-and-white environment. Assume she knows every physical fact about human colour perception. One day, she leaves and sees red for the first time.",
+    "question": "Does Mary learn anything new? If so, what kind of knowledge does she gain?",
+    "reveal": "",
+    "finalQuestion": "",
+    "context": "The knowledge argument asks whether complete physical knowledge leaves something out. Replies distinguish learning a new fact from acquiring an ability, acquaintance, or a new way of representing an already known fact. The unusually strong premise that Mary already knows every physical fact is essential to the case.",
+    "references": [
+      {
+        "title": "Qualia: The Knowledge Argument — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/qualia-knowledge/"
+      }
+    ],
+    "featured": true,
+    "order": 4,
+    "status": "published",
+    "version": 1
+  },
+  {
+    "slug": "chinese-room",
+    "title": "The Chinese Room",
+    "subtitle": "A thought experiment",
+    "author": "John Searle, “Minds, Brains, and Programs” (1980)",
+    "kind": "historical",
+    "tags": ["Mind", "Language"],
+    "scenario": "A person who does not understand Chinese sits in a room following detailed instructions for manipulating Chinese symbols. The instructions allow the person to return appropriate-looking answers to questions passed into the room. To an outside observer, the room appears to converse in Chinese.",
+    "question": "Does the person understand Chinese? Could the whole system understand even if the person does not?",
+    "reveal": "",
+    "finalQuestion": "",
+    "context": "Searle argues that executing a program is not sufficient for understanding. The systems reply shifts the proposed subject of understanding from the person to the larger system. Other responses question what the thought experiment demonstrates about computation, embodiment, and semantics. Fluent output alone does not settle this dispute.",
+    "references": [
+      {
+        "title": "The Chinese Room Argument — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/chinese-room/"
+      }
+    ],
+    "featured": true,
+    "order": 5,
+    "status": "published",
+    "version": 1
+  },
+  {
+    "slug": "dissolving-island",
+    "title": "The Dissolving Island",
+    "subtitle": "A thought experiment",
+    "author": "Immanuel Kant, The Metaphysics of Morals (1797), Doctrine of Right §49, Ak. 6:333",
+    "kind": "historical",
+    "tags": ["Ethics", "Punishment"],
+    "scenario": "Imagine an island community whose members have unanimously agreed to dissolve their society and disperse. A convicted murderer remains in prison. Kant argues that the deserved sentence must be carried out before they leave, even though the society will no longer exist.",
+    "question": "Can punishment be required when it no longer protects an ongoing society? What gives the remaining community authority to act?",
+    "reveal": "",
+    "finalQuestion": "",
+    "context": "Kant’s case argues for retributive punishment independent of expected social benefits. It concerns an execution and a community that still exists when acting. Those features distinguish it from a case in which an automated sentence continues after every political institution has vanished. Understanding Kant’s argument does not require endorsing it.",
+    "references": [
+      {
+        "title": "Kant’s Social and Political Philosophy — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/kant-social-political/"
+      }
+    ],
+    "featured": true,
+    "order": 6,
+    "status": "published",
+    "version": 1
+  }
+]

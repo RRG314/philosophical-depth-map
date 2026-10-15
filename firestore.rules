@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function signed() { return request.auth != null; }
+  function admin() { return signed() && request.auth.token.get('admin', false) == true; }
+  function mod() { return admin() || (signed() && request.auth.token.get('moderator', false) == true); }
+  function owner() { return signed() && resource.data.uid == request.auth.uid; }
+  function bounded() { return request.query.limit != null && request.query.limit <= 50; }
+  match /experiments/{id} {
+   allow get: if resource.data.status == 'published' || admin();
+   allow list: if bounded() && (resource.data.status == 'published' || admin());
+  }
+  match /experimentVersions/{id} { allow read: if admin(); }
+  match /settings/public { allow get: if true; }
+  match /profiles/{uid} { allow get: if signed() && request.auth.uid == uid; }
+  match /posts/{id} {
+   allow get: if resource.data.status == 'published' || owner() || mod();
+   allow list: if bounded() && (resource.data.status == 'published' || owner() || mod());
+  }
+  match /proposals/{id} { allow get: if resource.data.status == 'published' || owner() || mod(); allow list: if bounded() && (resource.data.status == 'published' || owner() || mod()); }
+  match /responses/{id} { allow get: if owner() || admin(); allow list: if bounded() && (owner() || admin()); }
+  match /reports/{id} { allow get: if owner() || mod(); allow list: if bounded() && (owner() || mod()); }
+  match /bookmarks/{id} { allow get: if owner(); allow list: if bounded() && owner(); }
+  match /audit/{id} { allow get: if admin(); allow list: if bounded() && admin(); }
+  // All mutations go through the callable service: validation, role checks and rate limits.
+  match /{document=**} { allow write: if false; }
+ }
+}

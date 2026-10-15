@@ -576,6 +576,26 @@ export default function App() {
               </div>
               <Ocean />
             </section>
+            <section className="home-featured-experiment">
+              <div>
+                <p className="eyebrow">
+                  FEATURED THOUGHT EXPERIMENT · STEVEN REID
+                </p>
+                <h2>
+                  <a href="#experiment/the-last-prisoner">The Last Prisoner</a>
+                </h2>
+                <p>
+                  A sentence continues after the society that imposed it has
+                  disappeared.
+                </p>
+              </div>
+              <a
+                className="button secondary"
+                href="#experiment/the-last-prisoner"
+              >
+                Consider the question ↗
+              </a>
+            </section>
             <section className="intro-strip">
               <p>A notebook for your thinking. An ocean to explore.</p>
               <a href="#progress">Open your journal →</a>

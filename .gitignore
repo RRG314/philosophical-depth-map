@@ -12,3 +12,7 @@ __pycache__/
 *.pyc
 analysis/raw/*
 !analysis/raw/.gitkeep
+
+functions/lib/
+.firebase/
+*-debug.log

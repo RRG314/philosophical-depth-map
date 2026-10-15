@@ -33,6 +33,18 @@ export default function SiteHeader() {
       </a>
       <nav aria-label="Main navigation">
         <a
+          href="#experiments"
+          aria-current={route.startsWith("#experiment") ? "page" : undefined}
+        >
+          Thought experiments
+        </a>
+        <a
+          href="#community/general"
+          aria-current={route === "#community" ? "page" : undefined}
+        >
+          Discuss
+        </a>
+        <a
           href="#explore"
           aria-current={route === "#explore" ? "page" : undefined}
         >

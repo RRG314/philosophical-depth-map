@@ -4,6 +4,8 @@ export default ts.config(
   {
     ignores: [
       "dist/**",
+      "functions/lib/**",
+      "functions/node_modules/**",
       "node_modules/**",
       "output/**",
       "**/.wrangler/**",
@@ -24,7 +26,14 @@ export default ts.config(
     },
   },
   {
-    files: ["**/*.js"],
-    languageOptions: { globals: { process: "readonly", console: "readonly" } },
+    files: ["**/*.js", "**/*.mjs"],
+    languageOptions: {
+      globals: {
+        process: "readonly",
+        console: "readonly",
+        URL: "readonly",
+        crypto: "readonly",
+      },
+    },
   },
 );

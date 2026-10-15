@@ -1,5 +1,6 @@
 import SavedDepthWindow from "./components/SavedDepthWindow";
 import { lazy, Suspense, useEffect, useState } from "react";
+const Community = lazy(() => import("./community/CommunityApp"));
 const DepthMap = lazy(() => import("./App"));
 const Lab = lazy(() => import("./lab/LabApp"));
 const Learn = lazy(() => import("./learn/LearnPage"));
@@ -18,7 +19,11 @@ export default function SiteRouter() {
         </main>
       }
     >
-      {route.startsWith("lab") ? (
+      {["experiments", "experiment", "community", "account", "admin"].includes(
+        route.split("/")[0],
+      ) ? (
+        <Community route={route} />
+      ) : route.startsWith("lab") ? (
         <Lab route={route} />
       ) : route.startsWith("learn") ? (
         <Learn />

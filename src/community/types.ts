@@ -1,0 +1,38 @@
+export type Experiment = {
+  slug: string;
+  title: string;
+  subtitle: string;
+  author: string;
+  kind: "original" | "historical" | "community";
+  tags: string[];
+  scenario: string;
+  question: string;
+  reveal: string;
+  finalQuestion: string;
+  context: string;
+  references: { title: string; url: string }[];
+  featured: boolean;
+  order: number;
+  status: "draft" | "published";
+  version: number;
+};
+export type Entry = {
+  id: string;
+  uid: string;
+  displayName?: string;
+  body?: string;
+  title?: string;
+  scenario?: string;
+  question?: string;
+  tags?: string[];
+  status?: string;
+  thread?: string;
+  parentId?: string | null;
+  reason?: string;
+  postId?: string;
+  createdAt: number;
+  initial?: string;
+  final?: string;
+  experimentId?: string;
+  version?: number;
+};
