@@ -32,54 +32,52 @@ export default function SiteHeader() {
         </span>
       </a>
       <nav aria-label="Main navigation">
-        <a
-          href="#experiments"
-          aria-current={route.startsWith("#experiment") ? "page" : undefined}
-        >
-          Thought experiments
-        </a>
-        <a
-          href="#community/general"
-          aria-current={route === "#community" ? "page" : undefined}
-        >
-          Discuss
-        </a>
-        <a
-          href="#explore"
-          aria-current={route === "#explore" ? "page" : undefined}
-        >
-          Explore
-        </a>
-        <a
-          href="#expedition"
-          aria-current={route === "#expedition" ? "page" : undefined}
-        >
-          Ocean
-        </a>
-        <a href="#map" aria-current={route === "#map" ? "page" : undefined}>
-          The map
-        </a>
-        <a
-          href="#progress"
-          aria-current={route === "#progress" ? "page" : undefined}
-        >
-          My journal
-        </a>
-        <a href="#lab" aria-current={route === "#lab" ? "page" : undefined}>
-          Reasoning Lab
-        </a>
-        <a href="#learn" aria-current={route === "#learn" ? "page" : undefined}>
-          Learn
-        </a>
+        {[
+          ["home", "Home"],
+          ["experiments", "Thought experiments"],
+          ["learn", "Learn"],
+          ["community/general", "Discuss"],
+          ["progress", "My journey"],
+        ].map(([path, label]) => (
+          <a
+            key={path}
+            href={`#${path}`}
+            aria-current={
+              (
+                path === "experiments"
+                  ? route.startsWith("#experiment")
+                  : path === "community/general"
+                    ? route === "#community"
+                    : path === "progress"
+                      ? [
+                          "#progress",
+                          "#map",
+                          "#expedition",
+                          "#achievements",
+                        ].includes(route)
+                      : path === "learn"
+                        ? ["#learn", "#lab", "#library", "#explore"].includes(
+                            route,
+                          )
+                        : route === `#${path}`
+              )
+                ? "page"
+                : undefined
+            }
+          >
+            {label}
+          </a>
+        ))}
         <details className="menu">
-          <summary>More</summary>
+          <summary>Account &amp; more</summary>
           <div>
             <a
               href="#progress"
               aria-current={route === "#progress" ? "page" : undefined}
             >
-              My progress
+              My journey
             </a>
+            <a href="#account">Account &amp; community activity</a>
             {pages.map(([path, label]) => (
               <a
                 key={path}

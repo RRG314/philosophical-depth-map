@@ -67,7 +67,7 @@ The browser suite creates synthetic verified reader/editor accounts only in the 
 
 ## Live setup and the future domain
 
-No Firebase project has been selected or deployed for this site. Other accessible projects were inspected by name only and not modified. No production accounts, billing changes, rules deployment or collection activation is implied by the frontend push.
+On 16 October 2026, the owner authorized creating the dedicated Firebase project `philosophical-depth-map-2026` and its web app. No production service has been deployed, no billing account linked, and collection remains off. Other projects were not modified. See OWNER_GUIDE.md for the project console and remaining setup.
 
 1. Choose a dedicated Firebase project; use a separate staging project first. Enable email/password Authentication, create Firestore in the intended region, and review the Blaze billing requirement for Functions/scheduled cleanup. Do not attach this site to an unrelated project's live data.
 2. Register a web app. Set the four public `VITE_FIREBASE_*` values in GitHub repository Variables and local `.env.local`. These are web configuration, never service-account credentials. Add `rrg314.github.io` to Auth authorized domains. Use the current Pages HTTPS address until the domain is ready.

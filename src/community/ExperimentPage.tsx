@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { doc, onSnapshot } from "firebase/firestore";
 import { act, database, explain } from "./firebase";
 import { useSession, download } from "./hooks";
+import { saveReflection } from "../lib/storage";
 import type { Experiment } from "./types";
 type Draft = {
   initial: string;
@@ -115,7 +116,7 @@ export default function ExperimentPage({
             This draft stays in this browser tab. Nothing is sent unless you
             choose to submit it.
           </p>
-          <button>
+          <button disabled={!draft.initial.trim()}>
             {e.reveal
               ? "Record my response and continue"
               : "Finish my response"}
@@ -149,7 +150,7 @@ export default function ExperimentPage({
                   }
                 />
               </label>
-              <button>Finish my response</button>
+              <button disabled={!draft.final.trim()}>Finish my response</button>
             </form>
           ) : (
             <>
@@ -160,6 +161,45 @@ export default function ExperimentPage({
                   <p className="preserve-lines">{draft.final}</p>
                 </>
               )}
+              <section className="journey-save">
+                <h3>Keep this reflection</h3>
+                <p>
+                  Save a private copy to My journey on this device. Each
+                  experiment counts once toward ocean exploration, whatever your
+                  answer. This does not submit your response or post it
+                  publicly.
+                </p>
+                <button
+                  disabled={busy}
+                  onClick={async () => {
+                    setBusy(true);
+                    try {
+                      await saveReflection({
+                        slug: e.slug,
+                        version: e.version,
+                        title: e.title,
+                        scenario: e.scenario,
+                        question: e.question,
+                        reveal: e.reveal,
+                        finalQuestion: e.finalQuestion,
+                        initial: draft.initial,
+                        final: draft.final,
+                        timestamp: new Date().toISOString(),
+                      });
+                      setMessage("Saved to My journey on this device.");
+                    } catch {
+                      setMessage(
+                        "Could not save this reflection. Download a copy before leaving.",
+                      );
+                    } finally {
+                      setBusy(false);
+                    }
+                  }}
+                >
+                  Save to My journey
+                </button>
+                <a href="#progress">Open My journey →</a>
+              </section>
               <div className="community-actions">
                 <button
                   className="secondary"
@@ -268,7 +308,7 @@ export default function ExperimentPage({
                   using “Download my response.”
                 </p>
               )}
-              {message && <p role="alert">{message}</p>}
+              {message && <p role="status">{message}</p>}
               <details className="experiment-context">
                 <summary>Philosophical context and sources</summary>
                 <p className="preserve-lines">{e.context}</p>
@@ -285,6 +325,11 @@ export default function ExperimentPage({
               <a className="button" href={`#community/${e.slug}`}>
                 Join the discussion
               </a>
+              <p>
+                <a href="#learn">
+                  Explore related ideas and ways to examine an argument →
+                </a>
+              </p>
               <p className="small">
                 Opening discussion does not publish your private answer.
               </p>

@@ -58,6 +58,7 @@ test("complete local exploration, persistence, assessment, export/import and del
   await expect(page.getByRole("status")).toContainText("Local journal reset");
   await page.reload();
   await page.goto("/#progress");
+  await page.getByText("Optional practice summaries", { exact: true }).click();
   await expect(page.getByText("0 responses", { exact: true })).toBeVisible();
   await page.goto("/#settings");
   page.once("dialog", (d) => d.accept());
@@ -66,6 +67,7 @@ test("complete local exploration, persistence, assessment, export/import and del
     "Imported and validated",
   );
   await page.goto("/#progress");
+  await page.getByText("Optional practice summaries", { exact: true }).click();
   await expect(page.getByText("1 responses", { exact: true })).toBeVisible();
   await page.goto("/#assessment");
   await page.getByRole("button", { name: "Begin assessment" }).click();

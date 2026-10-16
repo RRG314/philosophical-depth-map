@@ -8,13 +8,17 @@ export default function SavedDepthWindow() {
   const [state, setState] = useState<State | null>(null);
   useEffect(() => {
     let mounted = true;
-    void load()
-      .then((value) => {
-        if (mounted) setState(value);
-      })
-      .catch(() => {});
+    const refresh = () =>
+      void load()
+        .then((value) => {
+          if (mounted) setState(value);
+        })
+        .catch(() => {});
+    refresh();
+    window.addEventListener("journey-saved", refresh);
     return () => {
       mounted = false;
+      window.removeEventListener("journey-saved", refresh);
     };
   }, []);
   if (!state || state.settings.diver === "dismissed") return null;

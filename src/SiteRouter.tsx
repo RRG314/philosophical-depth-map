@@ -30,9 +30,9 @@ export default function SiteRouter() {
       ) : (
         <DepthMap />
       )}
-      {(route.startsWith("lab") || route.startsWith("learn")) && (
-        <SavedDepthWindow />
-      )}
+      {(route.startsWith("lab") ||
+        route.startsWith("learn") ||
+        route.startsWith("experiment")) && <SavedDepthWindow />}
     </Suspense>
   );
 }

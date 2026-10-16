@@ -84,7 +84,10 @@ export const stations = [
 ] as const;
 export function expeditionProgress(state: State) {
   const answers = explorationAnswers(state);
-  const count = new Set(answers.map((a) => a.questionId)).size;
+  const count = new Set([
+    ...answers.map((a) => `question:${a.questionId}`),
+    ...(state.reflections ?? []).map((r) => `experiment:${r.slug}`),
+  ]).size;
   const unlocked = stations.filter((s) => count >= s.need).length - 1;
   return { answers, count, unlocked, next: stations[unlocked + 1] ?? null };
 }

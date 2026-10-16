@@ -734,9 +734,6 @@ main:focus {
     flex-wrap: wrap;
     justify-content: flex-end;
   }
-  .topbar nav > a:nth-child(3) {
-    display: none;
-  }
   .menu summary {
     padding: 0;
   }

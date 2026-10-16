@@ -748,3 +748,73 @@ body:has(.depth-window) main.section {
     font-size: 12px;
   }
 }
+
+/* Shared paths between reading, reflection and exploration. */
+.journey-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.8rem;
+  margin: 1.5rem 0;
+}
+.journey-ocean {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+.journey-ocean .ocean-preview {
+  min-height: 280px;
+  height: 320px;
+}
+.journey-save {
+  padding: 1.5rem 0;
+  margin: 1.5rem 0;
+  border-block: 1px solid #b7c6be;
+}
+.journey-save > a {
+  display: inline-block;
+  margin: 1rem;
+}
+.learning-introductions {
+  max-width: 850px;
+  margin: 3rem 0;
+}
+.learning-introductions details,
+.editor-preview {
+  padding: 1.4rem 0;
+  border-top: 1px solid #b7c6be;
+}
+.learning-introductions summary {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.learning-introductions summary span {
+  font-weight: normal;
+}
+.editor-preview {
+  margin-top: 2rem;
+}
+@media (max-width: 700px) {
+  .journey-ocean {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .journey-ocean .ocean-preview {
+    height: 260px;
+    min-height: 220px;
+  }
+}
+
+.learn-paths {
+  display: block;
+  max-width: 850px;
+}
+.learn-paths > .card {
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+  border-top: 1px solid #b7c6be;
+  border-radius: 0;
+  padding: 1.5rem 0;
+}

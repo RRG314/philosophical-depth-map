@@ -1,3 +1,4 @@
+import Introductions from "./Introductions";
 import { useState } from "react";
 import SiteHeader from "../components/SiteHeader";
 import resources from "./resources.json";
@@ -26,20 +27,22 @@ export default function LearnPage() {
       <SiteHeader />
       <main id="learn-main" tabIndex={-1} className="section">
         <p className="eyebrow">READING & REFERENCES</p>
-        <h1>Learning library</h1>
+        <h1>Find your way into philosophy</h1>
         <p className="lead">
           Primary texts, introductions, and reference articles on philosophers
           and philosophical problems. Search the directory or start with one of
           the routes below.
         </p>
+        <Introductions />
+        <h2>Ways to examine a question</h2>
         <div className="learn-paths">
           <article className="card">
             <h2>Philosophical methods</h2>
             <p>
               Read an introduction to Socrates, Descartes or Dewey, then examine
-              a primary passage before trying its Lab reconstruction.
+              a primary passage before trying a guided reasoning exercise.
             </p>
-            <a href="#lab/methods">Explore the four methods →</a>
+            <a href="#lab/methods">Compare ways of questioning →</a>
           </article>
           <article className="card">
             <h2>Questions & problems</h2>
@@ -118,6 +121,11 @@ export default function LearnPage() {
         </p>
         <a href="#library">Browse the Depth Map concept library →</a>
       </main>
+      <footer>
+        <a href="#about">About this site</a> ·{" "}
+        <a href="#community/privacy">Community privacy &amp; guidelines</a> ·{" "}
+        <a href="#research">Research background</a>
+      </footer>
     </>
   );
 }

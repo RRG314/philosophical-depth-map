@@ -209,6 +209,7 @@ function Editor({
     ),
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false);
+  const [preview, setPreview] = useState(false);
   const fields: [keyof Experiment, string, boolean][] = [
     ["slug", "URL name", false],
     ["title", "Title", false],
@@ -343,7 +344,38 @@ function Editor({
           onChange={(ev) => setE({ ...e, order: Number(ev.target.value) })}
         />
       </label>
-      <button disabled={busy}>Save experiment</button>
+      <div className="community-actions">
+        <button disabled={busy}>Save experiment</button>
+        <button
+          type="button"
+          className="secondary"
+          aria-expanded={preview}
+          onClick={() => setPreview(!preview)}
+        >
+          Preview reader sequence
+        </button>
+      </div>
+      {preview && (
+        <section className="editor-preview" aria-label="Reader preview">
+          <p className="eyebrow">PREVIEW · NOT PUBLISHED</p>
+          <h2>{e.title || "Untitled experiment"}</h2>
+          <p>{e.subtitle}</p>
+          <p>{e.author}</p>
+          <h3>First, the reader sees</h3>
+          <p className="preserve-lines">{e.scenario}</p>
+          <p className="preserve-lines">{e.question}</p>
+          {e.reveal && (
+            <>
+              <h3>After recording an initial response</h3>
+              <p className="preserve-lines">{e.reveal}</p>
+              <p>{e.finalQuestion}</p>
+            </>
+          )}
+          <h3>Optional background after finishing</h3>
+          <p className="preserve-lines">{e.context}</p>
+          <p className="preserve-lines">{references}</p>
+        </section>
+      )}
       {error && <p role="status">{error}</p>}
     </form>
   );

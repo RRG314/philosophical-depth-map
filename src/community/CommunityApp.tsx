@@ -311,6 +311,13 @@ function Privacy() {
         yourself or another person. Public material may be copied by other
         readers.
       </p>
+      <h2>Reflections saved on your device</h2>
+      <p>
+        “Save to My journey” keeps a copy of the scenario and your response in
+        this browser's local journal. It is not a submission. You can remove it
+        in My journey, include it in a progress export, or delete all local data
+        in Settings. Anyone using this browser profile may be able to read it.
+      </p>
       <h2>Private experiment answers</h2>
       <p>
         Only an explicit submission sends your answers to the site owner. The

@@ -136,6 +136,25 @@ export const stateSchema = z
     version: z.literal(1),
     profile: z.string().max(40),
     answers: z.array(responseSchema).max(2000),
+    reflections: z
+      .array(
+        z
+          .object({
+            slug: z.string().regex(/^[a-zA-Z0-9_-]{1,128}$/),
+            version: z.number().int().positive(),
+            title: z.string().max(160),
+            scenario: z.string().max(10000),
+            question: z.string().max(10000),
+            reveal: z.string().max(5000),
+            finalQuestion: z.string().max(1000),
+            initial: z.string().trim().min(1).max(10000),
+            final: z.string().max(10000),
+            timestamp: z.string().datetime(),
+          })
+          .strict(),
+      )
+      .max(2000)
+      .optional(),
     saved: z.array(z.string().max(60)).max(200),
     discovered: z.array(z.string().max(80)).max(1000),
     active: activeSchema.nullable(),
@@ -366,13 +385,21 @@ export function explorationAnswers(s: State) {
 }
 export function xp(s: State) {
   // Engagement only: neither agreement, revision, self-ratings nor assessment results earn a bonus.
-  return new Set(explorationAnswers(s).map((a) => a.questionId)).size * 10;
+  return (
+    new Set([
+      ...explorationAnswers(s).map((a) => `question:${a.questionId}`),
+      ...(s.reflections ?? []).map((r) => `experiment:${r.slug}`),
+    ]).size * 10
+  );
 }
 export function region(s: State) {
   return regions[regionThresholds.filter((n) => xp(s) / 10 >= n).length - 1];
 }
 export const badges = [
-  ["First Question", "Complete one exploration round."],
+  [
+    "First Question",
+    "Explore a question or save a thought experiment reflection.",
+  ],
   ["Devil’s Advocate", "Respond to an objection."],
   ["Hidden Assumption", "Mark an assumption you examined."],
   ["Two Sides", "Try both branches of one question."],
@@ -386,13 +413,13 @@ export const badges = [
 export function achievements(s: State, qs: Question[]) {
   const a = explorationAnswers(s);
   return [
-    a.length > 0,
+    xp(s) > 0,
     a.some((x) => x.reply.trim()),
     a.some((x) => x.assumptionNoted),
     a.some((x) =>
       a.some((y) => x.questionId === y.questionId && x.branch !== y.branch),
     ),
-    new Set(a.map((x) => x.questionId)).size >= 8,
+    xp(s) >= 80,
     a.some((x) => x.revised),
     new Set(a.map((x) => qs.find((q) => q.id === x.questionId)?.domain)).size >=
       3,

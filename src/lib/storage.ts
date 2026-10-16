@@ -19,3 +19,22 @@ export async function erase() {
   const d = await db();
   await d.clear("progress");
 }
+
+export async function saveReflection(
+  reflection: NonNullable<State["reflections"]>[number],
+) {
+  const d = await db();
+  const tx = d.transaction("progress", "readwrite");
+  const value = await tx.store.get("state");
+  const current = value ? stateSchema.parse(value) : emptyState();
+  const reflections = (current.reflections ?? []).filter(
+    (r) => !(r.slug === reflection.slug && r.version === reflection.version),
+  );
+  const next = stateSchema.parse({
+    ...current,
+    reflections: [...reflections, reflection],
+  });
+  await tx.store.put(next, "state");
+  await tx.done;
+  window.dispatchEvent(new Event("journey-saved"));
+}

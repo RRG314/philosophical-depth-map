@@ -1,4 +1,5 @@
 import SiteHeader from "./components/SiteHeader";
+import { expeditionProgress, stations } from "./game/progression";
 import DepthWindow from "./components/DepthWindow";
 import { lazy, useEffect, useRef, useState } from "react";
 import type { FormEvent, CSSProperties } from "react";
@@ -560,19 +561,27 @@ export default function App() {
                   <br />a question go?
                 </h1>
                 <p className="lead">
-                  Begin with a question. Follow an objection. See where your
-                  thinking takes you.
+                  Explore philosophical questions, develop your own answers, and
+                  discuss them with others.
                 </p>
-                <a className="button" id="start-btn" href="#explore">
-                  Choose a question <span aria-hidden="true">↗</span>
+                <a
+                  className="button"
+                  id="start-btn"
+                  href="#experiment/the-last-prisoner"
+                >
+                  Try a thought experiment <span aria-hidden="true">↗</span>
                 </a>
                 <a className="hero-ocean-link" href="#expedition/4">
                   Explore the ocean <span aria-hidden="true">↗</span>
                 </a>
                 <p className="small">
-                  Your reflections stay in this browser. No account required.
+                  Start without an account. You choose what to save or share.
                 </p>
-                {s.active && <a href="#play">Continue your saved session →</a>}
+                {s.active ? (
+                  <a href="#play">Continue your saved session →</a>
+                ) : s.reflections?.length ? (
+                  <a href="#progress">Return to your latest reflection →</a>
+                ) : null}
               </div>
               <Ocean />
             </section>
@@ -597,16 +606,19 @@ export default function App() {
               </a>
             </section>
             <section className="intro-strip">
-              <p>A notebook for your thinking. An ocean to explore.</p>
-              <a href="#progress">Open your journal →</a>
+              <p>
+                Your ocean journey · {expeditionProgress(s).count} questions
+                explored · {stations[expeditionProgress(s).unlocked].name}
+              </p>
+              <a href="#progress">Continue your journey →</a>
             </section>
             <section className="section">
               <div className="section-heading">
                 <div>
                   <p className="eyebrow">QUESTIONS BY SUBJECT</p>
-                  <h2>Eight areas of philosophy</h2>
+                  <h2>Find a question that interests you</h2>
                 </div>
-                <a href="#explore">All questions →</a>
+                <a href="#explore">Choose a question →</a>
               </div>
               <div className="domain-grid">
                 {domains.map((d, i) => (
@@ -638,18 +650,18 @@ export default function App() {
               </div>
             </section>
             <section className="invitation">
-              <p className="eyebrow">ABOUT YOUR PROGRESS</p>
-              <h2>
-                You can change your mind.
-                <br />
-                You can also explain why you haven’t.
-              </h2>
+              <p className="eyebrow">TAKE THE NEXT STEP</p>
+              <h2>A question can lead somewhere unexpected.</h2>
               <p>
-                The ocean tracks what you explore. Separate evidence summaries
-                show what you chose to assess. Neither measures your worth or
-                intelligence.
+                Read an introduction, compare an argument, or join a
+                conversation. You do not have to settle the question to take
+                part.
               </p>
-              <a href="#scoring">Understand the distinction →</a>
+              <div className="journey-links">
+                <a href="#learn">Find your way into philosophy →</a>
+                <a href="#community/general">Join a discussion →</a>
+                <a href="#experiments">Browse thought experiments →</a>
+              </div>
             </section>
           </>
         )}
@@ -1146,14 +1158,102 @@ export default function App() {
         )}
         {page === "progress" && (
           <section className="section">
-            <p className="eyebrow">YOUR JOURNAL</p>
-            <h1>{s.profile}’s progress</h1>
+            <p className="eyebrow">YOUR NOTEBOOK &amp; OCEAN</p>
+            <h1>My journey</h1>
+            <p>
+              Your reflections, saved questions, and exploration in one place.
+              This journal stays on this device; it is separate from anything
+              you choose to submit or discuss publicly.
+            </p>
+            <div className="journey-ocean">
+              <Ocean />
+              <div>
+                <h2>Your ocean journey</h2>
+                <p>
+                  {expeditionProgress(s).count} questions explored ·{" "}
+                  {stations[expeditionProgress(s).unlocked].name}
+                </p>
+                <p>
+                  The ocean reflects what you have explored. It does not grade
+                  your views or measure your intelligence.
+                </p>
+                <a
+                  className="button"
+                  href={`#expedition/${expeditionProgress(s).unlocked}`}
+                >
+                  Explore from my depth ↗
+                </a>
+              </div>
+            </div>
+            <nav className="journey-links" aria-label="Journey tools">
+              <a href="#map">Your concept map</a>
+              <a href="#achievements">Exploration milestones</a>
+              <a href="#account">Community activity &amp; bookmarks</a>
+              <a href="#settings">Save, import &amp; privacy settings</a>
+            </nav>
+            <h2>Thought experiment reflections</h2>
+            {(s.reflections ?? []).length ? (
+              [...s.reflections!].reverse().map((r) => (
+                <details key={`${r.slug}:${r.version}`}>
+                  <summary>
+                    {r.title} · {new Date(r.timestamp).toLocaleDateString()}
+                  </summary>
+                  <p className="preserve-lines">{r.initial}</p>
+                  {r.final && (
+                    <>
+                      <h3>After the later condition</h3>
+                      <p className="preserve-lines">{r.final}</p>
+                    </>
+                  )}
+                  <details>
+                    <summary>The scenario you answered</summary>
+                    <p className="preserve-lines">{r.scenario}</p>
+                    <p>{r.question}</p>
+                    <p>{r.reveal}</p>
+                    <p>{r.finalQuestion}</p>
+                  </details>
+                  <div className="journey-links">
+                    <a href={`#experiment/${r.slug}`}>
+                      Return to the experiment
+                    </a>
+                    <a href={`#community/${r.slug}`}>Open its discussion</a>
+                    <button
+                      className="quiet"
+                      onClick={() => {
+                        if (
+                          confirm(
+                            "Remove this reflection from this device? Submitted answers and public posts are separate.",
+                          )
+                        )
+                          setState({
+                            ...s,
+                            reflections: s.reflections?.filter(
+                              (item) => item !== r,
+                            ),
+                          });
+                      }}
+                    >
+                      Remove local reflection
+                    </button>
+                  </div>
+                </details>
+              ))
+            ) : (
+              <p>
+                Try a <a href="#experiments">thought experiment</a>, then choose
+                “Save to My journey” to keep your response here.
+              </p>
+            )}
+            <h2>Question practice</h2>
             {s.active && (
               <a className="button" href="#play">
                 Continue unfinished session →
               </a>
             )}
-            {profile(s.answers)}
+            <details>
+              <summary>Optional practice summaries</summary>
+              {profile(s.answers)}
+            </details>
             <h2>Saved questions</h2>
             {s.saved.length ? (
               questionList(qs.filter((q) => s.saved.includes(q.id)))
@@ -1460,10 +1560,26 @@ export default function App() {
           <article className="reading">
             <h1>A place to examine a question</h1>
             <p>
-              Philosophical Depth Map invites you to make your reasons visible,
-              try a different perspective, and notice connections. It does not
+              Created by Steven Reid, Philosophical Depth Map is a place to
+              explore questions, write your own answers, and talk about
+              philosophy. It invites you to make your reasons visible, try a
+              different perspective, and notice connections. It does not
               prescribe a political position, religious belief, or philosophical
               tradition.
+            </p>
+            <h2>How to take part</h2>
+            <p>
+              Begin with a <a href="#experiments">thought experiment</a>. Keep a
+              reflection in <a href="#progress">My journey</a>, look up an
+              unfamiliar idea in <a href="#learn">Learn</a>, or join its
+              discussion. Your journal is private on your device. Sharing an
+              answer with the owner and posting in public are separate choices.
+            </p>
+            <p>
+              Original experiments are credited to their authors. Historical
+              examples link to further reading. Community proposals are reviewed
+              before publication. You can propose an experiment from the
+              discussion section when accounts are open.
             </p>
             <h2>Why “depth”?</h2>
             <p>
@@ -1486,10 +1602,11 @@ export default function App() {
             <p>
               Knowledge checks test selected concepts and argument
               comprehension. Reasoning ratings describe evidence in particular
-              answers. Exploration XP gives 10 points per distinct, nonblank
-              exploration. Assessments, self-ratings and revising rather than
-              retaining a position earn no bonus. None can substitute for the
-              others.
+              answers. Exploration XP gives 10 points per distinct question
+              explored or thought experiment saved with a response. Repeating or
+              updating the same experiment does not add points. Assessments,
+              self-ratings and revising rather than retaining a position earn no
+              bonus. None can substitute for the others.
             </p>
             <h2>Transparent summaries</h2>
             <p>
@@ -1578,11 +1695,11 @@ export default function App() {
             <p>Privacy notice v1.0 · No research enrollment is open.</p>
             <h2>Local game data</h2>
             <p>
-              Your answers, revisions, settings and progress live in this
-              browser’s IndexedDB. There are no analytics or account
-              requirements. Anyone with access to this browser profile may
-              access them. Clearing browser storage can remove them; export a
-              copy if you want a backup.
+              Your answers, saved experiment reflections, revisions, settings
+              and progress live in this browser’s IndexedDB. There are no
+              analytics or account requirements. Anyone with access to this
+              browser profile may access them. Clearing browser storage can
+              remove them; export a copy if you want a backup.
             </p>
             <h2>Optional AI</h2>
             <p>

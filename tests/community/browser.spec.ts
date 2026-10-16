@@ -185,6 +185,12 @@ test("real emulator accounts, staged private answers, discussions, proposals and
     .getByLabel("Publication", { exact: true })
     .selectOption("published");
   await editorial.getByLabel("Featured", { exact: true }).check();
+  await editorial
+    .getByRole("button", { name: "Preview reader sequence" })
+    .click();
+  await expect(
+    editorial.getByRole("region", { name: "Reader preview" }),
+  ).toContainText("Two strangers must agree");
   await editorial.getByRole("button", { name: "Save experiment" }).click();
   await expect(editorial.getByRole("status")).toContainText("Experiment saved");
   await page.goto("/#experiments");
@@ -213,6 +219,7 @@ test("real emulator accounts, staged private answers, discussions, proposals and
       .violations,
   ).toEqual([]);
   await page.getByRole("button", { name: "Sign out", exact: true }).click();
+  await expect(page.getByText("Signed out.", { exact: true })).toBeVisible();
   await page.reload();
   await expect(
     page.getByRole("button", { name: "Sign in", exact: true }),

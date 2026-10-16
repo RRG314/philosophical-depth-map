@@ -1,4 +1,6 @@
 import { describe, it, expect } from "vitest";
+import { emptyState, stateSchema, xp, achievements } from "../../src/lib/model";
+import { expeditionProgress } from "../../src/game/progression";
 import catalogue from "../../src/community/catalogue.json";
 describe("editorial experiment data", () => {
   it("starts with the original, keeps the added condition separate, and has six referenced historical cases", () => {
@@ -17,4 +19,34 @@ describe("editorial experiment data", () => {
         expect(new URL(reference.url).protocol).toBe("https:");
     }
   });
+});
+
+it("imports older journals and counts an experiment once across versions without rating its answer", () => {
+  const s = stateSchema.parse(emptyState());
+  expect(s.reflections).toBeUndefined();
+  const e = catalogue[0];
+  const reflection = {
+    slug: e.slug,
+    version: e.version,
+    title: e.title,
+    scenario: e.scenario,
+    question: e.question,
+    reveal: e.reveal,
+    finalQuestion: e.finalQuestion,
+    initial: "I remain uncertain.",
+    final: "I would examine the premise.",
+    timestamp: new Date().toISOString(),
+  };
+  const updated = stateSchema.parse({
+    ...s,
+    reflections: [reflection, { ...reflection, version: 2 }],
+  });
+  expect(xp(updated)).toBe(10);
+  expect(expeditionProgress(updated).count).toBe(1);
+  expect(updated.answers).toHaveLength(0);
+  expect(achievements(updated, [])[0]).toBe(true);
+  expect(achievements(updated, [])[1]).toBe(false);
+  expect(() =>
+    stateSchema.parse({ ...s, reflections: [{ ...reflection, initial: " " }] }),
+  ).toThrow();
 });
